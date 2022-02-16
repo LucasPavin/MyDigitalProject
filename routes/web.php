@@ -16,17 +16,10 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', [PostController::class, 'index']);
-Route::get('/posts/{id}', [PostController::class, 'show']) -> whereNumber('id');
-Route::get('/contact', [PostController::class, 'contact']);
 
-// Route::get('/posts', function() {
-//     return response()-> json([
-//         'title' => 'mon super titre',
-//         'description' => 'ma super description'
-//     ]);
-// });
+Route::get('/', [PostController::class, 'home']);
+Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
+Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
+Route::get('/a-propos', [PostController::class,'a-propos']);
+Route::get('/contact', [PostController::class, 'contacter']);
 
-// Route::get('/articles', function() {
-//     return view('articles');
-// });

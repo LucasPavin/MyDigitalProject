@@ -6,31 +6,20 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller {
 
-    public function index (){
-
-        // $posts = [
-        //     'mon super Titre',
-        //     'mon super second titre'
-        // ];
-        $title = 'mon super Titre';
-        $title2 = 'mon super Titre second';
-        return view('articles') -> with('title',$title);
-        // return view('articles', compact('posts'));
+    public function home () {
+        return view('pages.home');
     }
-
-    public function show($id){
-        
-        $posts = [
-            1 => 'Mon titre numéro 1',
-            2 => 'Mon titre n°2'
-        ];
-        $post=$posts[$id] ?? 'pas de titre';
-        return view('article', [
-            'post' => $post
-        ]);
+    public function deposerannonce () {
+        return view('pages.deposerannonce');
     }
-    public function contact(){
-        return view('contact');
+    public function consulterannonce () {
+        return view('pages.consulterannonce');
+    }
+    public function apropos () {
+        return view('pages.apropos');
+    }
+    public function contacter () {
+        return view('pages.contact');
     }
 
 }
