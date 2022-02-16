@@ -20,6 +20,6 @@ use App\Http\Controllers\PostController;
 Route::get('/', [PostController::class, 'home']);
 Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
-Route::get('/a-propos', [PostController::class,'a-propos']);
+Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
 
