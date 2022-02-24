@@ -11,15 +11,15 @@
         {{csrf_field()}}
         <div class="form-group">
             <label>Publication</label>
-            <input type="text" name="product_name" placeholder="Product Name" class="form-control" >
+            <input type="text" name="product_name" placeholder="Product Name" class="form-control" required>
         </div>
         <div class="form-group">
             <label>Prix</label>
-            <input type="text" name="product_prix" placeholder="Publication Prix" class="form-control" >
+            <input type="text" name="product_prix" placeholder="Publication Prix" class="form-control" required>
         </div>
         <div class="form-group">
             <label>Description</label>
-            <textarea name="product_description" cols="30" rows="10"  class="form-control" ></textarea>
+            <textarea name="product_description" cols="30" rows="10"  class="form-control" required></textarea>
         </div>
         <input type="submit" value="Ajouter publication" class="btn btn-primary">
     </form>

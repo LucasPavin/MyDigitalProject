@@ -16,7 +16,6 @@ class PostController extends Controller {
     }
 
     public function sauverproduit(Request $request) {
-        print('Le nom du produit est'.$request->input('product_name'));
     }
 
     public function consulterannonce () {
