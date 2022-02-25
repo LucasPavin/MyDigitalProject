@@ -26,5 +26,8 @@ Route::get('/connexion', [PostController::class, 'connexion']);
 Route::get('/inscription', [PostController::class, 'inscription']);
 Route::get('/publication/{id}', [PostController::class, 'publication']);
 Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
+//Modifier une annonce
 Route::get('/modifier/{id}', [PostController::class, 'modifier']);
 Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);
+//Supprimer une annonce
+Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);

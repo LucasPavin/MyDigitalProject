@@ -97,7 +97,13 @@ class PostController extends Controller {
 
         $produit->update();
 
-        return redirect('/deposer-annonce')->with('status', "L'annonce " .$produit->product_name. " a été modifié avec succès.");
+        return redirect('/consulter-annonce')->with('status', "L'annonce " .$produit->product_name. " a été modifié avec succès.");
+    }
+
+    public function supprimer($id){
+        $produit = Product::find($id);
+        $produit->delete();
+        return redirect('/consulter-annonce')->with('status', "L'annonce " .$produit->product_name. " a été supprimé avec succès.");
     }
 
 }
