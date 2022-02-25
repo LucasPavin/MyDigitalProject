@@ -1,7 +1,7 @@
 <div class="navbar">
     <div class="container-navbar">
         <div class="navbar-image">
-            <a href="{{URL::to('/')}}"><img src="sponski.jpeg" alt="imgNavbar" style="width:100px; height: 75px;"></a>
+            <a href="{{URL::to('/')}}"><img src="sponski.jpeg" alt="imgNavbar" style="width:120px; height: auto;"></a>
         </div>
         <nav>
             <ul class="navbar_page">

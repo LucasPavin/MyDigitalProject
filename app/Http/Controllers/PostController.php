@@ -22,27 +22,29 @@ class PostController extends Controller {
                                    'product_description' => 'required',
                                   ]);
 
-        /// Ajout des champs dans la BDD  ->>> Possibilité 1 
-        //$produits = new Product();
+        //  Ajout des champs dans la BDD  ->>> Possibilité 1  
+        //  ELOQUENT PHP
 
-        // $produits->product_name = $request->input('product_name');
-        // $produits->product_prix = $request->input('product_prix');
-        // $produits->description = $request->input('product_description');
+        $produits = new Product();
 
-        // $produits->save();
+        $produits->product_name = $request->input('product_name');
+        $produits->product_prix = $request->input('product_prix');
+        $produits->description = $request->input('product_description');
+
+        $produits->save();
 
                             /// Possibilité 2
 
-        $data = array();
-        $data['product_name'] = $request->input('product_name');
-        $data['product_prix'] = $request->input('product_prix');
-        $data['description'] = $request->input('product_description');
+        // $data = array();
+        // $data['product_name'] = $request->input('product_name');
+        // $data['product_prix'] = $request->input('product_prix');
+        // $data['description'] = $request->input('product_description');
 
-        DB::table('products')-> insert($data);
+        // DB::table('products')-> insert($data);
 
 
         //Session::put('status', 'L annonce '.$produits->product_name. ' a été inséré avec succès ');
-        return redirect('/deposer-annonce')->with('status', "L annonce " .$data['product_name']. " a été inséré avec succès ");
+        return redirect('/deposer-annonce')->with('status', "L annonce " .$produits->product_name. " a été inséré avec succès ");
 
     }
 
@@ -72,6 +74,22 @@ class PostController extends Controller {
         // $produits = DB::table('products') -> where('id',$id) -> first();
         $produits = Product::find($id);
         return view('pages.publication')->with('produit', $produits);
+    }
+    public function modifier($id){
+        $produit = Product::find($id);
+        return view('pages.modifier_produit')->with('produit', $produit);
+    }
+    public function modifierproduit(Request $request){
+
+        $produit = Product::find($request->input('id'));
+
+        $produit->product_name = $request->input('product_name');
+        $produit->product_prix = $request->input('product_prix');
+        $produit->description = $request->input('product_description');
+
+        $produit->update();
+
+        return redirect('/deposer-annonce')->with('status', "L'annonce " .$produit->product_name. " a été modifié avec succès.");
     }
 
 }

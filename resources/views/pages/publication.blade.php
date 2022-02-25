@@ -16,6 +16,9 @@
     <p>{{$produit->description}}</p>
     <hr>
     <h4>{{$produit->created_at}}</h4>
+    <hr>
+    <a href="/modifier/{{$produit->id}}" class="btn btn-default">Modifier</a>
+    <a href="#" class="btn btn-danger">Supprimer</a>
     
     
 @endsection

@@ -24,3 +24,5 @@ Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
 Route::get('/publication/{id}', [PostController::class, 'publication']);
 Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
+Route::get('/modifier/{id}', [PostController::class, 'modifier']);
+Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);
