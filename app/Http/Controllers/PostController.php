@@ -68,6 +68,14 @@ class PostController extends Controller {
     public function contacter () {
         return view('pages.contact');
     }
+    
+    public function connexion () {
+        return view('pages.connexion');
+    }    
+    
+    public function inscription () {
+        return view('pages.inscription');
+    }
 
     public function publication($id) {
 

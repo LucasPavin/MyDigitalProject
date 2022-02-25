@@ -22,6 +22,8 @@ Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
+Route::get('/connexion', [PostController::class, 'connexion']);
+Route::get('/inscription', [PostController::class, 'inscription']);
 Route::get('/publication/{id}', [PostController::class, 'publication']);
 Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
 Route::get('/modifier/{id}', [PostController::class, 'modifier']);
