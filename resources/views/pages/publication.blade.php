@@ -2,7 +2,7 @@
 
 @section('titre')
 
-        Sponski - Annonce
+        Sponski - {{$produit->product_name}}
     
 @endsection
 

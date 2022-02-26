@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProductController;
 
 // 'App\Http\Controllers\PostController@index'
 
@@ -31,3 +32,9 @@ Route::get('/modifier/{id}', [PostController::class, 'modifier']);
 Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);
 //Supprimer une annonce
 Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
+
+
+Route::resource('/annonce', 'App\Http\Controllers\ProductController');
+                              
+
+

@@ -5,7 +5,7 @@
         </div>
         <nav>
             <ul class="navbar_page">
-                <li><a href="{{URL::to('/consulter-annonce')}}">Consulter une annonce</a></li>
+                <li><a href="{{URL::to('/annonce')}}">Consulter une annonce</a></li>
                 <li><a href="{{URL::to('/deposer-annonce')}}">Déposer une annonce</a></li>
                 <li><a href="{{URL::to('/a-propos')}}">À propos</a></li>
                 <li><a href="{{URL::to('/contact')}}">Nous contacter</a></li>
