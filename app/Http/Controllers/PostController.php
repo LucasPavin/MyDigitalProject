@@ -20,6 +20,7 @@ class PostController extends Controller {
         $this->validate($request, ['product_name' => 'required',
                                    'product_prix' => 'required',
                                    'product_description' => 'required',
+                                   'product_image' => 'image|nullable|max:1999',
                                   ]);
 
         //  Ajout des champs dans la BDD  ->>> Possibilité 1  

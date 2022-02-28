@@ -50,6 +50,10 @@
             {{Form::number('product_prix', '', ['placehorder'=>'Product Price', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
+            {{Form::label('', 'Product Image')}}
+            {{Form::file('product_image', ['class'=>'form-control'])}}
+        </div>
+        <div class="form-group">
             {{Form::label('', 'Product description')}}
             {{Form::textarea('product_description', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
         </div>
