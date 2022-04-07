@@ -1,4 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-    background-color: $bg;
-}
+
+
+@import 'components/variables';
+@import 'components/boutons';
+@import 'components/mixins';
+@import 'layouts/navbar';
+@import 'layouts/footer';
+@import 'pages/chat';
+@import 'pages/apropos';

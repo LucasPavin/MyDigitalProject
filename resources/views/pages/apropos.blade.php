@@ -7,7 +7,39 @@
 @endsection
 
 @section('contenu')
-    
-    <h1>À propos</h1>
+   
+<div class="a-propos">
 
-@endsection
+    <h1>À propos</h1>
+    <div class="container container_equipe">
+        <div class="text">
+            <h2 class="nom">Manon Rima</h2>
+            <h3 class="fonction">Développeuse web</h3>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam numquam assumenda? Ipsa sint omnis quibusdam? Aspernatur reiciendis, harum assumenda quos earum nihil, ullam consectetur perferendis quod quia cupiditate qui!</p>
+            </div>
+            <div class="btn btn_orange">En savoir plus</div>
+        </div>
+        <div class="img_equipe">
+            <img alt="">
+        </div>
+    </div>
+
+    <div class="container container_equipe">
+        <div class="text">
+            <h2 class="nom">Manon Rima</h2>
+            <h3 class="fonction">Développeuse web</h3>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam numquam assumenda? Ipsa sint omnis quibusdam? Aspernatur reiciendis, harum assumenda quos earum nihil, ullam consectetur perferendis quod quia cupiditate qui!</p>
+            </div>
+            <div class="btn btn_orange">En savoir plus</div>
+        </div>
+        <div class="img_equipe">
+            <img alt="">
+        </div>
+    </div>
+    
+    <div class="container container_logo"></div>
+</div>
+    
+    @endsection
