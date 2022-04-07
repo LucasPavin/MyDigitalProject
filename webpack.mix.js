@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const tailwindcss = require('tailwindcss');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,6 +13,18 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/scss/app.scss', 'public/css', [
-        //
-    ]);
+    .sass('resources/scss/app.scss', 'public/css')   
+    .options({
+        postCss: [ tailwindcss('./tailwind.config.js') ],
+    })
+    .sass('resources/scss/pages/apropos.scss', 'public/css/pages')    
+    .sass('resources/scss/pages/chat.scss', 'public/css/pages')    
+    .options({
+        postCss: [ tailwindcss('./tailwind.config.js') ],
+    })
+    .sass('resources/scss/components/variables.scss', 'public/css/components')
+    .sass('resources/scss/components/boutons.scss', 'public/css/components')
+    .sass('resources/scss/components/mixins.scss', 'public/css/components')
+    
+    .sass('resources/scss/layouts/navbar.scss', 'public/css/layouts')
+    .sass('resources/scss/layouts/footer.scss', 'public/css/layouts');

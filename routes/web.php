@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ChatController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProductController;
+// use App\Http\Controllers\ChatController;
 
 // 'App\Http\Controllers\PostController@index'
 
@@ -35,6 +37,10 @@ Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
 
 
 Route::resource('/annonce', 'App\Http\Controllers\ProductController');
+
+// Chat
+Route::resource('/chat', 'App\Http\Controllers\ChatController');
+Route::post('/chat', [ChatController::class, 'store']);
                               
 
 
