@@ -1,0 +1,115 @@
+@import '../components/variables';
+@import '../components/boutons';
+@import '../components/mixins';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    
+    .container-navbar{
+        display: flex;
+        height: 145px;
+    }
+}
+
+.navbar-image{
+    background-color: $couleur-principale;
+    @include flex;
+    padding: 0 90px;
+    cursor: pointer;
+    width: 19.5%;
+
+    img{
+        width: 155px!important;
+    }
+}
+
+
+.container-search{
+    width: 4%;
+    background-color: $noir;
+    @include flex;
+}
+
+nav{
+
+        .navbar_page{
+        display: flex;
+        padding: 0 20%;
+
+        li{
+            text-align: center;
+            padding: 25px;
+        }
+    }
+}
+
+// .container-connexion{
+//     background-color: $couleur-secondaire;
+//     color: $blanc;
+//     width: 10%;
+//     @include flex;
+//     position: relative;
+
+//     .cta-inscription{
+//         position: absolute;
+//         bottom: -55px;
+//         left: 0;
+//         background: $couleur-principale;
+//         height: 55px;
+//         width: 100%;
+//         text-align: center;
+//     }
+// }
+
+.div-vide{
+    width: 125px;
+}
+
+
+
+// li, a, button{
+//     font-weight: 500;
+//     font-size: 16px;
+//     color: black;
+//     text-decoration: none;
+// }
+// .container-navbar{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 0px 0%;
+// }
+
+.navbar_page {
+    list-style: none;
+}
+// .navbar_page li {
+//     display: inline-block;
+//     padding: 0px 20px;
+// }
+// .navbar_page li a {
+//     transition: all 0.3s ease 0s;
+// }
+// .navbar_page li a:hover {
+//     color: #FD5B2F;
+// }
+// .cta button{
+//     padding: 9px 25px;
+//     margin-right:30px; 
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+//     background-color: #FD5B2F;
+//     color: white;
+//     border: none;
+//     border-radius: 0px;
+//     cursor: pointer;
+//     transition: all 0.3s ease 0s;
+// }
+// .cta button:hover{
+//     background-color: #174AFC;
+// }

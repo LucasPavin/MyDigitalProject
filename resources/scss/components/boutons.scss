@@ -1,0 +1,28 @@
+@import '../components/variables';
+
+.btn{
+    padding: 13px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.btn_orange{
+    background-color: $couleur-secondaire;
+    border: 1px solid $couleur-secondaire;
+    color: $blanc;
+}
+
+
+.btn_orange:hover,
+.btn_orange:active,
+.btn_orange:focus{
+    background-color: transparent;
+    border: 1px solid $couleur-secondaire;
+    color: $couleur-secondaire;
+}
+
+.container{
+    width: 100%!important;
+    max-width: 100%!important;
+}

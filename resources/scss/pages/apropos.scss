@@ -1,0 +1,32 @@
+@import '../components/variables';
+@import '../components/mixins';
+
+.a-propos{
+    .container{
+        padding: 50px 130px;
+    }
+
+    .container_equipe{
+        display: flex;
+
+            &:nth-of-type(odd){
+            background-color: $couleur-principale;
+            color: $blanc;
+        }
+
+            &:nth-of-type(even){
+            color: $couleur-principale;
+            flex-direction: row-reverse;
+        }
+
+        > div{
+            width: 50%;
+        }
+    }
+
+    .img_equipe{
+        width: 300px;
+        height: 300px;
+    }
+}
+

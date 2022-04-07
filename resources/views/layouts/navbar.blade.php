@@ -1,7 +1,12 @@
 <div class="navbar">
     <div class="container-navbar">
         <div class="navbar-image">
-            <a href="{{URL::to('/')}}"><img src="sponski.jpeg" alt="imgNavbar" style="width:120px; height: auto;"></a>
+            <a href="{{URL::to('/')}}"><img src="images/logo-header.svg" alt="imgNavbar" style="width:120px; height: auto;"></a>
+        </div>
+        <div class="container-search">
+            <div class="search">
+                <img src="images/search-icon.svg" alt="icon de recherche">
+            </div>
         </div>
         <nav>
             <ul class="navbar_page">
@@ -11,57 +16,10 @@
                 <li><a href="{{URL::to('/contact')}}">Nous contacter</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Se connecter</button></a>
+        <div class="container-connexion">
+            <a class="cta cta-connexion" href="#"><button>Se connecter</button></a>
+            <a class="cta cta-inscription btn btn_orange" href="{{URL::to('/inscription')}}">Se connecter</a>
+        </div>
+        <div class="div-vide"></div>
     </div>
 </div>
-
-<style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-    li, a, button{
-        font-weight: 500;
-        font-size: 16px;
-        color: black;
-        text-decoration: none;
-    }
-    .container-navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 0%;
-    }
-    .imgNavbar{
-        cursor: pointer;
-    }
-    .navbar_page {
-        list-style: none;
-    }
-    .navbar_page li {
-        display: inline-block;
-        padding: 0px 20px;
-    }
-    .navbar_page li a {
-        transition: all 0.3s ease 0s;
-    }
-    .navbar_page li a:hover {
-        color: #FD5B2F;
-    }
-    button{
-        padding: 9px 25px;
-        margin-right:30px; 
-        padding-top: 30px;
-        padding-bottom: 30px;
-        background-color: #FD5B2F;
-        color: white;
-        border: none;
-        border-radius: 0px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-    }
-    button:hover{
-        background-color: #174AFC;
-    }
-</style>
