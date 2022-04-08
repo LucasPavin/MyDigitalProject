@@ -9,8 +9,6 @@
 @section('contenu')
    
 <div class="a-propos">
-
-    <h1>À propos</h1>
     <div class="container container_equipe">
         <div class="text">
             <h2 class="nom">Manon Rima</h2>
@@ -21,7 +19,7 @@
             <div class="btn btn_orange">En savoir plus</div>
         </div>
         <div class="img_equipe">
-            <img alt="">
+            <img src="/images/Melvin.png" alt="Melvin">
         </div>
     </div>
 
@@ -35,7 +33,7 @@
             <div class="btn btn_orange">En savoir plus</div>
         </div>
         <div class="img_equipe">
-            <img alt="">
+            <img src="/images/Melvin.png" alt="Melvin">
         </div>
     </div>
     
