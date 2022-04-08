@@ -741,7 +741,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .navbar .container-navbar {
   display: flex;
-  height: 145px;
+  height: 130px;
 }
 
 .navbar-image {
@@ -755,14 +755,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .navbar-image img {
   width: 155px !important;
-}
-
-.container-search {
-  width: 4%;
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 nav .navbar_page {
@@ -783,7 +775,7 @@ nav .navbar_page li {
 }
 
 .a-propos .container {
-  padding: 50px 100px;
+  padding: 50px 130px;
 }
 .a-propos .container_equipe {
   display: flex;

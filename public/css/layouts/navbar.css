@@ -32,7 +32,7 @@
 
 .navbar .container-navbar {
   display: flex;
-  height: 145px;
+  height: 130px;
 }
 
 .navbar-image {
@@ -46,14 +46,6 @@
 }
 .navbar-image img {
   width: 155px !important;
-}
-
-.container-search {
-  width: 4%;
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 nav .navbar_page {
