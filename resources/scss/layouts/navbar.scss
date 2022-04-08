@@ -30,9 +30,14 @@
     border-top-right-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
 
+    a{
+        width: 100%;;
+    }
+
     img{
-        width: 90%;
-        margin: 100px;
+        width: 50%!important;
+        margin: 0 25%;
+        height: 130px!important;
     }
 }
 
@@ -69,4 +74,18 @@ nav{
 
 .navbar_page {
     list-style: none;
+}
+
+@media screen and (max-width: 1550px) {
+    .navbar .container-navbar{
+        height: 110px;
+    }
+
+    .navbar-image img{
+        height: 110px!important;
+    }
+
+    nav .navbar_page li{
+        padding: 0 20px;
+    }
 }
