@@ -43,11 +43,11 @@
         {{csrf_field()}}
         <div class="form-group">
             {{Form::label('', 'Product')}}
-            {{Form::text('product_name', '', ['placehorder'=>'Product Name', 'class'=>'form-control'])}}
+            {{Form::text('product_name', '', ['placehorder'=>'Nom de votre annonce', 'class'=>'form-control'])}}
         </div> 
         <div class="form-group">
             {{Form::label('', 'Product Price')}}
-            {{Form::number('product_prix', '', ['placehorder'=>'Product Price', 'class'=>'form-control'])}}
+            {{Form::number('product_prix', '', ['placehorder'=>'Prix de votre annonce', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
             {{Form::label('', 'Product Image')}}
