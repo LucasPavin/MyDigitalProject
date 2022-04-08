@@ -1,0 +1,21 @@
+.a-propos .container {
+  padding: 50px 100px;
+}
+.a-propos .container_equipe {
+  display: flex;
+}
+.a-propos .container_equipe:nth-of-type(odd) {
+  background-color: #174AFC;
+  color: #FFFFFF;
+}
+.a-propos .container_equipe:nth-of-type(even) {
+  color: #174AFC;
+  flex-direction: row-reverse;
+}
+.a-propos .container_equipe > div {
+  width: 50%;
+}
+.a-propos .img_equipe {
+  width: 300px;
+  height: 300px;
+}
