@@ -831,18 +831,72 @@ nav .navbar_page li a:focus {
   width: 300px;
   height: 300px;
 }
+
+.container .zone-bleu-container .zone-text {
+  grid-area: zoneText;
+  color: white;
+  padding: 22vh 160px 0px 60px;
+}
+
+.container .zone-bleu-container .zone-text h1 {
+  gap: 100px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.container .zone-bleu-container .zone-text p {
+  white-space: normal;
+}
+
+.container .zone-bleu-container .zone-photo {
+  width: 750px;
+  grid-area: zonePhoto;
+  padding-top: 12vh;
+}
+
+.container .zone-bleu-container .zone-photo img {
+  border-radius: 80px;
+}
+
+.zone-bleu-container {
+  background-color: #174AFC;
+  height: 85vh;
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  grid-row: 1fr;
+  grid-template-areas: "zoneText" "zonePhoto";
+}
+
+.zone-orange-container {
+  background-color: #FB5C2D;
+  height: 450px;
+}
+
+.zone-black-container {
+  background-color: black;
+  height: 450px;
+}
+
+.zone-white-container {
+  background-color: white;
+  height: 450px;
+}
+
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
+
 .focus\:text-gray-700:focus {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 @media (min-width: 1024px) {
 
   .lg\:col-span-1 {
