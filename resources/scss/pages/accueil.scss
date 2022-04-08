@@ -1,0 +1,54 @@
+@import '../components/variables';
+@import '../components/mixins';
+
+// PARTIE ZONE BLEU 1
+.container .zone-bleu-container .zone-text {
+    grid-area: zoneText;    
+    color: white;
+    padding: 22vh 160px 0px 60px;
+}
+.container .zone-bleu-container .zone-text h1 {
+    gap: 100px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.container .zone-bleu-container .zone-text p {
+    white-space: normal;
+}
+
+.container .zone-bleu-container .zone-photo {
+    width: 750px;
+    grid-area: zonePhoto; 
+    padding-top: 12vh;
+}
+.container .zone-bleu-container .zone-photo img {
+    border-radius: 80px;
+}
+.zone-bleu-container {
+    background-color: $couleur-principale;
+    height: 85vh;
+    display: flex;
+    grid-template-columns: 1fr 2fr ;
+    grid-row: 1fr;
+    grid-template-areas: "zoneText" "zonePhoto";
+}
+
+// PARTIE ZONE ORANGE 1
+
+.zone-orange-container {
+    background-color: $couleur-secondaire;
+    height: 450px;
+}
+
+// PARTIE ZONE BLACK 1
+
+.zone-black-container {
+    background-color: black;
+    height: 450px;
+}
+
+
+.zone-white-container {
+    background-color: white;
+    height: 450px;
+}

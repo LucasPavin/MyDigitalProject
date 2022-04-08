@@ -71,11 +71,11 @@ class PostController extends Controller {
     }
     
     public function connexion () {
-        return view('pages.connexion');
+        return view('pages-login.connexion');
     }    
     
     public function inscription () {
-        return view('pages.inscription');
+        return view('pages-login.inscription');
     }
 
     public function publication($id) {
