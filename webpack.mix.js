@@ -19,6 +19,7 @@ mix.js('resources/js/app.js', 'public/js')
     })
     .sass('resources/scss/pages/accueil.scss', 'public/css/pages') 
     .sass('resources/scss/pages/apropos.scss', 'public/css/pages')    
+    .sass('ressources/scss/pages/404.scss', 'public/css/pages')
     .sass('resources/scss/pages/chat.scss', 'public/css/pages')  
     .options({
         postCss: [ tailwindcss('./tailwind.config.js') ],

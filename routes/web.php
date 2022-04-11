@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChatController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductController;
 // use App\Http\Controllers\ChatController;
 
@@ -25,8 +26,6 @@ Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
-Route::get('/connexion', [PostController::class, 'connexion']);
-Route::get('/inscription', [PostController::class, 'inscription']);
 Route::get('/publication/{id}', [PostController::class, 'publication']);
 Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
 //Modifier une annonce
@@ -35,8 +34,12 @@ Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);
 //Supprimer une annonce
 Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
 
-
 Route::resource('/annonce', 'App\Http\Controllers\ProductController');
+
+//LOGIN
+Route::get('/connexion', [LoginController::class, 'connexion']);
+Route::get('/inscription', [LoginController::class, 'inscription']);
+Route::get('/paiement', [LoginController::class, 'paiement']);
 
 // Chat
 Route::resource('/chat', 'App\Http\Controllers\ChatController');
