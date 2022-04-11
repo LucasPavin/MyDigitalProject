@@ -16,7 +16,7 @@
     
     .container-navbar{
         display: flex;
-        height: 130px;
+        height: 70px;
         justify-content: space-between;
     }
 
@@ -26,7 +26,7 @@
     background-color: $couleur-principale;
     @include flex;
     cursor: pointer;
-    width: 375px;
+    width: 300px;
     border-top-right-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
 
@@ -53,7 +53,7 @@ nav{
             text-align: center;
             padding: 25px;
         }
-
+        
 
         li a:active,
         li a:focus{
@@ -64,7 +64,7 @@ nav{
 }
 
     .container-connexion{
-        padding-right: 125px;
+        padding-right: 100px;
         margin: auto;
 
         .cta-connexion{
@@ -78,11 +78,11 @@ nav{
 
 @media screen and (max-width: 1550px) {
     .navbar .container-navbar{
-        height: 110px;
+        height: 80px;
     }
 
     .navbar-image img{
-        height: 110px!important;
+        height: 80px!important;
     }
 
     nav .navbar_page li{

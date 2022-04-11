@@ -70,13 +70,13 @@ class PostController extends Controller {
         return view('pages.contact');
     }
     
-    public function connexion () {
-        return view('pages-login.connexion');
-    }    
+    // public function connexion () {
+    //     return view('pages-login.connexion');
+    // }    
     
-    public function inscription () {
-        return view('pages-login.inscription');
-    }
+    // public function inscription () {
+    //     return view('pages-login.inscription');
+    // }
 
     public function publication($id) {
 

@@ -1,0 +1,16 @@
+@import '../components/variables';
+@import '../components/mixins';
+
+.container-text {
+    color : white;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-weight: 900;
+}
+.container-text .h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
