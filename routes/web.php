@@ -38,6 +38,9 @@ Route::resource('/annonce', 'App\Http\Controllers\ProductController');
 
 //LOGIN
 Route::get('/connexion', [LoginController::class, 'connexion']);
+Route::post('/connexion','LoginController@traitement');
+
+
 Route::get('/inscription', [LoginController::class, 'inscription']);
 Route::get('/paiement', [LoginController::class, 'paiement']);
 
