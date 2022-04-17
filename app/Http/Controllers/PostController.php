@@ -13,7 +13,7 @@ class PostController extends Controller {
         return view('pages.home');
     }
     public function deposerannonce () {
-        return view('pages.deposerannonce');
+        return view('product.deposerannonce');
     }
 
     public function sauverproduit(Request $request) {
@@ -22,8 +22,6 @@ class PostController extends Controller {
                                    'product_description' => 'required',
                                    'product_image' => 'image|nullable|max:1999',
                                   ]);
-
-        //  Ajout des champs dans la BDD  ->>> Possibilité 1  
         //  ELOQUENT PHP
 
         $produits = new Product();
@@ -34,32 +32,12 @@ class PostController extends Controller {
 
         $produits->save();
 
-                            /// Possibilité 2
-
-        // $data = array();
-        // $data['product_name'] = $request->input('product_name');
-        // $data['product_prix'] = $request->input('product_prix');
-        // $data['description'] = $request->input('product_description');
-
-        // DB::table('products')-> insert($data);
-
-
-        //Session::put('status', 'L annonce '.$produits->product_name. ' a été inséré avec succès ');
         return redirect('/deposer-annonce')->with('status', "L annonce " .$produits->product_name. " a été inséré avec succès ");
 
     }
 
     public function consulterannonce () {
-        // Laravel eloquinte
         $produits = Product::orderBy('product_name', 'desc')->paginate(10);
-
-
-        // $produits = DB::table('products') 
-        //                 // -> orderBy('product_name', 'asc')    /// On tri par le nom -> de façon croissante.
-        //                 ->inRandomOrder()    // Mettre au hasard l'ordre
-        //                 -> paginate(1)  ;
-        //                 // ->get();
-
 
         return view('pages.consulterannonce')->with('produits',$produits);
     }

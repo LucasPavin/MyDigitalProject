@@ -7,35 +7,50 @@
 @endsection
 
 @section('contenu')
-<div class="login-formulaire">
-		<div class="wrap-login">
-			<form class="login-form">
-				<span class="login adresse">Adresse mail</span>
+<x-auth-session-status class="mb-4" :status="session('status')" />
 
-				<div class="wrap-input-validate-user" data-validate = "Enter username">
-					<input class="input100" type="text" name="username" placeholder="Username">
-					<span class="focus-input100" data-placeholder="&#xf207;"></span>
-				</div>
-				<span class="login adresse">Mot de passe</span>
-				<div class="wrap-input100 validate-input" data-validate="Enter password">
-					<input class="input100" type="password" name="pass" placeholder="Password">
-					<span class="focus-input100" data-placeholder="&#xf191;"></span>
-				</div>
+<!-- Validation Errors -->
+<x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-				<div class="contact100-form-checkbox">
-					<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-					<label class="label-checkbox100" for="ckb1">Se souvenir de moi</label>
-				</div>
+<form method="POST" action="{{ route('login') }}">
+	@csrf
 
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">Connexion</button>
-				</div>
+	<!-- Email Address -->
+	<div>
+		<x-label for="email" :value="__('Adresse mail')" />
 
-				<div class="text-center p-t-90" {{ action('LoginController@traitement', ['id'=>1]) }}>
-					<a class="txt1" href="#">Mot de passe oublié ?</a>
-				</div>
-			</form>
-		</div>
+		<x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
 	</div>
+
+	<!-- Password -->
+	<div class="mt-4">
+		<x-label for="password" :value="__('Mot de passe')" />
+
+		<x-input id="password" class="block mt-1 w-full"
+						type="password"
+						name="password"
+						required autocomplete="current-password" />
+	</div>
+
+	<!-- Remember Me -->
+	<div class="block mt-4">
+		<label for="remember_me" class="inline-flex items-center">
+			<input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
+			<span class="ml-2 text-sm text-gray-600">{{ __('Se rappeler de moi') }}</span>
+		</label>
+	</div>
+
+	<div class="flex items-center justify-end mt-4">
+		@if (Route::has('password.request'))
+			<a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+				{{ __('Mot de passe oublié ?') }}
+			</a>
+		@endif
+
+		<x-button class="ml-3">
+			{{ __('Se connecter') }}
+		</x-button>
+	</div>
+</form>
 
 @endsection

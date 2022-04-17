@@ -6,6 +6,7 @@
     
 @endsection
 
+
 @section('contenu')
 
         <div class="acceuil">

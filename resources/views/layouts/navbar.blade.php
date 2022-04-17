@@ -12,8 +12,8 @@
             </ul>
         </nav>
         <div class="container-connexion">
-            <a class="cta cta-connexion" href="{{URL::to('/connexion')}}"><button>Se connecter</button></a>
-            <a class="cta cta-inscription btn btn_orange" href="{{URL::to('/inscription')}}">S'inscrire</a>
+            <a class="cta cta-connexion" href="{{URL::to('/login')}}"><button>Se connecter</button></a>
+            <a class="cta cta-inscription btn btn_orange" href="{{URL::to('/register')}}">S'inscrire</a>
         </div>
     </div>
 </div>
