@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('titre')
 
@@ -18,6 +18,7 @@
         
     </div>
 
-@endsection
+@endsection --}}
 
-{{-- <button onclick="window.location.href='/';" style="color:#174AFC;background-color:#FFF;border:none;padding:1rem;border-radius:20px;">SPONSKI</button> --}}
+
+{{-- <button onclick="window.location.href='/'" style="color:#174AFC;background-color:#FFF;border:none;padding:1rem;border-radius:20px;">SPONSKI</button> --}}
