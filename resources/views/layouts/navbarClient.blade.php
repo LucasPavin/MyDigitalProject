@@ -12,8 +12,10 @@
             </ul>
         </nav>
         <div class="container-connexion">
-            <a class="cta cta-connexion" href="{{URL::to('/connexion')}}"><button>Se connecter</button></a>
-            <a class="cta cta-inscription btn btn_orange" href="{{URL::to('/inscription')}}">S'inscrire</a>
+            <a class="cta cta-connexion" href="{{URL::to('#')}}"><i class="fa-solid fa-bell"></i></a>
+            <a class="cta cta-connexion" href="{{URL::to('#')}}"><i class="fa-solid fa-comment"></i></a>
+            <a class="cta cta-connexion" href="{{URL::to('#')}}"><i class="fa-solid fa-heart"></i></a>
+            <a class="cta cta-connexion" href="{{URL::to('/logout')}}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
         </div>
     </div>
 </div>

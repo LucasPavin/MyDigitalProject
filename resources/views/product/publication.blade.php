@@ -6,6 +6,8 @@
     
 @endsection
 
+@include('layouts.navbar')
+
 @section('contenu')
 
     <hr>

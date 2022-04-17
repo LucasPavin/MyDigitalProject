@@ -6,6 +6,8 @@
     
 @endsection
 
+@include('layouts.navbar')
+
 @section('contenu')
 
     <h1 style="text-align: center;">Consulter page</h1>
