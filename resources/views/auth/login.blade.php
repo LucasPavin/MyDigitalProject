@@ -4,6 +4,7 @@
         Sponski - Se connecter
     
 @endsection
+@include('layouts.navbar')
 @section('contenu')
 <x-guest-layout>
     <x-auth-card>
