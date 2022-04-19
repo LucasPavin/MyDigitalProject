@@ -1,0 +1,31 @@
+.container {
+  height: 20vh;
+}
+
+.container .c-nom-adresse-mail {
+  color: #174AFC;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.c-information {
+  color: #174AFC;
+  text-align: center;
+}
+
+.c-name-input {
+  margin: 35px 0px 20px 0px;
+  padding: 5px 300px;
+  border-radius: 10px;
+}
+
+.c-button-contact {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  background-color: #174AFC;
+  padding: 10px 300px;
+}
