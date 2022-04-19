@@ -25,6 +25,19 @@
 
 /***/ }),
 
+/***/ "./resources/scss/components/variables.scss":
+/*!**************************************************!*\
+  !*** ./resources/scss/components/variables.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/scss/components/boutons.scss":
 /*!************************************************!*\
   !*** ./resources/scss/components/boutons.scss ***!
@@ -116,10 +129,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/pages/chat.scss":
-/*!****************************************!*\
-  !*** ./resources/scss/pages/chat.scss ***!
-  \****************************************/
+/***/ "./resources/scss/pages/contact.scss":
+/*!*******************************************!*\
+  !*** ./resources/scss/pages/contact.scss ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -129,10 +142,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/components/variables.scss":
-/*!**************************************************!*\
-  !*** ./resources/scss/components/variables.scss ***!
-  \**************************************************/
+/***/ "./resources/scss/pages/chat.scss":
+/*!****************************************!*\
+  !*** ./resources/scss/pages/chat.scss ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -229,15 +242,16 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/components/variables": 0,
 /******/ 			"css/pages/chat": 0,
+/******/ 			"css/pages/contact": 0,
 /******/ 			"css/pages/apropos": 0,
 /******/ 			"css/pages/accueil": 0,
 /******/ 			"css/app": 0,
 /******/ 			"css/layouts/footer": 0,
 /******/ 			"css/layouts/navbar": 0,
 /******/ 			"css/components/mixins": 0,
-/******/ 			"css/components/boutons": 0
+/******/ 			"css/components/boutons": 0,
+/******/ 			"css/components/variables": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -287,16 +301,17 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/pages/accueil.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/pages/apropos.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/pages/chat.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/components/variables.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/components/boutons.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/components/mixins.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/layouts/navbar.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/components/variables","css/pages/chat","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons"], () => (__webpack_require__("./resources/scss/layouts/footer.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/pages/accueil.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/pages/apropos.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/pages/contact.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/pages/chat.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/components/variables.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/components/boutons.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/components/mixins.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/layouts/navbar.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/pages/chat","css/pages/contact","css/pages/apropos","css/pages/accueil","css/app","css/layouts/footer","css/layouts/navbar","css/components/mixins","css/components/boutons","css/components/variables"], () => (__webpack_require__("./resources/scss/layouts/footer.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
