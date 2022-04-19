@@ -13,7 +13,6 @@
         <!-- Styles -->
 
         <link rel="stylesheet" href="css/app.css">
-        {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
@@ -32,6 +31,8 @@
                 {{ $slot ?? '' }}
             </main>
         </div>
+
+    @include('layouts.footer')
     </body>
 </html>
 
