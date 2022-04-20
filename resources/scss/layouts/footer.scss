@@ -1,4 +1,72 @@
-.footer {
+@import '../components/variables';
+@import '../components/boutons';
+@import '../components/mixins';
+
+// Réglage général de la page
+footer {
     background-color: black;
-    height: 45vh;
+    color: white;
+    width:100%;
+}
+.f-content {
+    width: 80%;
+    margin: 20px auto;
+}
+.f-menu-liste{
+    display: flex;
+    height: 35vh;
+    justify-content: space-between;
+}
+.menu-listes-items{
+    margin-top: 70px;
+}
+.menu-listes-items h5{
+    color: $couleur-principale;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.menu-listes-items ul li a {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+
+// Ligne bleu 
+.f-ligne-bleu{
+    margin: 15px 40px;
+    border-bottom: 2px solid $couleur_principale;
+}
+
+// Bottom du footer //
+
+.f-bottom{
+    background-color: black;
+    height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-bottom .f-icone-social{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    grid-area: f-icone-social;
+}
+.f-bottom .f-icone-social .fab{
+    margin-right: 20px;
+}
+
+.f-bottom .f-icone-social .fab:hover{
+    color: $couleur_secondaire;
+}
+.f-bottom .f-copyright-page{
+    grid-area: f-copyright-page;
+}
+
+.f-bottom .f-imgFooter{
+    grid-area: f-imgFooter;
+    margin-right: 30px;
 }
