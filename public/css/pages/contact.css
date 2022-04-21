@@ -1,13 +1,15 @@
 .container-page-contact {
   background-color: white;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-page-contact .c-nom-adresse-mail {
   color: #174AFC;
-  text-align: center;
   font-weight: bold;
   font-size: 36px;
 }
@@ -15,12 +17,10 @@
 .c-information {
   color: #174AFC;
   font-size: 12px;
-  text-align: center;
 }
 
 .section_contact {
   display: block;
-  text-align: center;
   border: none;
 }
 
@@ -70,7 +70,6 @@
 
 .c-button-contact:hover {
   background-color: #FB5C2D;
-  transition: 1s ease-in-out;
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1299px) {
