@@ -3,28 +3,27 @@
 
 .container-page-contact {
     background-color: white;
-    height: 80vh;
+    height: 90vh;
     width:100%;
-    margin-top: 50px;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-page-contact  .c-nom-adresse-mail{
     color: $couleur-principale;
-    text-align: center;
     font-weight: bold;
     font-size: 36px;
 }
 .c-information {
     color: $couleur-principale;
     font-size: 12px;
-    text-align: center;
 }
 
 // Formulaire de contact 
 
 .section_contact{
     display: block;
-    text-align: center;
     border: none;
 }
 
@@ -69,7 +68,6 @@
 }
 .c-button-contact:hover{
     background-color: $couleur-secondaire;
-    transition: 1s ease-in-out;
 }
 
 
