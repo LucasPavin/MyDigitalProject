@@ -2,70 +2,90 @@
 @import '../components/boutons';
 @import '../components/mixins';
 
-.container-connexion {
+.container-register{
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(236, 235, 235);
-    .connexion-img{
+
+    .registrer-img{
         height: 45px;
         width: auto;
         background-color: $couleur-principale;
     }
-    .container-connexion-creeCompte{
+    .container-register-connexion-creeCompte{
         font-size: 26px;
         margin-top: 45px;
-        .connexion-span{
-            background-color: white;
+        .register-connexion-span{
+            background-color: $couleur-principale;
+            color: white;
             border-radius: 10px 0px 0px 0px;
             padding: 15px 24px;
         }
-      .creerCompte-span{
-            background-color: $couleur-principale;
-            color: white;
-            border-radius: 0px 10px 0px 0px;
-            padding: 15px 24px;
-        }
-        .creerCompte-span:hover{
+        .register-connexion-span:hover{
             background-color: $couleur-secondaire;
             color: white;
         }
+        .register-creerCompte-span{
+            background-color: white;
+            border-radius: 0px 10px 0px 0px;
+            padding: 15px 24px;
+        }
     }
-    .container-connexion-form{
+    .container-register-form{
         background-color: white;
         margin-top: 10px;
         border-radius: 0 0 5px 5px;
         padding: 40px 51px;
-    
-        .container-connexion-email {
+
+        .container-register-nom{
             margin-top: 40px;
             font-weight: 700;
-
-            .connexion-email-input{
+            .register-nom-input{
                 height: 30px;
                 width: 300px;
                 border-radius: 5px;
                 background-color: rgb(236, 235, 235);
             }
         }
-        .container-connexion-mdp{
+        .container-register-email{
+            margin-top: 25px;
+            font-weight: 700;
+            .register-email-input{
+                height: 30px;
+                width: 300px;
+                border-radius: 5px;
+                background-color: rgb(236, 235, 235);
+            }
+        }
+        .container-register-mdp{
             margin-top: 25px;
             font-weight: 700;
 
-            .connexion-mdp-input{
+            .register-mdp-input{
                 height: 30px;
                 width: 300px;
                 border-radius: 5px;
                 background-color: rgb(236, 235, 235);
             }
         }
-        .container-connexion-rappeler{
-            margin-top: 20px;
+        .container-register-mdp-confirm{
+            margin-top: 25px;
+            font-weight: 700;
+
+            .register-mdp-confirm-input{
+                height: 30px;
+                width: 300px;
+                border-radius: 5px;
+                background-color: rgb(236, 235, 235);
+            }
         }
-        .connexion-button-seco{
-            margin-top: 20px;
+
+
+        .register-button-rejoindre{
+            margin-top: 60px;
             border-radius: 5px;
             font-size: 20px;
             font-weight: 400;
@@ -74,49 +94,31 @@
             height: 35px;
             width: 300px;
         }
-        .connexion-button-seco:hover{
+        .register-button-rejoindre:hover{
             background-color: $couleur-secondaire;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        }
-        .connexion-mdp-oublie{
-            margin-top: 12px;
-            font-size: 12px;
-            color: $couleur-principale;
-        }
-        .connexion-mdp-oublie > a::after{
-            display: block;
-            content: "";
-            width: 0;
-            height: 2px;
-            background-color: $couleur-principale;
-            transition: width .4s;
-        }
-        .connexion-mdp-oublie:hover > a::after{
-            width: 30%;
-        }
-        .connexion-mdp-oublie a:hover{
-            color: $couleur-principale;
         }
     }
 }
 
-@media screen and (max-width:410px) and (min-width:336px){
 
-    .container-connexion {
-        .container-connexion-creeCompte{
+@media screen and (min-width:336px) and (max-width:410px) {
+
+    .container-register {
+        .container-register-connexion-creeCompte{
             font-size: 23px !important;
-            .connexion-span{
+            .register-connexion-span{
                 padding: 15px 15px;
             }
-            .creerCompte-span{
+            .register-creerCompte-span{
                 padding: 15px 15px;
             }
-            .creerCompte-span:hover{
+            .register-creerCompte-span:hover{
                 background-color: $couleur-secondaire;
                 color: white;
             }
         }
-        .container-connexion-form{
+        .container-register-form{
             padding: 40px 16px;
         }
     }
@@ -124,34 +126,41 @@
 
 @media screen and (max-width:335px){
 
-    .container-connexion {
-        .connexion-img{
+    .container-register {
+        height: 120vh !important;
+        .register-img{
             height: 35px;
             width: auto;
         }
-        .container-connexion-creeCompte{
+        .container-register-connexion-creeCompte{
             font-size: 18px !important;
-            .connexion-span{
+            .register-connexion-span{
                 padding: 15px 15px;
             }
-            .creerCompte-span{
+            .register-creerCompte-span{
                 padding: 15px 15px;
             }
-            .creerCompte-span:hover{
+            .register-creerCompte-span:hover{
                 background-color: $couleur-secondaire;
                 color: white;
             }
         }
-        .container-connexion-form{
+        .container-register-form{
             padding: 40px 15px;
 
-            .connexion-email-input{
+            .register-nom-input{
                 width: 250px !important;
             }
-            .connexion-mdp-input{
+            .register-email-input{
                 width: 250px !important;
             }
-            .connexion-button-seco{
+            .register-mdp-input{
+                width: 250px !important;
+            }
+            .register-mdp-confirm-input{
+                width: 250px !important;
+            }
+            .register-button-rejoindre{
                 height: 35px;
                 width: 250px;
             }

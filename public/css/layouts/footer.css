@@ -75,7 +75,7 @@ footer {
 .f-bottom .f-icone-social {
   display: flex;
   flex-direction: row;
-  margin-left: 30px;
+  margin-left: 200px;
   grid-area: f-icone-social;
 }
 
@@ -93,7 +93,7 @@ footer {
 
 .f-bottom .f-imgFooter {
   grid-area: f-imgFooter;
-  margin-right: 30px;
+  margin-right: 200px;
 }
 
 @media screen and (max-width: 953px) {
