@@ -4,65 +4,61 @@
         Sponski - Se connecter
     
 @endsection
+@include('layouts/navbar')
 @section('contenu')
+    <div class="container-register">
 
-    <x-guest-layout> {{--Composant blade--}}
-        <x-auth-card>
-            <x-slot name="logo">
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-                </a>
-            </x-slot>
+        <button name="logo">
+            <a href="/">
+                <img src="images/logo-header.svg" alt="" class="registrer-img">
+            </a>
+        </button>
+        <div class="container-register-connexion-creeCompte">
+            <a href="/login"><span class="register-connexion-span">Connexion</span></a><span class="register-creerCompte-span">Créer un compte</span>
+        </div>
 
-            <!-- Validation Errors -->
-            <x-auth-validation-errors class="mb-4" :errors="$errors" />
+        <!-- Validation Errors -->
+        <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-            <form method="POST" action="{{ route('register') }}">
-                @csrf
+        <form method="POST" action="{{ route('register') }}" class="container-register-form">
+            @csrf
 
-                <!-- Name -->
-                <div>
-                    <x-label for="name" :value="__('Prénom & Nom')" />
+            <!-- Name -->
+            <div class="container-register-nom">
+                <x-label for="name" :value="__('Prénom & Nom')" />
+                <br>
+                <x-input id="name" class="register-nom-input" type="text" name="name" :value="old('name')" required autofocus/>
+            </div>
 
-                    <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
-                </div>
+            <!-- Email Address -->
+            <div class="container-register-email">
+                <x-label for="email" :value="__('Adresse mail')" />
+                <br>
+                <x-input id="email" class="register-email-input" type="email" name="email" :value="old('email')" required  />
+            </div>
 
-                <!-- Email Address -->
-                <div class="mt-4">
-                    <x-label for="email" :value="__('Adresse mail')" />
+            <!-- Password -->
+            <div class="container-register-mdp">
+                <x-label for="password" :value="__('Mot de passe')" />
+                <br>
+                <x-input id="password" class="register-mdp-input"
+                                type="password"
+                                name="password"
+                                required autocomplete="new-password" />
+            </div>
 
-                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
-                </div>
+            <!-- Confirm Password -->
+            <div class="container-register-mdp-confirm">
+                <x-label for="password_confirmation" :value="__('Confirmation du mot de passe')" />
+                <br>
+                <x-input id="password_confirmation" class="register-mdp-confirm-input"
+                                type="password"
+                                name="password_confirmation" required />
+            </div>
 
-                <!-- Password -->
-                <div class="mt-4">
-                    <x-label for="password" :value="__('Mot de passe')" />
-
-                    <x-input id="password" class="block mt-1 w-full"
-                                    type="password"
-                                    name="password"
-                                    required autocomplete="new-password" />
-                </div>
-
-                <!-- Confirm Password -->
-                <div class="mt-4">
-                    <x-label for="password_confirmation" :value="__('Confirmation du mot de passe')" />
-
-                    <x-input id="password_confirmation" class="block mt-1 w-full"
-                                    type="password"
-                                    name="password_confirmation" required />
-                </div>
-
-                <div class="flex items-center justify-end mt-4">
-                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                        {{ __('Vous possédez déjà un compte?') }}
-                    </a>
-
-                    <x-button class="ml-4">
-                        {{ __('S\'inscrire') }}
-                    </x-button>
-                </div>
-            </form>
-        </x-auth-card>
-    </x-guest-layout>
+                <button class="register-button-rejoindre">
+                    {{ __('Rejoignez SPONSKI') }}
+                </button>
+        </form>
+    </div>
 @endsection
