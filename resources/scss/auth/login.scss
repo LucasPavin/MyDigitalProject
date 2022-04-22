@@ -1,0 +1,102 @@
+@import '../components/variables';
+@import '../components/boutons';
+@import '../components/mixins';
+
+.container-connexion {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+    .connexion-img{
+        height: 45px;
+        width: auto;
+        background-color: $couleur-principale;
+    }
+    .container-connexion-creeCompte{
+        font-size: 26px;
+        margin-top: 45px;
+        .connexion-span{
+            background-color: $couleur-principale;
+            color: white;
+            border-radius: 10px 0px 0px 0px;
+            padding: 15px 24px;
+        }
+        .creerCompte-span{
+            background-color: white;
+            border-radius: 0px 10px 0px 0px;
+            padding: 15px 24px;
+        }
+        .creerCompte-span:hover{
+            background-color: $couleur-secondaire;
+            color: white;
+        }
+    }
+    .container-connexion-form{
+        background-color: white;
+        margin-top: 10px;
+        border-radius: 0 0 5px 5px;
+        padding: 40px 51px;
+    
+        .container-connexion-email {
+            margin-top: 40px;
+            font-weight: 700;
+
+            .connexion-email-input{
+                height: 30px;
+                width: 300px;
+                border-radius: 5px;
+                background-color: rgb(236, 235, 235);
+
+            }
+        }
+        .container-connexion-mdp{
+            margin-top: 25px;
+            font-weight: 700;
+
+            .connexion-mdp-input{
+                height: 30px;
+                width: 300px;
+                border-radius: 5px;
+                background-color: rgb(236, 235, 235);
+            }
+        }
+        .container-connexion-rappeler{
+            margin-top: 20px;
+        }
+        .connexion-button-seco{
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 400;
+            background-color: $couleur-principale;
+            color: white;
+            height: 35px;
+            width: 300px;
+        }
+        .connexion-button-seco:hover{
+            background-color: $couleur-secondaire;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        .connexion-mdp-oublie{
+            margin-top: 12px;
+            font-size: 12px;
+            color: $couleur-principale;
+        }
+        .connexion-mdp-oublie > a::after{
+            display: block;
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: $couleur-principale;
+            transition: width .4s;
+        }
+        .connexion-mdp-oublie:hover > a::after{
+            width: 30%;
+        }
+        .connexion-mdp-oublie a:hover{
+            color: $couleur-principale;
+        }
+    }
+}
