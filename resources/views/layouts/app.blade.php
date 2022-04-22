@@ -32,8 +32,8 @@
             </main>
         </div>
 
-    @include('layouts.footer')
     </body>
+    @include('layouts.footer')
     <script src="{{asset('js/burger-menu.js')}}"></script>
 </html>
 
