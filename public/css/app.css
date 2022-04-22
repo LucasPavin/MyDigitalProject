@@ -771,7 +771,7 @@ nav .navbar_page li {
 }
 
 footer {
-  background-color: black;
+  background-color: #12141d;
   color: white;
   width: 100%;
 }
@@ -783,7 +783,6 @@ footer {
 
 .f-menu-liste {
   display: flex;
-  height: 35vh;
   justify-content: space-between;
 }
 
@@ -806,12 +805,12 @@ footer {
 }
 
 .f-ligne-bleu {
-  margin: 15px 40px;
+  margin: 15px 200px;
   border-bottom: 2px solid #174AFC;
 }
 
 .f-bottom {
-  background-color: black;
+  background-color: #12141d;
   height: 50px;
   list-style: none;
   display: flex;
@@ -843,6 +842,24 @@ footer {
   margin-right: 30px;
 }
 
+@media screen and (max-width: 953px) {
+  .f-menu-liste {
+    flex-direction: column;
+  }
+
+  .menu-listes-items {
+    width: 90%;
+    text-align: center;
+  }
+
+  .f-icone-social .fab, .f-imgFooter {
+    display: none;
+  }
+
+  .f-copyright-page {
+    display: none;
+  }
+}
 .a-propos .container {
   padding: 50px 130px;
 }
@@ -1171,4 +1188,55 @@ footer {
 }
 .container-connexion .container-connexion-form .connexion-mdp-oublie a:hover {
   color: #174AFC;
+}
+
+@media screen and (max-width: 410px) and (min-width: 336px) {
+  .container-connexion .container-connexion-creeCompte {
+    font-size: 23px !important;
+  }
+  .container-connexion .container-connexion-creeCompte .connexion-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
+    background-color: #FB5C2D;
+    color: white;
+  }
+  .container-connexion .container-connexion-form {
+    padding: 40px 16px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .container-connexion .connexion-img {
+    height: 35px;
+    width: auto;
+  }
+  .container-connexion .container-connexion-creeCompte {
+    font-size: 18px !important;
+  }
+  .container-connexion .container-connexion-creeCompte .connexion-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
+    background-color: #FB5C2D;
+    color: white;
+  }
+  .container-connexion .container-connexion-form {
+    padding: 40px 15px;
+  }
+  .container-connexion .container-connexion-form .connexion-email-input {
+    width: 250px !important;
+  }
+  .container-connexion .container-connexion-form .connexion-mdp-input {
+    width: 250px !important;
+  }
+  .container-connexion .container-connexion-form .connexion-button-seco {
+    height: 35px;
+    width: 250px;
+  }
 }

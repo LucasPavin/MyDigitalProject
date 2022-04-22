@@ -4,7 +4,7 @@
 
 // Réglage général de la page
 footer {
-    background-color: black;
+    background-color: #12141d;
     color: white;
     width:100%;
 }
@@ -15,7 +15,6 @@ footer {
 }
 .f-menu-liste{
     display: flex;
-    height: 35vh;
     justify-content: space-between;
 }
 .menu-listes-items{
@@ -36,14 +35,14 @@ footer {
 
 // Ligne bleu 
 .f-ligne-bleu{
-    margin: 15px 40px;
+    margin: 15px 200px;
     border-bottom: 2px solid $couleur_principale;
 }
 
 // Bottom du footer //
 
 .f-bottom{
-    background-color: black;
+    background-color: #12141d;
     height: 50px;
     list-style: none;
     display: flex;
@@ -70,4 +69,20 @@ footer {
 .f-bottom .f-imgFooter{
     grid-area: f-imgFooter;
     margin-right: 30px;
+}
+
+@media screen and (max-width:953px) {
+    .f-menu-liste{
+        flex-direction: column;
+    }
+    .menu-listes-items{
+        width: 90%;
+        text-align: center;
+    }
+    .f-icone-social .fab, .f-imgFooter{
+        display: none;
+    }
+    .f-copyright-page {
+        display: none;
+    }
 }
