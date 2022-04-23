@@ -786,7 +786,7 @@ footer {
 }
 
 .menu-listes-items {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 .menu-listes-items h5 {
@@ -1105,7 +1105,6 @@ footer {
 .container-connexion .connexion-img {
   height: 45px;
   width: auto;
-  background-color: #174AFC;
 }
 .container-connexion .container-connexion-creeCompte {
   font-size: 26px;
@@ -1276,7 +1275,6 @@ footer {
 .container-register .registrer-img {
   height: 45px;
   width: auto;
-  background-color: #174AFC;
 }
 .container-register .container-register-connexion-creeCompte {
   font-size: 26px;
@@ -1342,6 +1340,9 @@ footer {
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
+}
+.container-register .container-register-form .register-errors {
+  margin-top: 30px;
 }
 .container-register .container-register-form .register-button-rejoindre {
   margin-top: 60px;
