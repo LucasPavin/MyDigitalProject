@@ -10,18 +10,12 @@
 
         <button name="logo">
             <a href="/">
-                <img src="images/logo-header.svg" alt="" class="connexion-img">
+                <img src="images/logo-header-bleu.svg" alt="" class="connexion-img">
             </a>
         </button>
             <div class="container-connexion-creeCompte">
                 <span class="connexion-span">Connexion</span><a href="/register"><span class="creerCompte-span">Créer un compte</span></a>
             </div>
-
-            <!-- Session Status -->
-            <x-auth-session-status class="mb-4" :status="session('status')" />
-
-            <!-- Validation Errors -->
-            <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
             <form method="POST" action="{{ route('login') }}" class="container-connexion-form">
                 @csrf
@@ -51,6 +45,12 @@
                     </label>
                 </div>
 
+
+                <!-- Session Status -->
+                <x-auth-session-status class="mb-4" :status="session('status')" />
+
+                <!-- Validation Errors -->
+                <x-auth-validation-errors class="mb-4" :errors="$errors" />
                 
                 <button class="connexion-button-seco">
                     {{ __('Connexion') }}

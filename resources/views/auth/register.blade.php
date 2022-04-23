@@ -10,16 +10,12 @@
 
         <button name="logo">
             <a href="/">
-                <img src="images/logo-header.svg" alt="" class="registrer-img">
+                <img src="images/logo-header-bleu.svg" alt="" class="registrer-img">
             </a>
         </button>
         <div class="container-register-connexion-creeCompte">
             <a href="/login"><span class="register-connexion-span">Connexion</span></a><span class="register-creerCompte-span">Créer un compte</span>
         </div>
-
-        <!-- Validation Errors -->
-        <x-auth-validation-errors class="mb-4" :errors="$errors" />
-
         <form method="POST" action="{{ route('register') }}" class="container-register-form">
             @csrf
 
@@ -55,6 +51,9 @@
                                 type="password"
                                 name="password_confirmation" required />
             </div>
+
+        <!-- Validation Errors -->
+        <x-auth-validation-errors class="register-errors" :errors="$errors" />
 
                 <button class="register-button-rejoindre">
                     {{ __('Rejoignez SPONSKI') }}
