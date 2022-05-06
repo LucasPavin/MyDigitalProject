@@ -79,11 +79,6 @@ nav .navbar_page li {
   text-align: center;
   padding: 25px;
 }
-<<<<<<< HEAD
-nav .navbar_page li a.active {
-  font-weight: 700;
-  color: red;
-=======
 
 .li-navbar-page > a::after {
   display: block;
@@ -100,20 +95,15 @@ nav .navbar_page li a.active {
 
 .li-navbar-page a:hover {
   color: #174AFC;
->>>>>>> c07b73a026d7a567b62fea1def334ef772f10caf
 }
 
 .container-connexion-desktop {
   padding-right: 100px;
   margin: auto;
 }
-<<<<<<< HEAD
-.container-connexion .cta-connexion {
-  padding-right: 30px;
-=======
+
 .container-connexion-desktop .cta-connexion {
   padding: 13px 30px;
->>>>>>> c07b73a026d7a567b62fea1def334ef772f10caf
 }
 
 .container-connexion-tablette {
