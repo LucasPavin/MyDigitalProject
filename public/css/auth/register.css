@@ -1,0 +1,180 @@
+.btn {
+  padding: 13px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.btn_orange {
+  background-color: #FB5C2D;
+  border: 1px solid #FB5C2D;
+  color: #FFFFFF;
+}
+
+.btn_orange:hover,
+.btn_orange:active,
+.btn_orange:focus {
+  background-color: transparent;
+  border: 1px solid #FB5C2D;
+  color: #FB5C2D;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container-register {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecebeb;
+}
+.container-register .registrer-img {
+  height: 45px;
+  width: auto;
+}
+.container-register .container-register-connexion-creeCompte {
+  font-size: 26px;
+  margin-top: 45px;
+}
+.container-register .container-register-connexion-creeCompte .register-connexion-span {
+  background-color: #174AFC;
+  color: white;
+  border-radius: 10px 0px 0px 0px;
+  padding: 15px 24px;
+}
+.container-register .container-register-connexion-creeCompte .register-connexion-span:hover {
+  background-color: #FB5C2D;
+  color: white;
+}
+.container-register .container-register-connexion-creeCompte .register-creerCompte-span {
+  background-color: white;
+  border-radius: 0px 10px 0px 0px;
+  padding: 15px 24px;
+}
+.container-register .container-register-form {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 0 0 5px 5px;
+  padding: 40px 51px;
+}
+.container-register .container-register-form .container-register-nom {
+  margin-top: 40px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-nom .register-nom-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-email {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-email .register-email-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-mdp {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-mdp .register-mdp-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-mdp-confirm {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-mdp-confirm .register-mdp-confirm-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-register .container-register-form .register-errors {
+  margin-top: 30px;
+}
+.container-register .container-register-form .register-button-rejoindre {
+  margin-top: 60px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #174AFC;
+  color: white;
+  height: 35px;
+  width: 300px;
+}
+.container-register .container-register-form .register-button-rejoindre:hover {
+  background-color: #FB5C2D;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (min-width: 336px) and (max-width: 410px) {
+  .container-register .container-register-connexion-creeCompte {
+    font-size: 23px !important;
+  }
+  .container-register .container-register-connexion-creeCompte .register-connexion-span {
+    padding: 15px 15px;
+  }
+  .container-register .container-register-connexion-creeCompte .register-creerCompte-span {
+    padding: 15px 15px;
+  }
+  .container-register .container-register-connexion-creeCompte .register-creerCompte-span:hover {
+    background-color: #FB5C2D;
+    color: white;
+  }
+  .container-register .container-register-form {
+    padding: 40px 16px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .container-register {
+    height: 120vh !important;
+  }
+  .container-register .register-img {
+    height: 35px;
+    width: auto;
+  }
+  .container-register .container-register-connexion-creeCompte {
+    font-size: 18px !important;
+  }
+  .container-register .container-register-connexion-creeCompte .register-connexion-span {
+    padding: 15px 15px;
+  }
+  .container-register .container-register-connexion-creeCompte .register-creerCompte-span {
+    padding: 15px 15px;
+  }
+  .container-register .container-register-connexion-creeCompte .register-creerCompte-span:hover {
+    background-color: #FB5C2D;
+    color: white;
+  }
+  .container-register .container-register-form {
+    padding: 40px 15px;
+  }
+  .container-register .container-register-form .register-nom-input {
+    width: 250px !important;
+  }
+  .container-register .container-register-form .register-email-input {
+    width: 250px !important;
+  }
+  .container-register .container-register-form .register-mdp-input {
+    width: 250px !important;
+  }
+  .container-register .container-register-form .register-mdp-confirm-input {
+    width: 250px !important;
+  }
+  .container-register .container-register-form .register-button-rejoindre {
+    height: 35px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,170 @@
+.btn {
+  padding: 13px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.btn_orange {
+  background-color: #FB5C2D;
+  border: 1px solid #FB5C2D;
+  color: #FFFFFF;
+}
+
+.btn_orange:hover,
+.btn_orange:active,
+.btn_orange:focus {
+  background-color: transparent;
+  border: 1px solid #FB5C2D;
+  color: #FB5C2D;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container-connexion {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecebeb;
+}
+.container-connexion .connexion-img {
+  height: 45px;
+  width: auto;
+}
+.container-connexion .container-connexion-creeCompte {
+  font-size: 26px;
+  margin-top: 45px;
+}
+.container-connexion .container-connexion-creeCompte .connexion-span {
+  background-color: white;
+  border-radius: 10px 0px 0px 0px;
+  padding: 15px 24px;
+}
+.container-connexion .container-connexion-creeCompte .creerCompte-span {
+  background-color: #174AFC;
+  color: white;
+  border-radius: 0px 10px 0px 0px;
+  padding: 15px 24px;
+}
+.container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
+  background-color: #FB5C2D;
+  color: white;
+}
+.container-connexion .container-connexion-form {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 0 0 5px 5px;
+  padding: 40px 51px;
+}
+.container-connexion .container-connexion-form .container-connexion-email {
+  margin-top: 40px;
+  font-weight: 700;
+}
+.container-connexion .container-connexion-form .container-connexion-email .connexion-email-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-connexion .container-connexion-form .container-connexion-mdp {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-connexion .container-connexion-form .container-connexion-mdp .connexion-mdp-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-connexion .container-connexion-form .container-connexion-rappeler {
+  margin-top: 20px;
+}
+.container-connexion .container-connexion-form .connexion-button-seco {
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #174AFC;
+  color: white;
+  height: 35px;
+  width: 300px;
+}
+.container-connexion .container-connexion-form .connexion-button-seco:hover {
+  background-color: #FB5C2D;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.container-connexion .container-connexion-form .connexion-mdp-oublie {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #174AFC;
+}
+.container-connexion .container-connexion-form .connexion-mdp-oublie > a::after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #174AFC;
+  transition: width 0.4s;
+}
+.container-connexion .container-connexion-form .connexion-mdp-oublie:hover > a::after {
+  width: 30%;
+}
+.container-connexion .container-connexion-form .connexion-mdp-oublie a:hover {
+  color: #174AFC;
+}
+
+@media screen and (max-width: 410px) and (min-width: 336px) {
+  .container-connexion .container-connexion-creeCompte {
+    font-size: 23px !important;
+  }
+  .container-connexion .container-connexion-creeCompte .connexion-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
+    background-color: #FB5C2D;
+    color: white;
+  }
+  .container-connexion .container-connexion-form {
+    padding: 40px 16px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .container-connexion .connexion-img {
+    height: 35px;
+    width: auto;
+  }
+  .container-connexion .container-connexion-creeCompte {
+    font-size: 18px !important;
+  }
+  .container-connexion .container-connexion-creeCompte .connexion-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span {
+    padding: 15px 15px;
+  }
+  .container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
+    background-color: #FB5C2D;
+    color: white;
+  }
+  .container-connexion .container-connexion-form {
+    padding: 40px 15px;
+  }
+  .container-connexion .container-connexion-form .connexion-email-input {
+    width: 250px !important;
+  }
+  .container-connexion .container-connexion-form .connexion-mdp-input {
+    width: 250px !important;
+  }
+  .container-connexion .container-connexion-form .connexion-button-seco {
+    height: 35px;
+    width: 250px;
+  }
+}

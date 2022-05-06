@@ -1,0 +1,137 @@
+.container-page-contact {
+  background-color: white;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-page-contact .c-nom-adresse-mail {
+  color: #174AFC;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.c-information {
+  color: #174AFC;
+  font-size: 12px;
+}
+
+.section_contact {
+  display: block;
+  border: none;
+}
+
+.c-nom-contact {
+  background-color: #ECECEC;
+  margin: 35px 0px 20px 0px;
+  height: 30px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.c-email-contact {
+  background-color: #ECECEC;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.c-num-contact {
+  background-color: #ECECEC;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.c-message-contact {
+  background-color: #ECECEC;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.c-button-contact {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  background-color: #174AFC;
+  height: 50px;
+  width: 700px;
+  cursor: pointer;
+}
+
+.c-button-contact:hover {
+  background-color: #FB5C2D;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1299px) {
+  .container .c-nom-adresse-mail {
+    font-size: 30px;
+  }
+
+  .c-information {
+    font-size: 11px;
+  }
+
+  .c-nom-contact {
+    width: 450px;
+  }
+
+  .c-email-contact {
+    width: 450px;
+  }
+
+  .c-num-contact {
+    width: 450px;
+  }
+
+  .c-message-contact {
+    width: 450px;
+  }
+
+  .c-button-contact {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .container-page-contact {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .c-nom-adresse-mail {
+    font-size: 30px;
+  }
+
+  .c-information {
+    font-size: 11px;
+  }
+
+  .c-nom-contact {
+    width: 450px;
+  }
+
+  .c-email-contact {
+    width: 300px;
+  }
+
+  .c-num-contact {
+    width: 450px;
+  }
+
+  .c-message-contact {
+    width: 450px;
+  }
+
+  .c-button-contact {
+    width: 450px;
+  }
+}
