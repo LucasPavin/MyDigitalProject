@@ -1,5 +1,23 @@
+h2 {
+  font-size: 5.3125rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
 .a-propos .container {
-  padding: 50px 130px;
+  padding: 70px 130px;
 }
 .a-propos .container_equipe {
   display: flex;
@@ -12,10 +30,24 @@
   color: #174AFC;
   flex-direction: row-reverse;
 }
+.a-propos .container_equipe:nth-of-type(even):first-child {
+  padding-left: 5%;
+}
+.a-propos .container_equipe:nth-of-type(even):last-child {
+  padding-right: 5%;
+}
 .a-propos .container_equipe > div {
   width: 50%;
 }
-.a-propos .img_equipe {
-  width: 300px;
-  height: 300px;
+.a-propos .container_equipe > div:first-child {
+  padding-right: 5%;
+}
+.a-propos .container_equipe > div:last-child {
+  padding-left: 5%;
+}
+.a-propos .container_equipe .text {
+  margin: auto;
+}
+.a-propos .container_logo .logo_ki img {
+  margin: auto;
 }

@@ -1,5 +1,6 @@
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -40,6 +41,9 @@
   display: flex;
   height: 70px;
   justify-content: space-between;
+}
+.navbar a {
+  font-size: 1.1875rem;
 }
 
 .show-nav .navbar_page {
@@ -97,6 +101,7 @@ nav .navbar_page li {
   padding-right: 100px;
   margin: auto;
 }
+
 .container-connexion-desktop .cta-connexion {
   padding: 13px 30px;
 }
@@ -124,6 +129,10 @@ nav .navbar_page li {
 
   nav .navbar_page li {
     padding: 0 20px;
+  }
+
+  a {
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 1047px) and (max-width: 1355px) {

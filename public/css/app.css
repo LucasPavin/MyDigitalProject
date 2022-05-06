@@ -1068,8 +1068,27 @@ footer {
     width: 450px;
   }
 }
+h2 {
+  font-size: 5.3125rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -1240,6 +1259,7 @@ footer {
 }
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -1286,6 +1306,7 @@ footer {
   border-radius: 10px 0px 0px 0px;
   padding: 15px 24px;
 }
+
 .container-register .container-register-connexion-creeCompte .register-connexion-span:hover {
   background-color: #FB5C2D;
   color: white;
@@ -1295,6 +1316,7 @@ footer {
   border-radius: 0px 10px 0px 0px;
   padding: 15px 24px;
 }
+
 .container-register .container-register-form {
   background-color: white;
   margin-top: 10px;
@@ -1305,6 +1327,7 @@ footer {
   margin-top: 40px;
   font-weight: 700;
 }
+
 .container-register .container-register-form .container-register-nom .register-nom-input {
   height: 30px;
   width: 300px;
@@ -1331,6 +1354,7 @@ footer {
   border-radius: 5px;
   background-color: #ecebeb;
 }
+
 .container-register .container-register-form .container-register-mdp-confirm {
   margin-top: 25px;
   font-weight: 700;
