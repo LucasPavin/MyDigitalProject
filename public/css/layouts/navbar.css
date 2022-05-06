@@ -1,5 +1,6 @@
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -40,6 +41,9 @@
   height: 130px;
   justify-content: space-between;
 }
+.navbar a {
+  font-size: 1.1875rem;
+}
 
 .navbar-image {
   background-color: #174AFC;
@@ -70,8 +74,7 @@ nav .navbar_page li {
   text-align: center;
   padding: 25px;
 }
-nav .navbar_page li a:active,
-nav .navbar_page li a:focus {
+nav .navbar_page li a.active {
   font-weight: 700;
   color: red;
 }
@@ -81,7 +84,7 @@ nav .navbar_page li a:focus {
   margin: auto;
 }
 .container-connexion .cta-connexion {
-  padding: 13px 30px;
+  padding-right: 30px;
 }
 
 .navbar_page {
@@ -99,5 +102,9 @@ nav .navbar_page li a:focus {
 
   nav .navbar_page li {
     padding: 0 20px;
+  }
+
+  a {
+    font-size: 1rem;
   }
 }

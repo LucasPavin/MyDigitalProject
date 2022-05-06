@@ -4,11 +4,11 @@
             <a href="{{URL::to('/')}}"><img src="images/logo-header.svg" alt="imgNavbar" style="width:120px; height: auto;"></a>
         </div>
         <nav>
-            <ul class="navbar_page">
-                <li><a href="{{URL::to('/annonce')}}">Consulter une annonce</a></li>
-                <li><a href="{{URL::to('/deposer-annonce')}}">Déposer une annonce</a></li>
-                <li><a href="{{URL::to('/a-propos')}}">À propos</a></li>
-                <li><a href="{{URL::to('/contact')}}">Nous contacter</a></li>
+            <ul id="nav_list" class="navbar_page">
+                <li><a class="btn_nav active" href="{{URL::to('/annonce')}}">Consulter une annonce</a></li>
+                <li><a class="btn_nav" href="{{URL::to('/deposer-annonce')}}">Déposer une annonce</a></li>
+                <li><a class="btn_nav" href="{{URL::to('/a-propos')}}">À propos</a></li>
+                <li><a class="btn_nav" href="{{URL::to('/contact')}}">Nous contacter</a></li>
             </ul>
         </nav>
         <div class="container-connexion">

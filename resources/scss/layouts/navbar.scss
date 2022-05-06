@@ -20,6 +20,10 @@
         justify-content: space-between;
     }
 
+    a{
+        font-size: 1.1875rem;
+    }
+
 }
 
 .navbar-image{
@@ -55,8 +59,7 @@ nav{
         }
 
 
-        li a:active,
-        li a:focus{
+        li a.active{
             font-weight: 700;
             color: red;
         }
@@ -68,7 +71,7 @@ nav{
         margin: auto;
 
         .cta-connexion{
-            padding: 13px 30px;
+            padding-right: 30px;
         }
     }
 
@@ -87,5 +90,10 @@ nav{
 
     nav .navbar_page li{
         padding: 0 20px;
+    }
+
+
+    a{
+        font-size: 1rem;
     }
 }
