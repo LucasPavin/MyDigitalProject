@@ -18,8 +18,10 @@ mix.js('resources/js/app.js', 'public/js')
     .options({
         postCss: [ tailwindcss('./tailwind.config.js') ],
     })
-    .sass('resources/scss/pages/apropos.scss', 'public/css/pages')    
-    .sass('resources/scss/pages/chat.scss', 'public/css/pages')    
+    .sass('resources/scss/pages/accueil.scss', 'public/css/pages') 
+    .sass('resources/scss/pages/apropos.scss', 'public/css/pages') 
+    .sass('resources/scss/pages/contact.scss', 'public/css/pages')   
+    .sass('resources/scss/pages/chat.scss', 'public/css/pages')  
     .options({
         postCss: [ tailwindcss('./tailwind.config.js') ],
     })
@@ -29,4 +31,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/scss/components/mixins.scss', 'public/css/components')
     
     .sass('resources/scss/layouts/navbar.scss', 'public/css/layouts')
-    .sass('resources/scss/layouts/footer.scss', 'public/css/layouts');
+    .sass('resources/scss/layouts/footer.scss', 'public/css/layouts')
+
+    .sass('resources/scss/auth/register.scss', 'public/css/auth')
+    .sass('resources/scss/auth/login.scss', 'public/css/auth');

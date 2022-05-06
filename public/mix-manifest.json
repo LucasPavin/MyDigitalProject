@@ -1,11 +1,15 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/components/boutons.css": "/css/components/boutons.css",
-    "/css/components/variables.css": "/css/components/variables.css",
     "/css/pages/chat.css": "/css/pages/chat.css",
+    "/css/pages/contact.css": "/css/pages/contact.css",
     "/css/pages/apropos.css": "/css/pages/apropos.css",
+    "/css/pages/accueil.css": "/css/pages/accueil.css",
     "/css/app.css": "/css/app.css",
+    "/css/auth/login.css": "/css/auth/login.css",
+    "/css/auth/register.css": "/css/auth/register.css",
     "/css/layouts/footer.css": "/css/layouts/footer.css",
     "/css/layouts/navbar.css": "/css/layouts/navbar.css",
-    "/css/components/mixins.css": "/css/components/mixins.css"
+    "/css/components/mixins.css": "/css/components/mixins.css",
+    "/css/components/boutons.css": "/css/components/boutons.css",
+    "/css/components/variables.css": "/css/components/variables.css"
 }

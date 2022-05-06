@@ -9,14 +9,14 @@
 }
 
 .navbar{
-
+    width:100%;
     position: relative;
     z-index: 1;
     box-shadow: 0px 3px 30px #00000029;
     
     .container-navbar{
         display: flex;
-        height: 130px;
+        height: 70px;
         justify-content: space-between;
     }
 
@@ -25,12 +25,14 @@
     }
 
 }
-
+.show-nav .navbar_page {
+    width: 100%;
+}
 .navbar-image{
     background-color: $couleur-principale;
     @include flex;
     cursor: pointer;
-    width: 375px;
+    width: 300px;
     border-top-right-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
 
@@ -41,10 +43,9 @@
     img{
         width: 50%!important;
         margin: 0 25%;
-        height: 130px!important;
+        height: 70px!important;
     }
 }
-
 
 nav{
 
@@ -58,34 +59,53 @@ nav{
             padding: 25px;
         }
 
+    }
+}
+// Petite animation au survole 
+.li-navbar-page > a::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: $couleur-principale;
+    transition: width .4s;
+}
+.li-navbar-page:hover > a::after{
+    width: 100%;
+}
+.li-navbar-page a:hover{
+    color: $couleur-principale;
+}
+// FIn 
+.container-connexion-desktop{
+    padding-right: 100px;
+    margin: auto;
 
-        li a.active{
-            font-weight: 700;
-            color: red;
-        }
+
+    .cta-connexion{
+        padding: 13px 30px;
     }
 }
 
-    .container-connexion{
-        padding-right: 125px;
-        margin: auto;
-
-        .cta-connexion{
-            padding-right: 30px;
-        }
-    }
+.container-connexion-tablette{
+    display: none;
+}
 
 .navbar_page {
     list-style: none;
 }
 
+.navbar-burger{
+    display: none;
+}
+
 @media screen and (max-width: 1550px) {
     .navbar .container-navbar{
-        height: 110px;
+        height: 80px;
     }
 
     .navbar-image img{
-        height: 110px!important;
+        height: 80px!important;
     }
 
     nav .navbar_page li{
@@ -95,5 +115,154 @@ nav{
 
     a{
         font-size: 1rem;
+    }
+}
+@media only screen and (min-width:1047px) and (max-width:1355px){
+
+    .container-connexion-desktop{
+        display: none;
+    }
+
+    .navbar_page{
+        font-size: 14px;
+    }
+    .container-connexion-tablette{
+        display: flex;
+        background-color: $couleur_secondaire;
+        color: $blanc;
+        padding: 13px 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+@media screen and (min-width:871px) and (max-width: 1046px){
+    .container-connexion-desktop{
+        display: none;
+    }
+
+    .navbar_page{
+        font-size: 13px;
+    }
+    .container-connexion-tablette{
+        font-size: 13px;
+        display: flex;
+        background-color: $couleur_secondaire;
+        color: $blanc;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .navbar-image {
+        width: 160px;
+    }
+}
+@media screen and (max-width:870px) {
+    .container-connexion-desktop{
+        display: none;
+    }
+    .navbar_page{
+        overflow:hidden;
+        display: flex;
+        flex-direction: column;
+        width: 0;
+        height: 100vh;
+        position: absolute;
+        top: 65px;
+        justify-content: center;
+        right: 0;
+        background-color: $couleur-principale;
+        transition: all .5s ease-in-out;
+        margin-top: 15px;
+    }
+    .show-nav .navbar_page{
+        width:100vw;    
+        transform: translateX(0);
+    }
+    .li-navbar-page{   
+        transform: translateX(150%);
+        transition: all .5s ease-in-out;
+    }
+    .show-nav .li-navbar-page{
+        transform: translateX(0);
+    }
+    .li-navbar-page > a {
+        text-align: left;
+        display: block;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: white;
+        transition: all .5s ease-in-out;
+    }
+    .li-navbar-page > a:hover{
+        padding-left: 1.6rem;
+        letter-spacing:5px;
+    }
+
+    // Toogle bar
+
+    .navbar-burger {
+        display: block;
+        margin-top: 15px;
+        margin-right: 15px;
+        position: relative;
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .bar{
+        display: block;
+        width: 45px;
+        height: 4px;
+        transition: all .5s ease-in-out;
+        background-color: $couleur-principale;
+        border-radius: 3px;
+    }
+    .bar::before, .bar::after{
+        content: "";
+        width: 45px;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        background-color: $couleur-principale;
+        border-radius: 3px;
+        transition: all .5s ease-in-out;
+    }
+    .bar::before{
+        transform: translateY(-12px);
+    }
+    .bar::after{
+        transform: translateY(12px);
+    }
+    .show-nav .bar {
+        width:0;
+        background:transparent;    
+    }
+    .show-nav .bar::before{
+        transform: rotate(45deg);
+    }
+    .show-nav .bar::after{
+        transform: rotate(-45deg);
+    }
+// Image
+    .navbar-image {
+        width: 250px;
+    }
+// Animation
+    .show-nav .un {
+        transition: all 1s ease-out;
+    }
+    .show-nav .deux{
+        transition: all 1.1s ease-out;
+    }
+    .show-nav .trois{
+        transition: all 1.2s ease-out;
+    }
+    .show-nav .quatre{
+        transition: all 1.3s ease-out;
     }
 }

@@ -18,11 +18,6 @@ class ProductController extends Controller
 
         return view('product.consulterannonce')->with('produits',$produits);
 
-         // $produits = DB::table('products') 
-        //                 // -> orderBy('product_name', 'asc')    /// On tri par le nom -> de façon croissante.
-        //                 ->inRandomOrder()    // Mettre au hasard l'ordre
-        //                 -> paginate(1)  ;
-        //                 // ->get();
     }
 
     /**
