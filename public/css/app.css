@@ -1306,7 +1306,6 @@ p {
   border-radius: 10px 0px 0px 0px;
   padding: 15px 24px;
 }
-
 .container-register .container-register-connexion-creeCompte .register-connexion-span:hover {
   background-color: #FB5C2D;
   color: white;
@@ -1316,7 +1315,6 @@ p {
   border-radius: 0px 10px 0px 0px;
   padding: 15px 24px;
 }
-
 .container-register .container-register-form {
   background-color: white;
   margin-top: 10px;
@@ -1327,7 +1325,6 @@ p {
   margin-top: 40px;
   font-weight: 700;
 }
-
 .container-register .container-register-form .container-register-nom .register-nom-input {
   height: 30px;
   width: 300px;
@@ -1354,7 +1351,6 @@ p {
   border-radius: 5px;
   background-color: #ecebeb;
 }
-
 .container-register .container-register-form .container-register-mdp-confirm {
   margin-top: 25px;
   font-weight: 700;

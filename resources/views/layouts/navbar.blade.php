@@ -1,7 +1,6 @@
 <div class="navbar">
     <div class="container-navbar">
         <div class="navbar-image">
-
             <a href="{{URL::to('/')}}"><img src="images/logo-header.svg" alt="imgNavbar"></a>
         </div>
             <nav>
