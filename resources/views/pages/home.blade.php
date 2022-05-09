@@ -21,13 +21,19 @@
                                         <img src="/images/dameAccueil.jpeg" alt="dameAccueil">
                                 </div>
                         </div> 
-                        <div class="zone-orange-container">
+                        <div class="zone-white-container-home-1">
                                 
                         </div> 
-                        <div class="zone-black-container">
+                        <div class="zone-orange-container">
 
                         </div>
-                        <div class="zone-white-container">
+                        <div class="zone-white-container-2">
+                                
+                        </div>
+                        <div class="zone-sponsor-orange">
+
+                        </div>
+                        <div class="zone-black-container">
                                 
                         </div>
                 </div>

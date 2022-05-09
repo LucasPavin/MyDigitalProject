@@ -534,7 +534,7 @@ nav .navbar_page li {
   width: 0;
   height: 2px;
   background-color: #174AFC;
-  transition: width 0.4s;
+  transition: width 0.6s;
 }
 
 .li-navbar-page:hover > a::after {
@@ -776,13 +776,13 @@ footer {
 }
 
 .f-content {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
+  padding: 50px 0 0 0;
 }
 
 .f-menu-liste {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .menu-listes-items {
@@ -790,7 +790,8 @@ footer {
 }
 
 .menu-listes-items h5 {
-  color: #174AFC;
+  color: #FB5C2D;
+  text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 15px;
@@ -804,38 +805,33 @@ footer {
 }
 
 .f-ligne-bleu {
-  margin: 15px 200px;
-  border-bottom: 2px solid #174AFC;
+  margin: 100px 200px 0 200px;
+  border-bottom: 2px solid #FB5C2D;
 }
 
 .f-bottom {
   background-color: #12141d;
-  height: 50px;
+  height: 10vh;
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .f-bottom .f-icone-social {
   display: flex;
   flex-direction: row;
   margin-left: 200px;
   grid-area: f-icone-social;
 }
-
 .f-bottom .f-icone-social .fab {
   margin-right: 20px;
 }
-
 .f-bottom .f-icone-social .fab:hover {
   color: #FB5C2D;
 }
-
 .f-bottom .f-copyright-page {
   grid-area: f-copyright-page;
 }
-
 .f-bottom .f-imgFooter {
   grid-area: f-imgFooter;
   margin-right: 200px;
@@ -909,6 +905,7 @@ footer {
 
 .zone-bleu-container {
   background-color: #174AFC;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   height: 85vh;
   display: flex;
   grid-template-columns: 1fr 2fr;
@@ -916,19 +913,27 @@ footer {
   grid-template-areas: "zoneText" "zonePhoto";
 }
 
+.zone-white-container-home-1 {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+  height: 60vh;
+}
+
 .zone-orange-container {
   background-color: #FB5C2D;
-  height: 450px;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+  height: 60vh;
+}
+
+.zone-white-container-2 {
+  background-color: white;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+  height: 80vh;
 }
 
 .zone-black-container {
-  background-color: black;
-  height: 450px;
-}
-
-.zone-white-container {
-  background-color: white;
-  height: 450px;
+  background-color: #12141D;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+  height: 110vh;
 }
 
 .container-page-contact {

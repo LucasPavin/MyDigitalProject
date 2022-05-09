@@ -86,7 +86,7 @@ nav .navbar_page li {
   width: 0;
   height: 2px;
   background-color: #174AFC;
-  transition: width 0.4s;
+  transition: width 0.6s;
 }
 
 .li-navbar-page:hover > a::after {

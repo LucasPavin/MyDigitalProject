@@ -10,18 +10,19 @@ footer {
 }
 // Contenu du footer //
 .f-content {
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
+    padding: 50px 0 0 0;
 }
 .f-menu-liste{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .menu-listes-items{
     margin-top: 10px;
 }
 .menu-listes-items h5{
-    color: $couleur-principale;
+    color: $couleur_secondaire;
+    text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
     padding-bottom: 15px;
@@ -35,42 +36,41 @@ footer {
 
 // Ligne bleu 
 .f-ligne-bleu{
-    margin: 15px 200px;
-    border-bottom: 2px solid $couleur_principale;
+    margin: 100px 200px 0 200px;
+    border-bottom: 2px solid $couleur_secondaire;
 }
 
 // Bottom du footer //
 
 .f-bottom{
     background-color: #12141d;
-    height: 50px;
+    height: 10vh;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.f-bottom .f-icone-social{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    grid-area: f-icone-social;
-}
-.f-bottom .f-icone-social .fab{
-    margin-right: 20px;
-}
 
-.f-bottom .f-icone-social .fab:hover{
-    color: $couleur_secondaire;
+    .f-icone-social{
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        grid-area: f-icone-social;
+        
+        .fab{
+        margin-right: 20px;
+        }
+        .fab:hover{
+            color: $couleur_secondaire;
+        }
+    }
+    .f-copyright-page{
+        grid-area: f-copyright-page;
+    }
+    .f-imgFooter{
+        grid-area: f-imgFooter;
+        margin-right: 200px;
+    }
 }
-.f-bottom .f-copyright-page{
-    grid-area: f-copyright-page;
-}
-
-.f-bottom .f-imgFooter{
-    grid-area: f-imgFooter;
-    margin-right: 200px;
-}
-
 @media screen and (max-width:953px) {
     .f-menu-liste{
         flex-direction: column;

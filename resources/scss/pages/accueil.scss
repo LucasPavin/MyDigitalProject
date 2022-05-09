@@ -25,7 +25,8 @@
     border-radius: 80px;
 }
 .zone-bleu-container {
-    background-color: $couleur-principale;
+    background-color: $couleur_principale;
+    background-image: url(./../../../public/pattern/pattern.svg);
     height: 85vh;
     display: flex;
     grid-template-columns: 1fr 2fr ;
@@ -33,22 +34,31 @@
     grid-template-areas: "zoneText" "zonePhoto";
 }
 
-// PARTIE ZONE ORANGE 1
+// PARTIE ZONE BLANCHE 1
 
-.zone-orange-container {
-    background-color: $couleur-secondaire;
-    height: 450px;
+.zone-white-container-home-1 {
+    background-image: url(./../../../public/pattern/pattern.svg);
+    height: 60vh;
 }
 
 // PARTIE ZONE BLACK 1
 
-.zone-black-container {
-    background-color: black;
-    height: 450px;
+.zone-orange-container {
+    background-color: $couleur_secondaire;
+    background-image: url(./../../../public/pattern/pattern.svg);
+    height: 60vh;
 }
 
 
-.zone-white-container {
+.zone-white-container-2 {
     background-color: white;
-    height: 450px;
+    background-image: url(./../../../public/pattern/pattern.svg);
+    height: 80vh;
+}
+
+
+.zone-black-container {
+    background-color: #12141D;
+    background-image: url(./../../../public/pattern/pattern.svg);
+    height: 110vh;
 }
