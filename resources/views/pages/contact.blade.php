@@ -6,8 +6,6 @@
     
 @endsection
 
-@include('layouts.navbar')
-
 @section('contenu')
 
     <div class="container-page-contact">
