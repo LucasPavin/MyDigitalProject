@@ -29,7 +29,7 @@
             <div class="container-register-email">
                 <x-label for="email" :value="__('Adresse mail')" />
                 <br>
-                <x-input id="email" class="register-email-input" type="email" name="email" :value="old('email')" required  />
+                <x-input id="email" class="register-email-input" type="email" name="email" :value="old('email')"  required  />
             </div>
 
             <!-- Password -->

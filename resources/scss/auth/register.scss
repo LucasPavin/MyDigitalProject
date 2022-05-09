@@ -3,6 +3,7 @@
 @import '../components/mixins';
 
 .container-register{
+    background-image: url(./../../../public/pattern/pattern.svg);
     height: 90vh;
     display: flex;
     flex-direction: column;

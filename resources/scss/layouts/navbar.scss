@@ -2,11 +2,7 @@
 @import '../components/boutons';
 @import '../components/mixins';
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 .navbar{
     width:100%;
@@ -18,28 +14,43 @@
         display: flex;
         height: 70px;
         justify-content: space-between;
+
+        // L'image de la navbar
+
+        .navbar-image{
+            background-color: $couleur-principale;
+            @include flex;
+            cursor: pointer;
+            width: 300px;
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
+
+            a{
+                width: 100%;;
+            }
+
+            img{
+                width: 50%!important;
+                margin: 0 25%;
+                height: 70px!important;
+            }
+        }
+        
+        //icone une fois authentifié
+        .auth-container-desktop {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right:50px;
+
+            .acd-icone {
+                margin-right: 50px;
+            }
+        }
     }
 }
 .show-nav .navbar_page {
     width: 100%;
-}
-.navbar-image{
-    background-color: $couleur-principale;
-    @include flex;
-    cursor: pointer;
-    width: 300px;
-    border-top-right-radius: $border-radius;
-    border-bottom-right-radius: $border-radius;
-
-    a{
-        width: 100%;;
-    }
-
-    img{
-        width: 50%!important;
-        margin: 0 25%;
-        height: 70px!important;
-    }
 }
 
 nav{
@@ -71,12 +82,16 @@ nav{
     color: $couleur-principale;
 }
 // FIn 
+
+
 .container-connexion-desktop{
-    padding-right: 100px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
 
     .cta-connexion{
-        padding: 13px 30px;
+        padding: 13px 20px;
     }
 }
 
@@ -92,11 +107,7 @@ nav{
     display: none;
 }
 
-.auth-container-desktop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 @media screen and (max-width: 1550px) {
     .navbar .container-navbar{
@@ -199,6 +210,9 @@ nav{
         letter-spacing:5px;
     }
 
+    .auth-container-desktop{
+        display: none;
+    }
     // Toogle bar
 
     .navbar-burger {

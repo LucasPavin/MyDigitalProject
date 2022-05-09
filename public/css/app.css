@@ -424,8 +424,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+h2 {
+  font-size: 5.3125rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -452,6 +471,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -474,12 +494,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .container {
   width: 100% !important;
   max-width: 100% !important;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .navbar {
@@ -493,12 +507,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 70px;
   justify-content: space-between;
 }
-
-.show-nav .navbar_page {
-  width: 100%;
-}
-
-.navbar-image {
+.navbar .container-navbar .navbar-image {
   background-color: #174AFC;
   display: flex;
   justify-content: center;
@@ -508,13 +517,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.navbar-image a {
+.navbar .container-navbar .navbar-image a {
   width: 100%;
 }
-.navbar-image img {
+.navbar .container-navbar .navbar-image img {
   width: 50% !important;
   margin: 0 25%;
   height: 70px !important;
+}
+.navbar .container-navbar .auth-container-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.navbar .container-navbar .auth-container-desktop .acd-icone {
+  margin-right: 50px;
+}
+
+.show-nav .navbar_page {
+  width: 100%;
 }
 
 nav {
@@ -546,11 +568,13 @@ nav .navbar_page li {
 }
 
 .container-connexion-desktop {
-  padding-right: 100px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
 }
 .container-connexion-desktop .cta-connexion {
-  padding: 13px 30px;
+  padding: 13px 20px;
 }
 
 .container-connexion-tablette {
@@ -576,6 +600,10 @@ nav .navbar_page li {
 
   nav .navbar_page li {
     padding: 0 20px;
+  }
+
+  a {
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 1047px) and (max-width: 1355px) {
@@ -669,6 +697,10 @@ nav .navbar_page li {
     letter-spacing: 5px;
   }
 
+  .auth-container-desktop {
+    display: none;
+  }
+
   .navbar-burger {
     display: block;
     margin-top: 15px;
@@ -745,6 +777,7 @@ nav .navbar_page li {
 }
 .btn {
   padding: 13px 30px;
+  margin: 20px 0;
   border-radius: 10px;
   display: inline-block;
   transition: 0.4s;
@@ -855,8 +888,26 @@ footer {
     display: none;
   }
 }
+h2 {
+  font-size: 5.3125rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
 .a-propos .container {
-  padding: 50px 130px;
+  padding: 70px 130px;
 }
 .a-propos .container_equipe {
   display: flex;
@@ -869,12 +920,26 @@ footer {
   color: #174AFC;
   flex-direction: row-reverse;
 }
+.a-propos .container_equipe:nth-of-type(even):first-child {
+  padding-left: 5%;
+}
+.a-propos .container_equipe:nth-of-type(even):last-child {
+  padding-right: 5%;
+}
 .a-propos .container_equipe > div {
   width: 50%;
 }
-.a-propos .img_equipe {
-  width: 300px;
-  height: 300px;
+.a-propos .container_equipe > div:first-child {
+  padding-right: 5%;
+}
+.a-propos .container_equipe > div:last-child {
+  padding-left: 5%;
+}
+.a-propos .container_equipe .text {
+  margin: auto;
+}
+.a-propos .container_logo .logo_ki img {
+  margin: auto;
 }
 
 .container .zone-bleu-container .zone-text {
@@ -1073,24 +1138,6 @@ footer {
     width: 450px;
   }
 }
-h2 {
-  font-size: 5.3125rem;
-  font-weight: 900;
-  line-height: 100px;
-}
-
-h3 {
-  font-size: 1.625rem;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-p {
-  margin: 20px 0;
-  font-size: 1.375rem;
-  font-weight: 400;
-}
-
 .btn {
   padding: 13px 30px;
   margin: 20px 0;
@@ -1119,6 +1166,7 @@ p {
 }
 
 .container-connexion {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -1290,6 +1338,7 @@ p {
 }
 
 .container-register {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   height: 90vh;
   display: flex;
   flex-direction: column;

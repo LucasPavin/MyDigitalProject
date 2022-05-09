@@ -25,12 +25,6 @@
   max-width: 100% !important;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
   width: 100%;
   position: relative;
@@ -42,15 +36,7 @@
   height: 70px;
   justify-content: space-between;
 }
-.navbar a {
-  font-size: 1.1875rem;
-}
-
-.show-nav .navbar_page {
-  width: 100%;
-}
-
-.navbar-image {
+.navbar .container-navbar .navbar-image {
   background-color: #174AFC;
   display: flex;
   justify-content: center;
@@ -60,13 +46,26 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.navbar-image a {
+.navbar .container-navbar .navbar-image a {
   width: 100%;
 }
-.navbar-image img {
+.navbar .container-navbar .navbar-image img {
   width: 50% !important;
   margin: 0 25%;
   height: 70px !important;
+}
+.navbar .container-navbar .auth-container-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.navbar .container-navbar .auth-container-desktop .acd-icone {
+  margin-right: 50px;
+}
+
+.show-nav .navbar_page {
+  width: 100%;
 }
 
 nav {
@@ -98,12 +97,13 @@ nav .navbar_page li {
 }
 
 .container-connexion-desktop {
-  padding-right: 100px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
 }
-
 .container-connexion-desktop .cta-connexion {
-  padding: 13px 30px;
+  padding: 13px 20px;
 }
 
 .container-connexion-tablette {
@@ -224,6 +224,10 @@ nav .navbar_page li {
   .li-navbar-page > a:hover {
     padding-left: 1.6rem;
     letter-spacing: 5px;
+  }
+
+  .auth-container-desktop {
+    display: none;
   }
 
   .navbar-burger {
