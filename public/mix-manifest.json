@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/js/header.js": "/js/header.js",
     "/css/pages/chat.css": "/css/pages/chat.css",
     "/css/pages/contact.css": "/css/pages/contact.css",
     "/css/pages/apropos.css": "/css/pages/apropos.css",
@@ -11,5 +12,6 @@
     "/css/layouts/navbar.css": "/css/layouts/navbar.css",
     "/css/components/mixins.css": "/css/components/mixins.css",
     "/css/components/boutons.css": "/css/components/boutons.css",
+    "/css/components/titres.css": "/css/components/titres.css",
     "/css/components/variables.css": "/css/components/variables.css"
 }

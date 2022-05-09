@@ -9,7 +9,9 @@
 @section('contenu')
 
 @guest   {{--SI la personne n'est pas authentifié elle aura ça--}}
-    <span>Vous n'êtes ps connecté</span>    
+    <div class="azertyuiop" style="height: 90vh">
+        <span style="display: flex; justify-content:center; ">Vous n'êtes ps connecté</span> 
+    </div>   
 @endguest {{--Fin de la personne n'est pas authentifié elle aura ça--}}
 
 @auth {{-- Début de la vérification d'auth, donc si personne de connecté on ne verra rien --}}
