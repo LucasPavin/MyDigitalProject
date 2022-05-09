@@ -5,7 +5,7 @@
         Sponski - À Propos
     
 @endsection
-@include('layouts.navbar')
+
 @section('contenu')
    
 <div class="a-propos">

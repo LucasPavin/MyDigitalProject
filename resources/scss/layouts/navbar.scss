@@ -19,11 +19,6 @@
         height: 70px;
         justify-content: space-between;
     }
-
-    a{
-        font-size: 1.1875rem;
-    }
-
 }
 .show-nav .navbar_page {
     width: 100%;
@@ -95,6 +90,12 @@ nav{
 
 .navbar-burger{
     display: none;
+}
+
+.auth-container-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1550px) {
