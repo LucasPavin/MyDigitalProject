@@ -31,13 +31,13 @@ footer {
 }
 
 .f-content {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
+  padding: 50px 0 0 0;
 }
 
 .f-menu-liste {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .menu-listes-items {
@@ -45,7 +45,8 @@ footer {
 }
 
 .menu-listes-items h5 {
-  color: #174AFC;
+  color: #FB5C2D;
+  text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 15px;
@@ -59,38 +60,33 @@ footer {
 }
 
 .f-ligne-bleu {
-  margin: 15px 200px;
-  border-bottom: 2px solid #174AFC;
+  margin: 100px 200px 0 200px;
+  border-bottom: 2px solid #FB5C2D;
 }
 
 .f-bottom {
   background-color: #12141d;
-  height: 50px;
+  height: 10vh;
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .f-bottom .f-icone-social {
   display: flex;
   flex-direction: row;
   margin-left: 200px;
   grid-area: f-icone-social;
 }
-
 .f-bottom .f-icone-social .fab {
   margin-right: 20px;
 }
-
 .f-bottom .f-icone-social .fab:hover {
   color: #FB5C2D;
 }
-
 .f-bottom .f-copyright-page {
   grid-area: f-copyright-page;
 }
-
 .f-bottom .f-imgFooter {
   grid-area: f-imgFooter;
   margin-right: 200px;

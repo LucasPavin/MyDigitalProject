@@ -63,7 +63,7 @@ nav{
     width: 0;
     height: 2px;
     background-color: $couleur-principale;
-    transition: width .4s;
+    transition: width .6s;
 }
 .li-navbar-page:hover > a::after{
     width: 100%;
