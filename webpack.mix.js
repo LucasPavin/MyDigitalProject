@@ -13,6 +13,7 @@ const tailwindcss = require('tailwindcss');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .js('resources/js/header.js', 'public/js')
     .sass('resources/scss/app.scss', 'public/css')   
     .options({
         postCss: [ tailwindcss('./tailwind.config.js') ],
@@ -25,6 +26,7 @@ mix.js('resources/js/app.js', 'public/js')
         postCss: [ tailwindcss('./tailwind.config.js') ],
     })
     .sass('resources/scss/components/variables.scss', 'public/css/components')
+    .sass('resources/scss/components/titres.scss', 'public/css/components')
     .sass('resources/scss/components/boutons.scss', 'public/css/components')
     .sass('resources/scss/components/mixins.scss', 'public/css/components')
     
