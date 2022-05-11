@@ -1,0 +1,27 @@
+.button-submit-annonce {
+  text-align: center;
+}
+.button-submit-annonce .btn-primary {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #174AFC;
+  padding: 15px 500px;
+}
+.button-submit-annonce .btn-primary:hover {
+  background-color: #FB5C2D;
+}
+
+.button-besoin-aide-annonce {
+  text-align: center;
+}
+.button-besoin-aide-annonce .besoin-d-aide-annonce {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #FB5C2D;
+  padding: 15px 475px;
+}
+.button-besoin-aide-annonce .besoin-d-aide-annonce:hover {
+  background-color: #174AFC;
+}

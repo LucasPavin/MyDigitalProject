@@ -7,7 +7,7 @@
             <ul class="navbar_page">
                 <li class="li-navbar-page un"><a href="{{URL::to('/annonce')}}">Consulter une annonce</a></li>
                 <li class="li-navbar-page deux"><a href="{{URL::to('/deposer-annonce')}}">Déposer une annonce</a></li>
-                <li class="li-navbar-page trois"><a href="{{URL::to('/a-propos')}}">Tarif</a></li>
+                <li class="li-navbar-page trois"><a href="{{URL::to('/nos-tarifs')}}">Tarif</a></li>
                 <li class="li-navbar-page quatre"><a href="{{URL::to('/contact')}}">Nous contacter</a></li>
             </ul>
         </nav>
@@ -22,10 +22,11 @@
         @endguest
         @auth 
             <div class="auth-container-desktop">
-                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-bell"></i></a>
                 <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-comment"></i></a>
                 <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-heart"></i></a>
+                <a class="acd-icone" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-grip"></i></a>
                 <a class="acd-icone" href="{{URL::to('/logout')}}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                
             </div>
         @endauth
         <button class="navbar-burger">

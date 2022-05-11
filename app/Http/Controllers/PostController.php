@@ -41,6 +41,11 @@ class PostController extends Controller {
 
         return view('pages.consulterannonce')->with('produits',$produits);
     }
+
+    public function nostarifs(){
+        return view('pages.nosTarifs');
+    }
+
     public function apropos () {
         return view('pages.apropos');
     }

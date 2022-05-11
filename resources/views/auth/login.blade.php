@@ -12,6 +12,7 @@
                 <img src="images/logo-header-bleu.svg" alt="" class="connexion-img">
             </a>
         </button>
+        <div class="container-ensemble-formulaire">
             <div class="container-connexion-creeCompte">
                 <span class="connexion-span">Connexion</span><a href="/register"><span class="creerCompte-span">Créer un compte</span></a>
             </div>
@@ -23,17 +24,19 @@
                 <div class="container-connexion-email">
                     <x-label for="email" :value="__('E-mail')" />
                     <br/>
-                    <x-input id="email" class="connexion-email-input" type="email" name="email" :value="old('email')" required autofocus />
+                    <input id="email" class="connexion-email-input" type="email" name="email" :value="old('email')" required autofocus />
                 </div>
 
                 <!-- Password -->
                 <div class="container-connexion-mdp">
                     <x-label for="password" :value="__('Mot de passe')" />
                     <br/>
-                    <x-input id="password" class="connexion-mdp-input"
+                    <input id="password" class="connexion-mdp-input"
                                     type="password"
+                                    id="password"
                                     name="password"
                                     required autocomplete="current-password" />
+                    <i class="fa-solid fa-eye"></i>
                 </div>
 
                 <!-- Remember Me -->
@@ -63,5 +66,8 @@
                     @endif
                 </div>
             </form>
+
+        </div>
+            
     </div>
 @endsection

@@ -10,10 +10,19 @@
 @import 'components/mixins';
 @import 'layouts/navbar';
 @import 'layouts/footer';
+
+//Page 404
+
+@import 'error/404';
+
+// Pages
+
 @import 'pages/chat';
 @import 'pages/apropos';
 @import 'pages/accueil';
+@import 'pages/nos-tarifs.scss';
 @import 'pages/contact';
+@import 'pages/deposer-annonce';
 
 // Auth 
 @import 'auth/login.scss';

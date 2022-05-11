@@ -1,0 +1,165 @@
+@import '../components/variables';
+@import '../components/boutons';
+@import '../components/mixins';
+
+.container-general-nos-offres{
+    background-image: url(./../../../public/pattern/pattern.svg);
+    .titre-de-la-page-tarif{
+        padding-top: 50px;
+        text-decoration: underline;
+        color: $couleur-principale;
+    }
+
+    .container-offres {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // grid-template-columns: 1fr 2fr 1fr;
+        // grid-template-rows: 1fr;
+        height: 75vh;
+        
+        .premier-container-gratuit {
+            background-color: #F4F4F5;
+            border-radius: 10px;
+            color: $couleur-principale;
+            padding: 25px 10px;
+            h2 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 0px;
+                padding: 30px 0 10px 0;
+            }
+            .prix-offre {
+                text-align: center;
+                font-size: 45px;
+                font-weight: 700;
+            }
+        }
+        .deuxieme-container-deluxe {
+            border-radius: 10px;
+            background-color: #12141D;
+            color: $couleur-secondaire;
+            margin: 0px 30px;
+            padding: 100px 60px;
+            h2{
+                text-align: center;
+                font-size: 70px;
+                font-weight: 700;
+                line-height: 0px;
+                padding: 30px 0 30px 0;
+            }
+            .prix-offre {
+                text-align: center;
+                font-size: 80px;
+                font-weight: 700;
+            }
+
+        }
+        .troisieme-container-prenium{
+            background-color: #F4F4F5;
+            border-radius: 10px;
+            color: $couleur-principale;
+            padding: 25px 10px;
+            h2 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 0px;
+                padding: 30px 0 10px 0;
+            }
+            .prix-offre {
+                text-align: center;
+                font-size: 45px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 880px) and (max-width: 1130px){
+    
+    .container-general-nos-offres{
+        .container-offres {
+            .premier-container-gratuit{
+                padding: 25px 5px;
+                h2 {
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+                .prix-offre {
+                    text-align: center;
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+            }
+            .deuxieme-container-deluxe {
+                margin: 0px 15px;
+                padding: 100px 20px;
+             h2{
+                font-size: 50px;
+                font-weight: 500;
+            }
+            }
+        
+            .troisieme-container-prenium{
+                padding: 25px 5px;
+                h2 {
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+                .prix-offre {
+                    text-align: center;
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+            }
+    }
+    }
+}
+@media screen and (max-width: 879px) {
+
+    .container-general-nos-offres{
+        height: 180vh;
+        .titre-de-la-page-tarif {
+            font-size: 45px;
+        }
+        .container-offres {
+            display: block;
+            .premier-container-gratuit{
+                margin: 0px 30px;
+                margin-bottom: 30px;
+                h2 {
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+                .prix-offre {
+                    text-align: center;
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+            }
+            .deuxieme-container-deluxe {
+                margin-bottom: 30px;
+                padding: 100px 20px;
+             h2{
+                font-size: 70px;
+                font-weight: 700;
+            }
+            }
+        
+            .troisieme-container-prenium{
+                margin: 0px 30px;
+                h2 {
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+                .prix-offre {
+                    text-align: center;
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+}

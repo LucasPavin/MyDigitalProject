@@ -17,12 +17,17 @@ use App\Http\Controllers\ProductController;
 |
 */
 Route::get('/', [PostController::class, 'home']);
-Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
+Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
+Route::get('/nos-tarifs', [PostController::class, 'nostarifs']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
+
+
 Route::get('/publication/{id}', [PostController::class, 'publication']);
 Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
+
+
 //Modifier une annonce
 Route::get('/modifier/{id}', [PostController::class, 'modifier']);
 Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);

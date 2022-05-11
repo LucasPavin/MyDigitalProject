@@ -34,10 +34,10 @@
         {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal'])!!}
         {{csrf_field()}}
         <div class="form-group">
-            {{Form::label('', 'Product')}}
-            {{Form::text('product_name', '', ['placehorder'=>'Product Name', 'class'=>'form-control'])}}
+            {{Form::label('', 'Titre Annonce')}}
+            {{Form::text('product_name', '', ['placehorder'=>'Annonce', 'class'=>'form-control'])}}
         </div> 
-        <div class="form-group">
+        <div class="form-group" style="background-color: red">
             {{Form::label('', 'Product Price')}}
             {{Form::number('product_prix', '', ['placehorder'=>'Product Price', 'class'=>'form-control'])}}
         </div>
@@ -45,8 +45,13 @@
             {{Form::label('', 'Product description')}}
             {{Form::textarea('product_description', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
         </div>
-        {{Form::submit('Ajouter annonce', ['class'=>'btn btn-primary'])}} 
-        {!!Form::close()!!}
+        <div class="button-submit-annonce">  
+            {{Form::submit('AJOUTER', ['class'=>'btn btn-primary'])}} 
+            {!!Form::close()!!}
+        </div>
+        <div class="button-besoin-aide-annonce">
+            <button class="btn besoin-d-aide-annonce"><a href="#">BESOIN D'AIDE ?</a></button>
+        </div>
 
 @endauth   {{-- FIN de la vérification d'auth--}}
 @endsection

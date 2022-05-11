@@ -1,0 +1,14 @@
+@import '../components/variables';
+@import '../components/mixins';
+ 
+.container-error-404 {
+    background-image: url(./../../../public/pattern/pattern404.svg);
+    background-color: $couleur-principale;
+    height: 90vh;
+    display: block;
+    text-align: center;
+    color: $blanc;
+    h2{
+        font-size: 100px;
+    }
+}

@@ -39,6 +39,7 @@
         //icone une fois authentifié
         .auth-container-desktop {
             display: flex;
+            height: auto;
             justify-content: space-between;
             align-items: center;
             margin-right:50px;
@@ -81,8 +82,8 @@ nav{
 .li-navbar-page a:hover{
     color: $couleur-principale;
 }
-// FIn 
 
+// FIn 
 
 .container-connexion-desktop{
     display: flex;
@@ -106,7 +107,7 @@ nav{
 .navbar-burger{
     display: none;
 }
-
+// Display du sous menu lors de l'auth 
 
 
 @media screen and (max-width: 1550px) {
@@ -150,7 +151,9 @@ nav{
     .container-connexion-desktop{
         display: none;
     }
-
+    .auth-container-desktop{
+        display: none!important;
+    }
     .navbar_page{
         font-size: 13px;
     }
@@ -169,8 +172,8 @@ nav{
     }
 }
 @media screen and (max-width:870px) {
-    .container-connexion-desktop{
-        display: none;
+    .container-connexion-desktop, .auth-container-desktop {
+        display: none!important;
     }
     .navbar_page{
         overflow:hidden;
@@ -277,5 +280,11 @@ nav{
     }
     .show-nav .quatre{
         transition: all 1.3s ease-out;
+    }
+    .show-nav .cinq{
+        transition: all 1.4s ease-out;
+    }
+    .show-nav .six{
+        transition: all 1.5s ease-out;
     }
 }
