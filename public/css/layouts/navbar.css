@@ -56,6 +56,7 @@
 }
 .navbar .container-navbar .auth-container-desktop {
   display: flex;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   margin-right: 50px;
@@ -159,6 +160,10 @@ nav .navbar_page li {
     display: none;
   }
 
+  .auth-container-desktop {
+    display: none !important;
+  }
+
   .navbar_page {
     font-size: 13px;
   }
@@ -179,8 +184,8 @@ nav .navbar_page li {
   }
 }
 @media screen and (max-width: 870px) {
-  .container-connexion-desktop {
-    display: none;
+  .container-connexion-desktop, .auth-container-desktop {
+    display: none !important;
   }
 
   .navbar_page {
@@ -302,5 +307,13 @@ nav .navbar_page li {
 
   .show-nav .quatre {
     transition: all 1.3s ease-out;
+  }
+
+  .show-nav .cinq {
+    transition: all 1.4s ease-out;
+  }
+
+  .show-nav .six {
+    transition: all 1.5s ease-out;
   }
 }

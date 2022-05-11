@@ -6,7 +6,6 @@
     
 @endsection
 
-
 @section('contenu')
 
     <br>

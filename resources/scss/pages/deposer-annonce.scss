@@ -1,0 +1,31 @@
+@import '../components/variables';
+@import '../components/mixins';
+
+.button-submit-annonce {
+    
+    text-align: center;
+    .btn-primary{
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        background-color: $couleur-principale;
+        padding: 15px 500px;
+    }
+    .btn-primary:hover{
+        background-color: $couleur-secondaire;
+    }
+}
+.button-besoin-aide-annonce{
+    text-align: center;
+    .besoin-d-aide-annonce {
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        background-color: $couleur-secondaire;
+        padding: 15px 475px;
+    }
+    .besoin-d-aide-annonce:hover {
+        background-color: $couleur-principale;
+    }
+
+}

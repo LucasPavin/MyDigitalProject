@@ -527,6 +527,7 @@ p {
 }
 .navbar .container-navbar .auth-container-desktop {
   display: flex;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   margin-right: 50px;
@@ -630,6 +631,10 @@ nav .navbar_page li {
     display: none;
   }
 
+  .auth-container-desktop {
+    display: none !important;
+  }
+
   .navbar_page {
     font-size: 13px;
   }
@@ -650,8 +655,8 @@ nav .navbar_page li {
   }
 }
 @media screen and (max-width: 870px) {
-  .container-connexion-desktop {
-    display: none;
+  .container-connexion-desktop, .auth-container-desktop {
+    display: none !important;
   }
 
   .navbar_page {
@@ -774,6 +779,14 @@ nav .navbar_page li {
   .show-nav .quatre {
     transition: all 1.3s ease-out;
   }
+
+  .show-nav .cinq {
+    transition: all 1.4s ease-out;
+  }
+
+  .show-nav .six {
+    transition: all 1.5s ease-out;
+  }
 }
 .btn {
   padding: 13px 30px;
@@ -888,6 +901,18 @@ footer {
     display: none;
   }
 }
+.container-error-404 {
+  background-image: url(/images/pattern404.svg?a0a8493a4e83b60e08f497df72299905);
+  background-color: #174AFC;
+  height: 90vh;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+}
+.container-error-404 h2 {
+  font-size: 100px;
+}
+
 h2 {
   font-size: 5.3125rem;
   font-weight: 900;
@@ -1001,6 +1026,181 @@ p {
   height: 110vh;
 }
 
+.btn {
+  padding: 13px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.btn_orange {
+  background-color: #FB5C2D;
+  border: 1px solid #FB5C2D;
+  color: #FFFFFF;
+}
+
+.btn_orange:hover,
+.btn_orange:active,
+.btn_orange:focus {
+  background-color: transparent;
+  border: 1px solid #FB5C2D;
+  color: #FB5C2D;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container-general-nos-offres {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-general-nos-offres .titre-de-la-page-tarif {
+  padding-top: 50px;
+  text-decoration: underline;
+  color: #174AFC;
+}
+.container-general-nos-offres .container-offres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.container-general-nos-offres .container-offres .premier-container-gratuit {
+  background-color: #F4F4F5;
+  border-radius: 10px;
+  color: #174AFC;
+  padding: 25px 10px;
+}
+.container-general-nos-offres .container-offres .premier-container-gratuit h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+  padding: 30px 0 10px 0;
+}
+.container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+  border-radius: 10px;
+  background-color: #12141D;
+  color: #FB5C2D;
+  margin: 0px 30px;
+  padding: 100px 60px;
+}
+.container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 0px;
+  padding: 30px 0 30px 0;
+}
+.container-general-nos-offres .container-offres .deuxieme-container-deluxe .prix-offre {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+}
+.container-general-nos-offres .container-offres .troisieme-container-prenium {
+  background-color: #F4F4F5;
+  border-radius: 10px;
+  color: #174AFC;
+  padding: 25px 10px;
+}
+.container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+  padding: 30px 0 10px 0;
+}
+.container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1130px) {
+  .container-general-nos-offres .container-offres .premier-container-gratuit {
+    padding: 25px 5px;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit h2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+    margin: 0px 15px;
+    padding: 100px 20px;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium {
+    padding: 25px 5px;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 879px) {
+  .container-general-nos-offres {
+    height: 180vh;
+  }
+  .container-general-nos-offres .titre-de-la-page-tarif {
+    font-size: 45px;
+  }
+  .container-general-nos-offres .container-offres {
+    display: block;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit {
+    margin: 0px 30px;
+    margin-bottom: 30px;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+    margin-bottom: 30px;
+    padding: 100px 20px;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium {
+    margin: 0px 30px;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
 .container-page-contact {
   background-color: white;
   height: 90vh;
@@ -1138,6 +1338,34 @@ p {
     width: 450px;
   }
 }
+.button-submit-annonce {
+  text-align: center;
+}
+.button-submit-annonce .btn-primary {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #174AFC;
+  padding: 15px 500px;
+}
+.button-submit-annonce .btn-primary:hover {
+  background-color: #FB5C2D;
+}
+
+.button-besoin-aide-annonce {
+  text-align: center;
+}
+.button-besoin-aide-annonce .besoin-d-aide-annonce {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #FB5C2D;
+  padding: 15px 475px;
+}
+.button-besoin-aide-annonce .besoin-d-aide-annonce:hover {
+  background-color: #174AFC;
+}
+
 .btn {
   padding: 13px 30px;
   margin: 20px 0;
@@ -1176,57 +1404,58 @@ p {
 }
 .container-connexion .connexion-img {
   height: 45px;
+  margin-bottom: 20px;
   width: auto;
 }
-.container-connexion .container-connexion-creeCompte {
+.container-connexion .container-ensemble-formulaire {
+  background-color: white;
+  border-radius: 20px;
+}
+.container-connexion .container-ensemble-formulaire .container-connexion-creeCompte {
+  font-size: 26px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.container-connexion .container-ensemble-formulaire .container-connexion-creeCompte .creerCompte-span {
   font-size: 26px;
   margin-top: 45px;
+  text-align: center;
 }
-.container-connexion .container-connexion-creeCompte .connexion-span {
-  background-color: white;
-  border-radius: 10px 0px 0px 0px;
-  padding: 15px 24px;
-}
-.container-connexion .container-connexion-creeCompte .creerCompte-span {
-  background-color: #174AFC;
-  color: white;
-  border-radius: 0px 10px 0px 0px;
-  padding: 15px 24px;
-}
-.container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
+.container-connexion .container-ensemble-formulaire .container-connexion-creeCompte .creerCompte-span:hover {
+  padding: 25px 15px;
   background-color: #FB5C2D;
   color: white;
 }
-.container-connexion .container-connexion-form {
-  background-color: white;
+.container-connexion .container-ensemble-formulaire .container-connexion-form {
   margin-top: 10px;
-  border-radius: 0 0 5px 5px;
   padding: 40px 51px;
 }
-.container-connexion .container-connexion-form .container-connexion-email {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-email {
   margin-top: 40px;
   font-weight: 700;
 }
-.container-connexion .container-connexion-form .container-connexion-email .connexion-email-input {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-email .connexion-email-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-connexion .container-connexion-form .container-connexion-mdp {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-mdp {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-connexion .container-connexion-form .container-connexion-mdp .connexion-mdp-input {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-mdp .connexion-mdp-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-connexion .container-connexion-form .container-connexion-rappeler {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-rappeler {
   margin-top: 20px;
 }
-.container-connexion .container-connexion-form .connexion-button-seco {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-button-seco {
   margin-top: 20px;
   border-radius: 5px;
   font-size: 20px;
@@ -1236,16 +1465,16 @@ p {
   height: 35px;
   width: 300px;
 }
-.container-connexion .container-connexion-form .connexion-button-seco:hover {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-button-seco:hover {
   background-color: #FB5C2D;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.container-connexion .container-connexion-form .connexion-mdp-oublie {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie {
   margin-top: 12px;
   font-size: 12px;
   color: #174AFC;
 }
-.container-connexion .container-connexion-form .connexion-mdp-oublie > a::after {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie > a::after {
   display: block;
   content: "";
   width: 0;
@@ -1253,10 +1482,10 @@ p {
   background-color: #174AFC;
   transition: width 0.4s;
 }
-.container-connexion .container-connexion-form .connexion-mdp-oublie:hover > a::after {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie:hover > a::after {
   width: 30%;
 }
-.container-connexion .container-connexion-form .connexion-mdp-oublie a:hover {
+.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie a:hover {
   color: #174AFC;
 }
 

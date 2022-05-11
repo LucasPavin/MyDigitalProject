@@ -19,7 +19,7 @@
         {!!Form::open(['action' => ['App\Http\Controllers\ProductController@update', $produit->id], 'method' => 'POST', 'class'=>'form-horizontal'])!!}
         {{csrf_field()}}
         <div class="form-group">
-            {{Form::label('', 'Product')}}
+            {{Form::label('', 'Titre de l\'annonce')}}
             {{Form::text('product_name', $produit->product_name, ['placehorder'=>'Product Name', 'class'=>'form-control'])}}
         </div> 
         <div class="form-group">

@@ -1,4 +1,4 @@
-{{-- @extends('layouts.app')
+@extends('layouts.app')
 
 @section('titre')
 
@@ -8,17 +8,13 @@
 
 @section('contenu')
 
-    <div class="container">
-        <div class="container-imageSVG">
-            <img src="images/Error_404_BG.jpeg" alt="imageSVG404">
-            <div class="container-text">
-                <h1>Erreur 404</h1>
-            </div>
-        </div>
+    <div class="container-error-404">
+        <h2>Erreur 404</h2>
+        <p>Page non trouvée</p>
+        <button href="{{URL::to('/')}}">SPONSKI</button>
         
     </div>
+        
 
-@endsection --}}
+@endsection
 
-
-{{-- <button onclick="window.location.href='/'" style="color:#174AFC;background-color:#FFF;border:none;padding:1rem;border-radius:20px;">SPONSKI</button> --}}

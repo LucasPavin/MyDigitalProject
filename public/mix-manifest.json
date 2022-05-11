@@ -13,5 +13,6 @@
     "/css/components/mixins.css": "/css/components/mixins.css",
     "/css/components/boutons.css": "/css/components/boutons.css",
     "/css/components/titres.css": "/css/components/titres.css",
-    "/css/components/variables.css": "/css/components/variables.css"
+    "/css/components/variables.css": "/css/components/variables.css",
+    "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css"
 }

@@ -7,6 +7,8 @@
                     <ul>
                         <li><a href="/annonce">Consulter les annonces</a></li>
                         <li><a href="/deposer-annonce">Deposer une annonce</a></li>
+                        <li><a href="#">Tarif</li>
+                        <a href=""></a>
                         <li><a href="/a-propos">Qui nous sommes ?</a></li>
                         <li><a href="/contact">Contactez-nous</a></li>
                     </ul>
