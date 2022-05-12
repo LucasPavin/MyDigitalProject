@@ -11,7 +11,7 @@
             <a href="/">
                 <img src="images/logo-header-bleu.svg" alt="" class="registrer-img">
             </a>
-        </button>
+    </button>
         <div class="container-register-connexion-creeCompte">
             <a href="/login"><span class="register-connexion-span">Connexion</span></a><span class="register-creerCompte-span">Créer un compte</span>
         </div>
@@ -19,8 +19,13 @@
             @csrf
 
             <!-- Name -->
+            <div class="container-register-firstname">
+                <x-label for="firstname" :value="__('Prénom')" />
+                <br>
+                <x-input id="firstname" class="register-firstname-input" type="text" name="firstname" :value="old('firstname')" required />
+            </div>
             <div class="container-register-nom">
-                <x-label for="name" :value="__('Prénom & Nom')" />
+                <x-label for="name" :value="__('Nom de famille')" />
                 <br>
                 <x-input id="name" class="register-nom-input" type="text" name="name" :value="old('name')" required autofocus/>
             </div>
@@ -50,6 +55,41 @@
                                 type="password"
                                 name="password_confirmation" required />
             </div>
+
+{{--  Date Of Birth --}}
+            <div class="container-register-dateOfBirth">
+                <x-label for="dateOfBirth" :value="__('Date de naissance')" />
+                <br>
+                <x-input type="date" name="dateOfBirth" class="register-dateOfBirth-input" id="dateOfBirth"
+                        placeholder="dd-mm-yyyy" :value="old('dateOfBirth')" min="1920-01-01" max="2022-12-31" required />
+            </div>
+            
+{{-- Status --}}    
+        <div class="container-register-status">
+            <hr>
+            <label>Vous êtes un(e) : </label>
+            <div class="register-status-input" :value="old('status')" id="status" name="status">
+                <select name="status" id="">
+                    <option value="Particulier">Particulier</option>
+                    <option value="Profesionnel">Profesionnel</option>
+                    <option value="Association">Association</option>
+                    <option value="Entreprises">Entreprises</option>
+                    <option value="Autre">Autre</option>
+                </select>
+            </div>
+        </div>
+
+{{-- choose status --}}
+        <div class="container-register-chooseStatus">
+            <hr>
+                <label>Vous cherchez à :</label>
+                <div class="switch-field" :value="old('chooseStatus')" id="chooseStatus" name="chooseStatus">
+                    <select name="chooseStatus" id="">
+                        <option value="etre-sponsor">Être sponsorisez</option>
+                        <option value="Sponsoriser">Sponsoriser</option>
+                    </select>
+                </div>
+        </div>
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="register-errors" :errors="$errors" />
