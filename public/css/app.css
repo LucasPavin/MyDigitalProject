@@ -1068,57 +1068,54 @@ p {
   height: 75vh;
 }
 .container-general-nos-offres .container-offres .premier-container-gratuit {
+  text-align: center;
   background-color: #F4F4F5;
   border-radius: 10px;
   color: #174AFC;
   padding: 25px 10px;
 }
 .container-general-nos-offres .container-offres .premier-container-gratuit h2 {
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 0px;
   padding: 30px 0 10px 0;
 }
 .container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
-  text-align: center;
   font-size: 45px;
   font-weight: 700;
 }
 .container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+  text-align: center;
   border-radius: 10px;
   background-color: #12141D;
   color: #FB5C2D;
   margin: 0px 30px;
-  padding: 100px 60px;
+  padding: 100px 20px;
 }
 .container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
-  text-align: center;
   font-size: 70px;
   font-weight: 700;
   line-height: 0px;
   padding: 30px 0 30px 0;
 }
 .container-general-nos-offres .container-offres .deuxieme-container-deluxe .prix-offre {
-  text-align: center;
   font-size: 80px;
   font-weight: 700;
 }
 .container-general-nos-offres .container-offres .troisieme-container-prenium {
+  text-align: center;
   background-color: #F4F4F5;
   border-radius: 10px;
   color: #174AFC;
   padding: 25px 10px;
 }
 .container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 0px;
   padding: 30px 0 10px 0;
 }
 .container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
-  text-align: center;
   font-size: 45px;
   font-weight: 700;
 }
@@ -1407,55 +1404,55 @@ p {
   margin-bottom: 20px;
   width: auto;
 }
-.container-connexion .container-ensemble-formulaire {
-  background-color: white;
-  border-radius: 20px;
-}
-.container-connexion .container-ensemble-formulaire .container-connexion-creeCompte {
-  font-size: 26px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-.container-connexion .container-ensemble-formulaire .container-connexion-creeCompte .creerCompte-span {
+.container-connexion .container-connexion-creeCompte {
   font-size: 26px;
   margin-top: 45px;
-  text-align: center;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-creeCompte .creerCompte-span:hover {
-  padding: 25px 15px;
+.container-connexion .container-connexion-creeCompte .connexion-span {
+  background-color: white;
+  border-radius: 10px 0px 0px 0px;
+  padding: 15px 24px;
+}
+.container-connexion .container-connexion-creeCompte .creerCompte-span {
+  background-color: #174AFC;
+  color: white;
+  border-radius: 0px 10px 0px 0px;
+  padding: 15px 24px;
+}
+.container-connexion .container-connexion-creeCompte .creerCompte-span:hover {
   background-color: #FB5C2D;
   color: white;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form {
+.container-connexion .container-connexion-form {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
   margin-top: 10px;
   padding: 40px 51px;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-email {
+.container-connexion .container-connexion-form .container-connexion-email {
   margin-top: 40px;
   font-weight: 700;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-email .connexion-email-input {
+.container-connexion .container-connexion-form .container-connexion-email .connexion-email-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-mdp {
+.container-connexion .container-connexion-form .container-connexion-mdp {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-mdp .connexion-mdp-input {
+.container-connexion .container-connexion-form .container-connexion-mdp .connexion-mdp-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .container-connexion-rappeler {
+.container-connexion .container-connexion-form .container-connexion-rappeler {
   margin-top: 20px;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-button-seco {
+.container-connexion .container-connexion-form .connexion-button-seco {
   margin-top: 20px;
   border-radius: 5px;
   font-size: 20px;
@@ -1465,16 +1462,16 @@ p {
   height: 35px;
   width: 300px;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-button-seco:hover {
+.container-connexion .container-connexion-form .connexion-button-seco:hover {
   background-color: #FB5C2D;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie {
+.container-connexion .container-connexion-form .connexion-mdp-oublie {
   margin-top: 12px;
   font-size: 12px;
   color: #174AFC;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie > a::after {
+.container-connexion .container-connexion-form .connexion-mdp-oublie > a::after {
   display: block;
   content: "";
   width: 0;
@@ -1482,10 +1479,10 @@ p {
   background-color: #174AFC;
   transition: width 0.4s;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie:hover > a::after {
+.container-connexion .container-connexion-form .connexion-mdp-oublie:hover > a::after {
   width: 30%;
 }
-.container-connexion .container-ensemble-formulaire .container-connexion-form .connexion-mdp-oublie a:hover {
+.container-connexion .container-connexion-form .connexion-mdp-oublie a:hover {
   color: #174AFC;
 }
 
@@ -1568,7 +1565,7 @@ p {
 
 .container-register {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  height: 90vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1602,10 +1599,20 @@ p {
   background-color: white;
   margin-top: 10px;
   border-radius: 0 0 5px 5px;
-  padding: 40px 51px;
+  padding: 30px 51px;
+}
+.container-register .container-register-form .container-register-firstname {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-firstname .register-firstname-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
 }
 .container-register .container-register-form .container-register-nom {
-  margin-top: 40px;
+  margin-top: 25px;
   font-weight: 700;
 }
 .container-register .container-register-form .container-register-nom .register-nom-input {
@@ -1643,6 +1650,40 @@ p {
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-dateOfBirth {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-dateOfBirth .register-dateOfBirth-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-status {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-status hr {
+  margin-bottom: 5px;
+  background: black;
+}
+.container-register .container-register-form .container-register-status .register-status-input {
+  margin-top: 5px;
+}
+.container-register .container-register-form .container-register-chooseStatus {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-chooseStatus hr {
+  margin-bottom: 25px;
+  background: black;
+}
+.container-register .container-register-form .container-register-chooseStatus .register-chooseStatus-input {
+  margin-top: 5px;
 }
 .container-register .container-register-form .register-errors {
   margin-top: 30px;

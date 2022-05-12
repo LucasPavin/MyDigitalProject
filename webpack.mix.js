@@ -22,9 +22,9 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/scss/pages/apropos.scss', 'public/css/pages') 
     .sass('resources/scss/pages/contact.scss', 'public/css/pages')   
     .sass('resources/scss/pages/chat.scss', 'public/css/pages')  
-    .sass('ressources/scss/pages/nos-tarifs.scss', 'public/css/pages')
+    .sass('resources/scss/pages/nos-tarifs.scss', 'public/css/pages')
     .sass('resources/scss/pages/deposer-annonce.scss', 'public/css/pages') 
-    .sass('resources/scss/pages/404.scss', 'public/css/pages') 
+    .sass('resources/scss/error/404.scss', 'public/css/error') 
     .options({
         postCss: [ tailwindcss('./tailwind.config.js') ],
     })

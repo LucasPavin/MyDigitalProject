@@ -27,7 +27,7 @@
 
 .container-register {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  height: 90vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,10 +61,20 @@
   background-color: white;
   margin-top: 10px;
   border-radius: 0 0 5px 5px;
-  padding: 40px 51px;
+  padding: 30px 51px;
+}
+.container-register .container-register-form .container-register-firstname {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-firstname .register-firstname-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
 }
 .container-register .container-register-form .container-register-nom {
-  margin-top: 40px;
+  margin-top: 25px;
   font-weight: 700;
 }
 .container-register .container-register-form .container-register-nom .register-nom-input {
@@ -102,6 +112,40 @@
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-dateOfBirth {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-dateOfBirth .register-dateOfBirth-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ecebeb;
+}
+.container-register .container-register-form .container-register-status {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-status hr {
+  margin-bottom: 5px;
+  background: black;
+}
+.container-register .container-register-form .container-register-status .register-status-input {
+  margin-top: 5px;
+}
+.container-register .container-register-form .container-register-chooseStatus {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 700;
+}
+.container-register .container-register-form .container-register-chooseStatus hr {
+  margin-bottom: 25px;
+  background: black;
+}
+.container-register .container-register-form .container-register-chooseStatus .register-chooseStatus-input {
+  margin-top: 5px;
 }
 .container-register .container-register-form .register-errors {
   margin-top: 30px;

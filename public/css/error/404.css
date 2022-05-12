@@ -1,0 +1,11 @@
+.container-error-404 {
+  background-image: url(/images/pattern404.svg?a0a8493a4e83b60e08f497df72299905);
+  background-color: #174AFC;
+  height: 90vh;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+}
+.container-error-404 h2 {
+  font-size: 100px;
+}

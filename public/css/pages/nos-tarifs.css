@@ -1,0 +1,172 @@
+.btn {
+  padding: 13px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.btn_orange {
+  background-color: #FB5C2D;
+  border: 1px solid #FB5C2D;
+  color: #FFFFFF;
+}
+
+.btn_orange:hover,
+.btn_orange:active,
+.btn_orange:focus {
+  background-color: transparent;
+  border: 1px solid #FB5C2D;
+  color: #FB5C2D;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container-general-nos-offres {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-general-nos-offres .titre-de-la-page-tarif {
+  padding-top: 50px;
+  text-decoration: underline;
+  color: #174AFC;
+}
+.container-general-nos-offres .container-offres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.container-general-nos-offres .container-offres .premier-container-gratuit {
+  text-align: center;
+  background-color: #F4F4F5;
+  border-radius: 10px;
+  color: #174AFC;
+  padding: 25px 10px;
+}
+.container-general-nos-offres .container-offres .premier-container-gratuit h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+  padding: 30px 0 10px 0;
+}
+.container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
+  font-size: 45px;
+  font-weight: 700;
+}
+.container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #12141D;
+  color: #FB5C2D;
+  margin: 0px 30px;
+  padding: 100px 20px;
+}
+.container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 0px;
+  padding: 30px 0 30px 0;
+}
+.container-general-nos-offres .container-offres .deuxieme-container-deluxe .prix-offre {
+  font-size: 80px;
+  font-weight: 700;
+}
+.container-general-nos-offres .container-offres .troisieme-container-prenium {
+  text-align: center;
+  background-color: #F4F4F5;
+  border-radius: 10px;
+  color: #174AFC;
+  padding: 25px 10px;
+}
+.container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+  padding: 30px 0 10px 0;
+}
+.container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1130px) {
+  .container-general-nos-offres .container-offres .premier-container-gratuit {
+    padding: 25px 5px;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit h2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+    margin: 0px 15px;
+    padding: 100px 20px;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium {
+    padding: 25px 5px;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 879px) {
+  .container-general-nos-offres {
+    height: 180vh;
+  }
+  .container-general-nos-offres .titre-de-la-page-tarif {
+    font-size: 45px;
+  }
+  .container-general-nos-offres .container-offres {
+    display: block;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit {
+    margin: 0px 30px;
+    margin-bottom: 30px;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .container-general-nos-offres .container-offres .premier-container-gratuit .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe {
+    margin-bottom: 30px;
+    padding: 100px 20px;
+  }
+  .container-general-nos-offres .container-offres .deuxieme-container-deluxe h2 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium {
+    margin: 0px 30px;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .container-general-nos-offres .container-offres .troisieme-container-prenium .prix-offre {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
