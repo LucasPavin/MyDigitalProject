@@ -8,9 +8,12 @@
     width:100%;
     position: relative;
     z-index: 1;
-    box-shadow: 0px 3px 30px #00000029;
+    // box-shadow: 0px 3px 30px #00000029;
     
     .container-navbar{
+        background-color: $couleur_principale;
+        background-image: url(./../../../public/pattern/pattern.svg);
+        color: white;
         display: flex;
         height: 70px;
         justify-content: space-between;
@@ -18,7 +21,7 @@
         // L'image de la navbar
 
         .navbar-image{
-            background-color: $couleur-principale;
+            
             @include flex;
             cursor: pointer;
             width: 300px;
@@ -73,14 +76,14 @@ nav{
     content: "";
     width: 0;
     height: 2px;
-    background-color: $couleur-principale;
+    background-color: $couleur-secondaire;
     transition: width .6s;
 }
 .li-navbar-page:hover > a::after{
     width: 100%;
 }
 .li-navbar-page a:hover{
-    color: $couleur-principale;
+    color: $couleur-secondaire;
 }
 
 // FIn 
@@ -235,7 +238,7 @@ nav{
         width: 45px;
         height: 4px;
         transition: all .5s ease-in-out;
-        background-color: $couleur-principale;
+        background-color: white;
         border-radius: 3px;
     }
     .bar::before, .bar::after{
@@ -244,7 +247,7 @@ nav{
         height: 4px;
         position: absolute;
         left: 0;
-        background-color: $couleur-principale;
+        background-color: white;
         border-radius: 3px;
         transition: all .5s ease-in-out;
     }

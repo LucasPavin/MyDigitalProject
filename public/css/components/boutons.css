@@ -20,6 +20,20 @@
   color: #FB5C2D;
 }
 
+.btn_bleu {
+  background-color: #174AFC;
+  border: 1px solid #174AFC;
+  color: #FFFFFF;
+}
+
+.btn_bleu:hover,
+.btn_bleu:active,
+.btn_bleu:focus {
+  background-color: transparent;
+  border: 1px solid #174AFC;
+  color: #174AFC;
+}
+
 .container {
   width: 100% !important;
   max-width: 100% !important;

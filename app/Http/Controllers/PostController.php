@@ -39,7 +39,7 @@ class PostController extends Controller {
     public function consulterannonce () {
         $produits = Product::orderBy('product_name', 'desc')->paginate(10);
 
-        return view('pages.consulterannonce')->with('produits',$produits);
+        return view('product.consulterannonce')->with('produits',$produits);
     }
 
     public function nostarifs(){
@@ -63,13 +63,13 @@ class PostController extends Controller {
 
     public function publication($id) {
 
-        // $produits = DB::table('products') -> where('id',$id) -> first();
-        $produits = Product::find($id);
-        return view('pages.publication')->with('produit', $produits);
+        $produits = DB::table('products') -> where('id',$id) -> first();
+        // $produits = Product::find($id);
+        return view('product.publication')->with('produit', $produits);
     }
     public function modifier($id){
         $produit = Product::find($id);
-        return view('pages.modifier_produit')->with('produit', $produit);
+        return view('product.modifier_produit')->with('produit', $produit);
     }
     public function modifierproduit(Request $request){
 

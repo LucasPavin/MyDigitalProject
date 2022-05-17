@@ -11,7 +11,7 @@
     <br>
     <h1 style="text-align: center;">Détails du produit</h1>
     <br>
-        <h2>{{$produit->product_name}}</h2>
+        <h2 style="text-align: center">{{$produit->product_name}}</h2>
         <h2>{{$produit->product_prix}}€</h2>
         <p>{{$produit->description}}</p>
     <hr>

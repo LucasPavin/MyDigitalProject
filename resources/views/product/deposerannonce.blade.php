@@ -35,15 +35,28 @@
         {{csrf_field()}}
         <div class="form-group">
             {{Form::label('', 'Titre Annonce')}}
+            <br>
             {{Form::text('product_name', '', ['placehorder'=>'Annonce', 'class'=>'form-control'])}}
         </div> 
         <div class="form-group" style="background-color: red">
-            {{Form::label('', 'Product Price')}}
-            {{Form::number('product_prix', '', ['placehorder'=>'Product Price', 'class'=>'form-control'])}}
+            {{Form::label('', 'Catégorie')}}
+            {{Form::select('categorie', array('foot' => 'Foot', 'course_a_pied' => 'Course à pied'), '', ['placehorder'=>'Product Price', 'class'=>'form-control'])}}
+        </div>
+        <div class="form-group">
+            {{Form::label('', 'Localisation')}}
+            {{Form::select('localisation',array('Bretagne' => array('leopard' => '35 - Ile-Et-Vilaine'),'Dogs' => array('spaniel' => 'Spaniel')))}}
+        </div>
+        <div class="form-group" style="background-color: red">
+            {{Form::label('', 'photo')}}
+            {{Form::file('image')}}
         </div>
         <div class="form-group">
             {{Form::label('', 'Product description')}}
             {{Form::textarea('product_description', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
+        </div>
+        <div class="form-group" style="background-color: red">
+            {{Form::label('', 'Product Price')}}
+            {{Form::number('product_prix', '', ['placehorder'=>'Le budget', 'class'=>'form-control', 'style'=> 'background-color:gray'])}}
         </div>
         <div class="button-submit-annonce">  
             {{Form::submit('AJOUTER', ['class'=>'btn btn-primary'])}} 

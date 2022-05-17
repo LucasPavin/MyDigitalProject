@@ -16,10 +16,9 @@
     @endif
     @foreach ($produits as $produit)
         <div class="well">
-            <h1 ><a href="/annonce/{{$produit->id}}" style="height : 50px; width : 50px">{{$produit->product_name}}</a></h1>
+            <h1 ><a href="/annonce/{{$produit->id}}" style="height : 50px; width : 50px;">{{$produit->product_name}}</a></h1>
         </div>
     @endforeach
-    
-    {{ $produits->links()}}
+        {{ $produits->links()}}
     
 @endsection

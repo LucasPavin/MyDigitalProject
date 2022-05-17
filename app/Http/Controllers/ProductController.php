@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Http\Controllers\DB;
 
 class ProductController extends Controller
 {
@@ -71,8 +72,11 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        $produits = Product::find($id);
-        return view('product.publication')->with('produit', $produits);
+        $produit = Product::find($id);
+
+        return view('product.publication')->with('produit', $produit);
+        // $produits = Product::find($id);
+        // return view('product.publication')->with('produit', $produits);
     }
 
     /**
