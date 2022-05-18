@@ -37,7 +37,7 @@ Route::get('/publication/{id}', [PostController::class, 'publication']);
 // Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
 
 Route::resource('/annonce', 'App\Http\Controllers\ProductController');
-
+Route::get('/recherche', 'App\Http\Controllers\ProductController@recherche')->name('product.recherche');
 //LOGIN
 
 Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');

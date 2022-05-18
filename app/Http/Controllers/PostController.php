@@ -76,6 +76,10 @@ class PostController extends Controller {
         $produit = Product::find($request->input('id'));
 
         $produit->product_name = $request->input('product_name');
+        $produit->product_name = $request->input('categorie');
+        $produit->product_name = $request->input('localisation');
+        $produit->product_name = $request->input('images');
+        $produit->product_name = $request->input('marquesVisees');
         $produit->product_prix = $request->input('product_prix');
         $produit->description = $request->input('product_description');
 

@@ -6,11 +6,17 @@
     
 @endsection
 
+@include('layouts.navbar-noir')
+
 @section('contenu')
 
 @guest   {{--SI la personne n'est pas authentifié elle aura ça--}}
-    <div class="azertyuiop" style="height: 90vh">
-        <span style="display: flex; justify-content:center; ">Vous n'êtes ps connecté</span> 
+    <div class="container-pas-connecte">
+        <div class="container-carre">
+            <h4>Bonjour !</h4>
+            <p>Connectez-vous ou créez un compte pour déposer votre annonce</p>
+            <a href="{{URL::to('/login')}}"><button class="btn btn_bleu">Se connecter</button></a>
+        </div>
     </div>   
 @endguest {{--Fin de la personne n'est pas authentifié elle aura ça--}}
 
@@ -48,11 +54,15 @@
         </div>
         <div class="form-group" style="background-color: red">
             {{Form::label('', 'photo')}}
-            {{Form::file('image')}}
+            {{Form::file('images')}}
         </div>
         <div class="form-group">
             {{Form::label('', 'Product description')}}
             {{Form::textarea('product_description', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
+        </div>
+        <div class="form-group">
+            {{Form::label('', 'marque visée')}}
+            {{Form::textarea('marquesVisees', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
         </div>
         <div class="form-group" style="background-color: red">
             {{Form::label('', 'Product Price')}}

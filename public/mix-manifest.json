@@ -10,6 +10,7 @@
     "/css/auth/register.css": "/css/auth/register.css",
     "/css/layouts/footer.css": "/css/layouts/footer.css",
     "/css/layouts/navbar.css": "/css/layouts/navbar.css",
+    "/css/layouts/navbar-noir.css": "/css/layouts/navbar-noir.css",
     "/css/components/mixins.css": "/css/components/mixins.css",
     "/css/components/boutons.css": "/css/components/boutons.css",
     "/css/components/titres.css": "/css/components/titres.css",

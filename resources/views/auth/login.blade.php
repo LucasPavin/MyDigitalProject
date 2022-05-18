@@ -4,6 +4,9 @@
         Sponski - Se connecter
     
 @endsection
+
+@include('layouts.navbar-noir')
+
 @section('contenu')
     <div class="container-connexion">
 

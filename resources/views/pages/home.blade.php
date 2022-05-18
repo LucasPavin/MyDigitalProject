@@ -5,6 +5,7 @@
         Sponski - Accueil
     
 @endsection
+@include('layouts.navbar')
 
 @section('contenu')
 
