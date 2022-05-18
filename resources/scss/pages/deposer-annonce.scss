@@ -1,6 +1,35 @@
 @import '../components/variables';
 @import '../components/mixins';
 
+
+.container-pas-connecte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(./../../../public/pattern/pattern.svg);
+
+    .container-carre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: auto;
+        background-color: rgb(236, 235, 235); 
+        border-radius: 10px;
+        h4{
+            margin-top: 25px;
+        }
+    }
+}
+
+
+
+
+
+
+
 .button-submit-annonce {
     
     text-align: center;

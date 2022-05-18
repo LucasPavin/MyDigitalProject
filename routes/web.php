@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnnonceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChatController;
 use App\Http\Controllers\PostController;
@@ -16,6 +17,7 @@ use App\Http\Controllers\ProductController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', [PostController::class, 'home']);
 Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
 Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
@@ -25,17 +27,17 @@ Route::get('/contact', [PostController::class, 'contacter']);
 
 
 Route::get('/publication/{id}', [PostController::class, 'publication']);
-Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
+// Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
 
 
-//Modifier une annonce
-Route::get('/modifier/{id}', [PostController::class, 'modifier']);
-Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);
-//Supprimer une annonce
-Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
+// //Modifier une annonce
+// Route::get('/modifier/{id}', [PostController::class, 'modifier']);
+// Route::post('/modifierproduit', [PostController::class, 'modifierproduit']);
+// //Supprimer une annonce
+// Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
 
 Route::resource('/annonce', 'App\Http\Controllers\ProductController');
-
+Route::get('/recherche', 'App\Http\Controllers\ProductController@recherche')->name('product.recherche');
 //LOGIN
 
 Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');

@@ -1,3 +1,24 @@
+.container-pas-connecte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-pas-connecte .container-carre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  background-color: #ecebeb;
+  border-radius: 10px;
+}
+.container-pas-connecte .container-carre h4 {
+  margin-top: 25px;
+}
+
 .button-submit-annonce {
   text-align: center;
 }

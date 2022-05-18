@@ -16,8 +16,8 @@ class AjouterColonneAuxUsers extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('firstname')->after("name");
             $table->string("dateOfBirth")->after("password");
-            $table->string("status")->after("dateOfBirth")->nullable();
-            $table->string("chooseStatus")->after("status")->nullable();
+            $table->string("status")->after("dateOfBirth");
+            $table->string("chooseStatus")->after("status");
         });
     }
 

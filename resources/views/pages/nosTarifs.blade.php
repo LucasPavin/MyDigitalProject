@@ -5,6 +5,9 @@
         Sponski - Nos Tarifs
     
 @endsection
+
+@include('layouts.navbar-noir')
+
 @section('contenu')
 
         <div class="container-general-nos-offres">

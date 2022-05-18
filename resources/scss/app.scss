@@ -9,6 +9,7 @@
 @import 'components/boutons';
 @import 'components/mixins';
 @import 'layouts/navbar';
+@import 'layouts/navbar-noir';
 @import 'layouts/footer';
 
 //Page 404
@@ -23,6 +24,7 @@
 @import 'pages/nos-tarifs';
 @import 'pages/contact';
 @import 'pages/deposer-annonce';
+@import 'pages/consulter-annonce';
 
 // Auth 
 @import 'auth/login.scss';

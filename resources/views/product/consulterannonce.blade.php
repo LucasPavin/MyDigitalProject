@@ -6,9 +6,18 @@
     
 @endsection
 
-@section('contenu')
+@include('layouts.navbar-noir')
 
-    <h1 style="text-align: center;">Consulter page</h1>
+@section('contenu')
+<div class="container-consulter-annonce">
+    
+    <div class="container-recherche">
+        <form action="{{ route("product.recherche") }}">
+            <input type="text" name="q" placeholder="Rechercher une annonce.." class="g-navSearch" id="searchReplay" />
+            <button type="submit" class="teddjdjdj"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+    
     @if(Session::has('status'))
         <div class="alert alert-succes">
             {{Session::get('status')}}
@@ -16,10 +25,11 @@
     @endif
     @foreach ($produits as $produit)
         <div class="well">
-            <h1 ><a href="/annonce/{{$produit->id}}" style="height : 50px; width : 50px">{{$produit->product_name}}</a></h1>
+            <h1 ><a href="/annonce/{{$produit->id}}" style="height : 50px; width : 50px;">{{$produit->product_name}}</a></h1>
         </div>
     @endforeach
-    
-    {{ $produits->links()}}
+        {{ $produits->links()}}
+
+</div>
     
 @endsection

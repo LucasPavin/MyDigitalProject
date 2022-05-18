@@ -14,13 +14,26 @@
     color: $blanc;
 }
 
-
 .btn_orange:hover,
 .btn_orange:active,
 .btn_orange:focus{
     background-color: transparent;
     border: 1px solid $couleur-secondaire;
     color: $couleur-secondaire;
+}
+
+.btn_bleu{
+    background-color: $couleur-principale;
+    border: 1px solid $couleur-principale;
+    color: $blanc;
+}
+
+.btn_bleu:hover,
+.btn_bleu:active,
+.btn_bleu:focus{
+    background-color: transparent;
+    border: 1px solid $couleur-principale;
+    color: $couleur-principale;
 }
 
 .container{

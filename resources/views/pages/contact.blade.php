@@ -6,6 +6,8 @@
     
 @endsection
 
+@include('layouts.navbar-noir')
+
 @section('contenu')
 
     <div class="container-page-contact">

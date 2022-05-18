@@ -6,6 +6,9 @@
     
 @endsection
 
+
+@include('layouts.navbar-noir')
+
 @section('contenu')
    
   <section class="ftco-section">

@@ -1,45 +1,153 @@
 @import '../components/variables';
 @import '../components/mixins';
 
-// PARTIE ZONE BLEU 1
-.container .zone-bleu-container .zone-text {
-    grid-area: zoneText;    
-    color: white;
-    padding: 22vh 160px 0px 60px;
-}
-.container .zone-bleu-container .zone-text h1 {
-    gap: 100px;
-    font-size: 2.5rem;
-    font-weight: bolder;
-}
-.container .zone-bleu-container .zone-text p {
-    white-space: normal;
+.container {
+    // PARTIE ZONE BLEU 1
+    .zone-bleu-container-home {
+        background-color: $couleur_principale;
+        background-image: url(./../../../public/pattern/pattern.svg);
+        height: 85vh;
+        display: block;
+        justify-content: center;
+
+        .zone-text {
+            text-align: center;
+            color: #ffffff;
+            padding: 80px 0px 0px 0px;
+            h1 {
+                text-align: center;
+                font-size: 3rem;
+                font-weight: bolder;
+            }
+            p {
+                white-space: normal;
+                font-size: 1rem;
+                .zone-text-orange-paragraphe{
+                    color: $couleur_secondaire;
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                }
+            }
+        }
+        .zone-video{
+            padding-top: 200px;
+            display: flex;
+            justify-content: center;
+            .video-d-entree{
+                border-radius: 50px;
+                max-width: 65%;
+                height: 65%;
+            }
+        }
+
+    }
+
+    // PARTIE ZONE BLANCHE 1
+
+    .zone-white-container-home-1 {
+        background-image: url(./../../../public/pattern/pattern.svg);
+        height: 120vh;
+        h2{
+            padding-top: 500px;
+            color: $couleur_principale;
+            font-size: 60px;
+            font-weight: 200;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .zone-orange-bleu-container-home{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: " partieOrange partieBleue";
+
+        .zone-orange-home{
+            background-image: url(./../../../public/pattern/pattern.svg);
+            background-color: $couleur_secondaire;
+            grid-area: partieOrange;
+            .vous-etes-sponsor{
+                padding-top: 30px;
+                text-align: center;
+                font-size: 3.5rem;
+                color: white;
+                font-weight: 200;
+                span {
+                    text-decoration: underline;
+                    font-weight: 500;
+                }
+            }
+            p {
+                font-size: 20px;
+                color: white;
+                margin: 0px 50px;
+            }
+            .trouver-une-annonce{
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+
+        }
+        .zone-bleu-home{
+            background-image: url(./../../../public/pattern/pattern.svg);
+            background-color: $couleur_principale;;
+            grid-area: partieBleue;
+            .vous-cherchez-un-sponsor{
+                padding-top: 30px;
+                text-align: center;
+                font-size: 3.5rem;
+                color: white;
+                font-weight: 200;
+                span {
+                    text-decoration: underline;
+                    font-weight: 500;
+                }
+            }
+            p {
+                text-align: right;
+                font-size: 20px;
+                color: white;
+                margin: 0px 50px;
+            }
+            .chercher-une-annonce{
+                position:relative; 
+                display: inline-block; 
+                float:right;
+                margin-top: 50px;
+                margin-right: 50px;
+            }
+        }
+    }
+
+    // Deuxieme partie blanche
+
+    .zone-white-container-home-2 {
+        height: 150vh;
+        background-image: url(./../../../public/pattern/pattern.svg);
+    }
+
+    //deuxième et dernière partie blanche 
+
+    .zone-bleu-container-home-2{
+        height: 50vh;
+        background-color: $couleur_principale;
+        background-image: url(./../../../public/pattern/pattern.svg);
+    }
+    
 }
 
-.container .zone-bleu-container .zone-photo {
-    width: 750px;
-    grid-area: zonePhoto; 
-    padding-top: 12vh;
-}
-.container .zone-bleu-container .zone-photo img {
-    border-radius: 80px;
-}
-.zone-bleu-container {
-    background-color: $couleur_principale;
-    background-image: url(./../../../public/pattern/pattern.svg);
-    height: 85vh;
-    display: flex;
-    grid-template-columns: 1fr 2fr ;
-    grid-row: 1fr;
-    grid-template-areas: "zoneText" "zonePhoto";
-}
 
-// PARTIE ZONE BLANCHE 1
 
-.zone-white-container-home-1 {
-    background-image: url(./../../../public/pattern/pattern.svg);
-    height: 60vh;
-}
+
+
+
+
+
+
+
+
 
 // PARTIE ZONE BLACK 1
 
