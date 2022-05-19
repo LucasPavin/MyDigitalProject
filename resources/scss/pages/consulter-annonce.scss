@@ -10,8 +10,8 @@
         justify-content:center;
         .g-navSearch{
             width: 700px; 
+            background-color: #F6F6F6;
             border-radius: 5px 0px 0px 5px;
-            background-color: #F6F6F6; 
             padding: 10px 15px;
          }
          .fa-magnifying-glass {
@@ -19,6 +19,9 @@
              background-color: #B6B9C3;
              padding: 10px;
          }
+    }
+    .well{
+        columns: 6;
     }
 
 }

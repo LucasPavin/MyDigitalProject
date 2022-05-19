@@ -18,9 +18,12 @@
         <p>{{$produit->localisation}}</p>
         <p>{{$produit->categorie}}</p>
         <p>{{$produit->description}}</p>
-        <p>{{$produit->images}}</p>
+        <img src="{{$produit->images}}" alt="photo">
+        <form action="#" method="POST">
+            <button type="submit" class="btn btn_bleu">Ajouter au panier</button>
+        </form>
     <hr>
-        <h4>{{$produit->created_at}}</h4>
+        <h4>{{$produit->created_at->format('d/m/y')}}</h4>
     <br>
     @auth
     <a href="/annonce/{{$produit->id}}/edit" class="btn btn-default">Modifier</a>

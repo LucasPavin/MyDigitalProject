@@ -36,37 +36,30 @@
             {{Session::get('status')}}
         </div>    
     @endif
+    <div class="container-deposer-annonce">
 
         {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal'])!!}
         {{csrf_field()}}
         <div class="form-group">
-            {{Form::label('', 'Titre Annonce')}}
-            <br>
-            {{Form::text('product_name', '', ['placehorder'=>'Annonce', 'class'=>'form-control'])}}
+            {{Form::text('product_name', '', ['placeholder'=>'Titre de l\'annonce', 'class'=>'form-control'])}}
         </div> 
-        <div class="form-group" style="background-color: red">
-            {{Form::label('', 'Catégorie')}}
-            {{Form::select('categorie', array('foot' => 'Foot', 'course_a_pied' => 'Course à pied'), '', ['placehorder'=>'Product Price', 'class'=>'form-control'])}}
+        <div class="form-group">
+            {{Form::select('categorie', array('foot' => 'Foot', 'course_a_pied' => 'Course à pied'), '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
-            {{Form::label('', 'Localisation')}}
-            {{Form::select('localisation',array('Bretagne' => array('leopard' => '35 - Ile-Et-Vilaine'),'Dogs' => array('spaniel' => 'Spaniel')))}}
+            {{Form::select('localisation',array('Bretagne' => 'Bretagne', 'Corse' => 'Corse'), '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
         </div>
-        <div class="form-group" style="background-color: red">
-            {{Form::label('', 'photo')}}
+        <div class="form-group">
             {{Form::file('images')}}
         </div>
         <div class="form-group">
-            {{Form::label('', 'Product description')}}
-            {{Form::textarea('product_description', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
+            {{Form::textarea('product_description', '', ['placeholder'=>'Description', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
-            {{Form::label('', 'marque visée')}}
-            {{Form::textarea('marquesVisees', '', ['placehorder'=>'Description', 'class'=>'form-control'])}}
+            {{Form::text('marquesVisees', '', ['placeholder'=>'Marques visées', 'class'=>'form-control'])}}
         </div>
-        <div class="form-group" style="background-color: red">
-            {{Form::label('', 'Product Price')}}
-            {{Form::number('product_prix', '', ['placehorder'=>'Le budget', 'class'=>'form-control', 'style'=> 'background-color:gray'])}}
+        <div class="form-group">
+            {{Form::number('product_prix', '', ['placeholder'=>'Le budget', 'class'=>'form-control'])}}
         </div>
         <div class="button-submit-annonce">  
             {{Form::submit('AJOUTER', ['class'=>'btn btn-primary'])}} 
@@ -76,5 +69,6 @@
             <button class="btn besoin-d-aide-annonce"><a href="#">BESOIN D'AIDE ?</a></button>
         </div>
 
+    </div>
 @endauth   {{-- FIN de la vérification d'auth--}}
 @endsection

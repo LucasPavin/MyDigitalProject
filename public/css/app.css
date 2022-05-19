@@ -1816,6 +1816,22 @@ p {
   margin-top: 25px;
 }
 
+.container-deposer-annonce {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+  padding-top: 100px;
+  display: block;
+  text-align: center;
+}
+.container-deposer-annonce .form-group {
+  padding-bottom: 30px;
+}
+.container-deposer-annonce .form-group .form-control {
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 700px;
+  background-color: #F6F6F6;
+}
+
 .button-submit-annonce {
   text-align: center;
 }
@@ -1854,14 +1870,18 @@ p {
 }
 .container-consulter-annonce .container-recherche .g-navSearch {
   width: 700px;
-  border-radius: 5px 0px 0px 5px;
   background-color: #F6F6F6;
+  border-radius: 5px 0px 0px 5px;
   padding: 10px 15px;
 }
 .container-consulter-annonce .container-recherche .fa-magnifying-glass {
   color: #174AFC;
   background-color: #B6B9C3;
   padding: 10px;
+}
+.container-consulter-annonce .well {
+  -moz-columns: 6;
+       columns: 6;
 }
 
 .btn {
