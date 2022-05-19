@@ -140,7 +140,7 @@ class ProductController extends Controller
         $q = request()->input('q');
         $produits = Product::where('product_name','like',"%$q%")
                     ->orWhere('description','like', "%$q%")
-                    ->paginate(6);
+                    ->paginate(10);
         
         return view('product.recherche')->with('produits', $produits);
     }
