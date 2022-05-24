@@ -22,10 +22,10 @@
         @endguest
         @auth 
             <div class="auth-container-desktop">
-                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-comment"></i></a>
-                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-heart"></i></a>
-                <a class="acd-icone" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-grip"></i></a>
-                <a class="acd-icone" href="{{URL::to('/logout')}}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-comment" style="color: blue"></i></a>
+                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-heart" style="color: blue"></i></a>
+                <a class="acd-icone" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-grip" style="color:blue"></i></a>
+                <a class="acd-icone" href="{{URL::to('/logout')}}"><i class="fa-solid fa-arrow-right-from-bracket" style="color: blue"></i></a>
                 
             </div>
         @endauth

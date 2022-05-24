@@ -38,5 +38,8 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/scss/layouts/navbar.scss', 'public/css/layouts')
     .sass('resources/scss/layouts/footer.scss', 'public/css/layouts')
 
+    // Dashboard
+    .sass('resources/scss/dashboard/dashboard.scss', 'public/css/dashboard')
+
     .sass('resources/scss/auth/register.scss', 'public/css/auth')
     .sass('resources/scss/auth/login.scss', 'public/css/auth');

@@ -109,8 +109,25 @@
   margin-right: 50px;
 }
 .container .zone-white-container-home-2 {
-  height: 150vh;
+  height: 250vh;
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container .zone-white-container-home-2 .container-confiance {
+  padding-top: 300px;
+  text-align: center;
+}
+.container .zone-white-container-home-2 .container-confiance h2 {
+  font-weight: 400;
+  font-size: 60px;
+}
+.container .zone-white-container-home-2 .container-confiance .liste-confiance {
+  width: 1300px;
+  height: 200px;
+  background-color: #FB5C2D;
+}
+.container .zone-white-container-home-2 .container-confiance .liste-confiance .photo-Puma {
+  width: 200px;
+  height: 150px;
 }
 .container .zone-bleu-container-home-2 {
   height: 50vh;

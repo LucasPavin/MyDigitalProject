@@ -50,37 +50,84 @@
             background-color: #F6F6F6;
         }
     }
-}
-
-
-
-
-
-.button-submit-annonce {
+    .button-submit-annonce {
     
-    text-align: center;
-    .btn-primary{
-        font-weight: 600;
-        color: white;
-        cursor: pointer;
-        background-color: $couleur-principale;
-        padding: 15px 500px;
+        text-align: center;
+        .btn-primary{
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            background-color: $couleur-principale;
+            padding: 15px 325px;
+        }
+        .btn-primary:hover{
+            background-color: $couleur-secondaire;
+        }
+        .besoin-d-aide-annonce {
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            background-color: $couleur-secondaire;
+            padding: 15px 300px;
+        }
+        .besoin-d-aide-annonce:hover {
+            background-color: $couleur-principale;
+        }
     }
-    .btn-primary:hover{
-        background-color: $couleur-secondaire;
+    .button-besoin-aide-annonce{
+        text-align: center;
+        .besoin-d-aide-annonce {
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            background-color: $couleur-secondaire;
+            padding: 15px 300px;
+        }
+        .besoin-d-aide-annonce:hover {
+            background-color: $couleur-principale;
+        }
     }
 }
-.button-besoin-aide-annonce{
-    text-align: center;
-    .besoin-d-aide-annonce {
-        font-weight: 600;
-        color: white;
-        cursor: pointer;
-        background-color: $couleur-secondaire;
-        padding: 15px 475px;
-    }
-    .besoin-d-aide-annonce:hover {
-        background-color: $couleur-principale;
-    }
 
+@media screen and (max-width:759px) and (min-width:520px){
+    .container-deposer-annonce{
+    
+        .form-group{
+
+            .form-control{
+                width: 500px; 
+            }
+        }
+        .button-submit-annonce {
+
+            .btn-primary{
+                padding: 15px 210px;
+            }
+            .besoin-d-aide-annonce {
+                padding: 15px 185px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:519px) {
+    .container-deposer-annonce{
+    
+        .form-group{
+
+            .form-control{
+                width: 300px; 
+            }
+        }
+        .button-submit-annonce {
+
+            .btn-primary{
+                padding: 15px 110px;
+            }
+            .besoin-d-aide-annonce {
+                padding: 15px 85px;
+            }
+        }
+    }
+    
 }

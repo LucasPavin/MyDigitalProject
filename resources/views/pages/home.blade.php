@@ -21,7 +21,7 @@
                                 </div>
                         </div> 
                         <div class="zone-white-container-home-1">
-                                <h2>Les étapes pour se faire sponsoriser</h2>
+                                <h2>Les étapes pour se faire&nbsp;<span style="font-weight:700">sponsoriser</span></h2>
                         </div> 
                         <div class="zone-orange-bleu-container-home">
                                 <div class="zone-orange-home">
@@ -51,7 +51,12 @@
                         </div>
 
                         <div class="zone-white-container-home-2">
-                                <h2>Les étapes pour se faire sponsoriser</h2>
+                                <div class="container-confiance">
+                                        <h2>Ils nous ont fait confiance</h2>
+                                        <div class="liste-confiance">
+                                                <img src="/images/Puma-logo.png" class="photo-Puma">
+                                        </div>
+                                </div> 
                         </div> 
 
                         <div class="zone-bleu-container-home-2">

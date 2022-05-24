@@ -1,20 +1,37 @@
+@extends('layouts.app')
+
+@section('titre')
+
+        Sponski - Dashboard
+    
+@endsection
 
 @include('layouts.navbar-noir')
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
-                    <h2 style="text-align: center">Bonjour {{ Auth::user()->firstname}}</h2>
-                    Vous êtes connecté !
+@section('contenu')
+
+
+    <div class="container-dashboard">
+        <div class="texte-bienvenu-dashboard">
+            <h2>Bonjour {{ Auth::user()->firstname}}</h2>
+        </div>
+        <div class="publication-deposer-user">
+            @forelse (auth()->user()->products as $product)
+
+                <div class="publication">
+                    <a href="/annonce/{{$product->id}}">
+                        <img src="{{ $product->images}}" alt="">
+                        <h3 style="text-align: center">{{$product->product_name}}</h3>
+                    </a>
                 </div>
-            </div>
+                
+
+             @empty
+
+                <h3>Vous n'avez pas encore déposer d'annonce.</h3>
+
+            @endforelse
         </div>
     </div>
-</x-app-layout>
+
+@endsection

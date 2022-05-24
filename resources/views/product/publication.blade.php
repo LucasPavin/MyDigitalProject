@@ -31,4 +31,5 @@
         {{Form::submit('supprimer', ['class' => 'btn btn-danger' ])}}
     {!!Form::close()!!}
     @endauth
+    
 @endsection
