@@ -48,18 +48,24 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+        // $this->validate($request, ['product_name' => 'required',
+        //                            'categorie' => 'nullable',
+        //                            'localisation' => 'required',
+        //                            'images' => 'required',
+        //                            'marquesVisees' => 'required',
+        //                            'product_prix' => 'required',
+        //                            'product_description' => 'required',
+        //                           ]);
 
-        Storage::disk('local')->put('public/photos', $request->images);
-        die();
+        // $filename = time().'.'.$request->photos->extension();
 
-        $this->validate($request, ['product_name' => 'required',
-                                   'categorie' => 'nullable',
-                                   'localisation' => 'required',
-                                   'images' => 'required',
-                                   'marquesVisees' => 'required',
-                                   'product_prix' => 'required',
-                                   'product_description' => 'required',
-                                  ]);
+        // $request->file('photos')->storeAs(
+        //     'photos',
+        //     $filename,
+        //     'public',
+        // );
+        $fichierUpload = Storage::disk('public')->put('photos', $request->photos);
+        $url = Storage::url($fichierUpload);
 
 
         $produits = new Product();
@@ -67,7 +73,7 @@ class ProductController extends Controller
         $produits->product_name = $request->input('product_name');
         $produits->categorie = $request->input('categorie');
         $produits->localisation = $request->input('localisation');
-        $produits->images = $request->input('images');
+        $produits->images = asset($url);
         $produits->marquesVisees = $request->input('marquesVisees');
         $produits->product_prix = $request->input('product_prix');
         $produits->description = $request->input('product_description');

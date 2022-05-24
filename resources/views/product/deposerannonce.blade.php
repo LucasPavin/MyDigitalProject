@@ -38,7 +38,7 @@
     @endif
     <div class="container-deposer-annonce">
 
-        {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/from-data"])!!}
+        {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/form-data"])!!}
         {{csrf_field()}}
         <div class="form-group">
             {{Form::text('product_name', '', ['placeholder'=>'Titre de l\'annonce', 'class'=>'form-control'])}}
@@ -47,8 +47,26 @@
             {{Form::select('categorie', array('foot' => 'Foot', 'course_a_pied' => 'Course à pied'), '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
-            {{Form::select('localisation',array('Bretagne' => 'Bretagne', 'Corse' => 'Corse'), '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
+            {{Form::select('localisation',array(
+                'Auvergne-Rhône-Alpes' => 'Auvergne-Rhône-Alpes',
+                'Bourgogne-Franche-Comté' => 'Bourgogne-Franche-Comté', 
+                'Bretagne' => 'Bretagne',
+                'Centre-Val de Loire'=> 'Centre-Val de Loire', 
+                'Corse' => 'Corse',
+                'Grand Est' => 'Grand Est',
+                'Hauts-de-France' => 'Hauts-de-France',
+                'Île-de-France' => 'Île-de-France',
+                'Normandie' => 'Normandie',
+                'Nouvelle-Aquitaine' => 'Nouvelle-Aquitaine',
+                'Occitanie'=> 'Occitanie',
+                'Pays de la Loire' => 'Pays de la Loire',
+                'Provence-Alpes-Côte d\'Azur' => 'Provence-Alpes-Côte d\'Azur'),
+                
+                '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
         </div>
+        {{-- <div class="form-group">
+            <input type="file" class="block my-2" id="avatar" name="avatar">
+        </div> --}}
         <div class="form-group">
             {{Form::file('images', ["multiple"=>"''", "name"=>"photos"])}}
         </div> 
