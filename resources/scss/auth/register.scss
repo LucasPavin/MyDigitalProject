@@ -2,39 +2,51 @@
 @import '../components/boutons';
 @import '../components/mixins';
 
-.container-register{
+.container-register {
     background-image: url(./../../../public/pattern/pattern.svg);
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(236, 235, 235);
-
-    .registrer-img{
-        height: 45px;
-        width: auto;
-    }
-    .container-register-connexion-creeCompte{
-        font-size: 26px;
-        margin-top: 45px;
-        .register-connexion-span{
-            background-color: $couleur-principale;
-            color: white;
-            border-radius: 10px 0px 0px 0px;
-            padding: 15px 24px;
-        }
-        .register-connexion-span:hover{
-            background-color: $couleur-secondaire;
-            color: white;
-        }
-        .register-creerCompte-span{
-            background-color: white;
-            border-radius: 0px 10px 0px 0px;
-            padding: 15px 24px;
+    .bouton-retour-register {
+        button {
+            font-weight: 600;
+            color: $couleur-principale;
+            padding-left: 30px;
+            margin-top: 30px;
+            i {
+                padding-right: 5px;
+            }
         }
     }
-    .container-register-form{
+    .container-register-logo{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .registrer-img{
+            height: 45px;
+            width: auto;
+        }
+        .container-register-connexion-creeCompte{
+            font-size: 26px;
+            margin-top: 45px;
+            .register-connexion-span{
+                background-color: $couleur-principale;
+                color: white;
+                border-radius: 10px 0px 0px 0px;
+                padding: 15px 24px;
+            }
+            .register-connexion-span:hover{
+                background-color: $couleur-secondaire;
+                color: white;
+            }
+            .register-creerCompte-span{
+                background-color: white;
+                border-radius: 0px 10px 0px 0px;
+                padding: 15px 24px;
+            }
+        }
+        .container-register-form{
         background-color: white;
         margin-top: 10px;
         border-radius: 0 0 5px 5px;
@@ -148,7 +160,11 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
     }
+    }
 }
+    
+    
+
     
 
 @media screen and (min-width:336px) and (max-width:410px) {

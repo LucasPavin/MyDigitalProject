@@ -24,17 +24,18 @@
 .container-consulter-annonce .annonce {
   padding-top: 30px;
   padding: 50px 100px;
-  display: flex;
+  display: grid;
+  align-self: center;
+  align-content: center;
+  grid-template-columns: repeat(2, 1fr);
   flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-}
-.container-consulter-annonce .annonce .fa-quote-left {
-  color: #FB5C2D;
-  font-size: 50px;
+  grid-gap: 2rem;
 }
 .container-consulter-annonce .annonce .pl-list {
+  display: block;
   width: 45%;
-  padding-right: 100px;
+}
+.container-consulter-annonce .annonce .pl-list .fa-quote-left {
+  color: #FB5C2D;
+  font-size: 50px;
 }

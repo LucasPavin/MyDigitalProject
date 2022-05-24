@@ -55,130 +55,141 @@
 
 .container-register {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+  background-color: #ecebeb;
+}
+.container-register .bouton-retour-register button {
+  font-weight: 600;
+  color: #174AFC;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.container-register .bouton-retour-register button i {
+  padding-right: 5px;
+}
+.container-register .container-register-logo {
   height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ecebeb;
 }
-.container-register .registrer-img {
+.container-register .container-register-logo .registrer-img {
   height: 45px;
   width: auto;
 }
-.container-register .container-register-connexion-creeCompte {
+.container-register .container-register-logo .container-register-connexion-creeCompte {
   font-size: 26px;
   margin-top: 45px;
 }
-.container-register .container-register-connexion-creeCompte .register-connexion-span {
+.container-register .container-register-logo .container-register-connexion-creeCompte .register-connexion-span {
   background-color: #174AFC;
   color: white;
   border-radius: 10px 0px 0px 0px;
   padding: 15px 24px;
 }
-.container-register .container-register-connexion-creeCompte .register-connexion-span:hover {
+.container-register .container-register-logo .container-register-connexion-creeCompte .register-connexion-span:hover {
   background-color: #FB5C2D;
   color: white;
 }
-.container-register .container-register-connexion-creeCompte .register-creerCompte-span {
+.container-register .container-register-logo .container-register-connexion-creeCompte .register-creerCompte-span {
   background-color: white;
   border-radius: 0px 10px 0px 0px;
   padding: 15px 24px;
 }
-.container-register .container-register-form {
+.container-register .container-register-logo .container-register-form {
   background-color: white;
   margin-top: 10px;
   border-radius: 0 0 5px 5px;
   padding: 30px 51px;
 }
-.container-register .container-register-form .container-register-firstname {
+.container-register .container-register-logo .container-register-form .container-register-firstname {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-firstname .register-firstname-input {
+.container-register .container-register-logo .container-register-form .container-register-firstname .register-firstname-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-register .container-register-form .container-register-nom {
+.container-register .container-register-logo .container-register-form .container-register-nom {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-nom .register-nom-input {
+.container-register .container-register-logo .container-register-form .container-register-nom .register-nom-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-register .container-register-form .container-register-email {
+.container-register .container-register-logo .container-register-form .container-register-email {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-email .register-email-input {
+.container-register .container-register-logo .container-register-form .container-register-email .register-email-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-register .container-register-form .container-register-mdp {
+.container-register .container-register-logo .container-register-form .container-register-mdp {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-mdp .register-mdp-input {
+.container-register .container-register-logo .container-register-form .container-register-mdp .register-mdp-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-register .container-register-form .container-register-mdp-confirm {
+.container-register .container-register-logo .container-register-form .container-register-mdp-confirm {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-mdp-confirm .register-mdp-confirm-input {
+.container-register .container-register-logo .container-register-form .container-register-mdp-confirm .register-mdp-confirm-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-register .container-register-form .container-register-dateOfBirth {
+.container-register .container-register-logo .container-register-form .container-register-dateOfBirth {
   margin-top: 25px;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-dateOfBirth .register-dateOfBirth-input {
+.container-register .container-register-logo .container-register-form .container-register-dateOfBirth .register-dateOfBirth-input {
   height: 30px;
   width: 300px;
   border-radius: 5px;
   background-color: #ecebeb;
 }
-.container-register .container-register-form .container-register-status {
+.container-register .container-register-logo .container-register-form .container-register-status {
   margin-top: 25px;
   text-align: center;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-status hr {
+.container-register .container-register-logo .container-register-form .container-register-status hr {
   margin-bottom: 5px;
   background: black;
 }
-.container-register .container-register-form .container-register-status .register-status-input {
+.container-register .container-register-logo .container-register-form .container-register-status .register-status-input {
   margin-top: 5px;
 }
-.container-register .container-register-form .container-register-chooseStatus {
+.container-register .container-register-logo .container-register-form .container-register-chooseStatus {
   margin-top: 5px;
   text-align: center;
   font-weight: 700;
 }
-.container-register .container-register-form .container-register-chooseStatus hr {
+.container-register .container-register-logo .container-register-form .container-register-chooseStatus hr {
   margin-bottom: 25px;
   background: black;
 }
-.container-register .container-register-form .container-register-chooseStatus .register-chooseStatus-input {
+.container-register .container-register-logo .container-register-form .container-register-chooseStatus .register-chooseStatus-input {
   margin-top: 5px;
 }
-.container-register .container-register-form .register-errors {
+.container-register .container-register-logo .container-register-form .register-errors {
   margin-top: 30px;
 }
-.container-register .container-register-form .register-button-rejoindre {
+.container-register .container-register-logo .container-register-form .register-button-rejoindre {
   margin-top: 60px;
   border-radius: 5px;
   font-size: 20px;
@@ -188,7 +199,7 @@
   height: 35px;
   width: 300px;
 }
-.container-register .container-register-form .register-button-rejoindre:hover {
+.container-register .container-register-logo .container-register-form .register-button-rejoindre:hover {
   background-color: #FB5C2D;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }

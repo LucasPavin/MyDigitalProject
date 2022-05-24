@@ -18,7 +18,7 @@ class ProductController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth')->except(['show','index']);
+        $this->middleware('auth')->except(['show']);
     }
 
 
@@ -48,14 +48,13 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        // $this->validate($request, ['product_name' => 'required',
-        //                            'categorie' => 'nullable',
-        //                            'localisation' => 'required',
-        //                            'images' => 'required',
-        //                            'marquesVisees' => 'required',
-        //                            'product_prix' => 'required',
-        //                            'product_description' => 'required',
-        //                           ]);
+        $this->validate($request, ['product_name' => 'required',
+                                   'categorie' => 'nullable',
+                                   'localisation' => 'required',
+                                   'marquesVisees' => 'required',
+                                   'product_prix' => 'required',
+                                   'product_description' => 'required',
+                                  ]);
 
         // $filename = time().'.'.$request->photos->extension();
 
