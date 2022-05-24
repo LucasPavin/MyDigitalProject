@@ -11,11 +11,13 @@
         display: flex;
 
             &:nth-of-type(odd){
+            background-image: url(./../../../public/pattern/pattern.svg);
             background-color: $couleur-principale;
             color: $blanc;
         }
 
             &:nth-of-type(even){
+            background-image: url(./../../../public/pattern/pattern.svg);
             color: $couleur-principale;
             flex-direction: row-reverse;
 
@@ -48,6 +50,7 @@
     }
 
     .container_logo{
+        background-image: url(./../../../public/pattern/pattern.svg);
         .logo_ki{
             img{
 

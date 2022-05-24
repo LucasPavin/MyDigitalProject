@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\DB;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
 {
@@ -21,7 +24,7 @@ class ProductController extends Controller
 
     public function index()
     {
-        $produits = Product::orderBy('product_name', 'desc')->paginate(10);
+        $produits = Product::orderBy('product_name', 'desc')->paginate(15);
 
         return view('product.consulterannonce')->with('produits',$produits);
 
@@ -45,6 +48,10 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+
+        Storage::disk('local')->put('public/photos', $request->images);
+        die();
+
         $this->validate($request, ['product_name' => 'required',
                                    'categorie' => 'nullable',
                                    'localisation' => 'required',
@@ -54,8 +61,6 @@ class ProductController extends Controller
                                    'product_description' => 'required',
                                   ]);
 
-        //  Ajout des champs dans la BDD 
-        //  ELOQUENT PHP
 
         $produits = new Product();
 
@@ -66,6 +71,7 @@ class ProductController extends Controller
         $produits->marquesVisees = $request->input('marquesVisees');
         $produits->product_prix = $request->input('product_prix');
         $produits->description = $request->input('product_description');
+        $produits->user_id = Auth::id();
 
         $produits->save();
 
@@ -140,8 +146,40 @@ class ProductController extends Controller
         $q = request()->input('q');
         $produits = Product::where('product_name','like',"%$q%")
                     ->orWhere('description','like', "%$q%")
-                    ->paginate(10);
+                    ->orWhere('localisation','like', "%$q%")
+                    ->paginate(15);
         
         return view('product.recherche')->with('produits', $produits);
     }
+
+    public function filtrer(Request $request) {
+
+        $localisations = Product::table('products')->select('localisation')->distinct()->get()->pluck('localisation');
+    //     $categories = Product::table('products')->select('categorie')->distinct()->get()->pluck('categorie');
+    //     $prixAnnonce = Product::table('products')->select('product_prix')->distinct()->get()->pluck('product_prix');
+        
+        dd($localisations);
+        
+        // $post = Product::query();
+
+        // if($request->filled('localisation')){
+        //     $post->where('localisation', $request->localisation);
+        // }
+        // if($request->filled('categorie')){
+        //     $post->where('categorie', $request->categorie);
+        // }
+        // if($request->filled('product_prix')){
+        //     $post->where('product_prix', $request->product_prix);
+        // }
+        // return view('product.consulterannonce', [
+        //     'localisations' => $localisations,
+        //     'categories' => $categories,
+        //     'prixAnnonce' => $prixAnnonce,
+        //     'posts' => $post->get(),
+        // ]);
+    //  }
+    // public function save(Request $request){
+    //     return $request->all();
+    //     return view('product.consulterannonce');
+    } 
 }

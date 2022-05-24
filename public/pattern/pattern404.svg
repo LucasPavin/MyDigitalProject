@@ -7,239 +7,406 @@
       <rect id="Rectangle_120" data-name="Rectangle 120" width="160" height="160" transform="translate(0 160) rotate(-90)" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-3">
-      <rect id="Rectangle_121" data-name="Rectangle 121" width="160" height="160" transform="translate(159.999 0) rotate(90)" fill="none"/>
+      <rect id="Rectangle_121" data-name="Rectangle 121" width="160" height="160" transform="translate(159.999 0) rotate(90)" fill="#fb5c2d" stroke="rgba(0,0,0,0)" stroke-width="1"/>
     </clipPath>
     <clipPath id="clip-path-4">
-      <rect id="Rectangle_122" data-name="Rectangle 122" width="160" height="160" transform="translate(160.001 0) rotate(90)" fill="none"/>
+      <rect id="Rectangle_123" data-name="Rectangle 123" width="160" height="160" transform="translate(160.001 0) rotate(90)" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-6">
+    <clipPath id="clip-path-5">
       <rect id="Rectangle_124" data-name="Rectangle 124" width="160" height="160" transform="translate(160 0.001) rotate(90)" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-7">
+    <clipPath id="clip-path-6">
       <rect id="Rectangle_125" data-name="Rectangle 125" width="160" height="160" transform="translate(160.001 0.001) rotate(90)" fill="none"/>
     </clipPath>
+    <clipPath id="clip-path-10">
+      <rect id="Rectangle_121-2" data-name="Rectangle 121" width="160" height="160" transform="translate(159.999 0) rotate(90)" fill="none"/>
+    </clipPath>
   </defs>
-  <g id="pattern" transform="translate(0.001)" opacity="0.044">
-    <g id="Groupe_60" data-name="Groupe 60" transform="translate(320 1119.999)">
-      <g id="Groupe_59" data-name="Groupe 59" clip-path="url(#clip-path)">
-        <g id="Groupe_58" data-name="Groupe 58" transform="translate(-73.054 -73.587)">
-          <line id="Ligne_121" data-name="Ligne 121" x1="161.363" y2="161.363" transform="translate(12.062 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_122" data-name="Ligne 122" x1="161.363" y2="161.363" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_123" data-name="Ligne 123" x1="161.363" y2="161.363" transform="translate(24.124 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_124" data-name="Ligne 124" x1="161.363" y2="161.363" transform="translate(36.186 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_125" data-name="Ligne 125" x1="161.363" y2="161.363" transform="translate(48.248 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_126" data-name="Ligne 126" x1="161.363" y2="161.363" transform="translate(60.31 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_127" data-name="Ligne 127" x1="161.363" y2="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_128" data-name="Ligne 128" x1="161.363" y2="161.363" transform="translate(84.434 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_129" data-name="Ligne 129" x1="161.363" y2="161.363" transform="translate(96.496 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_130" data-name="Ligne 130" x1="161.363" y2="161.363" transform="translate(108.558 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_131" data-name="Ligne 131" x1="161.363" y2="161.363" transform="translate(120.62 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_132" data-name="Ligne 132" x1="161.363" y2="161.363" transform="translate(132.682 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_133" data-name="Ligne 133" x1="161.363" y2="161.363" transform="translate(144.744 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+  <g id="BG" transform="translate(0.001)">
+    <rect id="Rectangle_176" data-name="Rectangle 176" width="1920" height="1080" fill="#1649fc"/>
+    <g id="pattern">
+      <g id="Groupe_60" data-name="Groupe 60" transform="translate(320 1119.999)">
+        <g id="Groupe_59" data-name="Groupe 59" clip-path="url(#clip-path)">
+          <g id="Groupe_58" data-name="Groupe 58" transform="translate(-73.054 -73.587)">
+            <line id="Ligne_121" data-name="Ligne 121" x1="161.363" y2="161.363" transform="translate(12.062 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_122" data-name="Ligne 122" x1="161.363" y2="161.363" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_123" data-name="Ligne 123" x1="161.363" y2="161.363" transform="translate(24.124 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_124" data-name="Ligne 124" x1="161.363" y2="161.363" transform="translate(36.186 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_125" data-name="Ligne 125" x1="161.363" y2="161.363" transform="translate(48.248 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_126" data-name="Ligne 126" x1="161.363" y2="161.363" transform="translate(60.31 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_127" data-name="Ligne 127" x1="161.363" y2="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_128" data-name="Ligne 128" x1="161.363" y2="161.363" transform="translate(84.434 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_129" data-name="Ligne 129" x1="161.363" y2="161.363" transform="translate(96.496 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_130" data-name="Ligne 130" x1="161.363" y2="161.363" transform="translate(108.558 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_131" data-name="Ligne 131" x1="161.363" y2="161.363" transform="translate(120.62 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_132" data-name="Ligne 132" x1="161.363" y2="161.363" transform="translate(132.682 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_133" data-name="Ligne 133" x1="161.363" y2="161.363" transform="translate(144.744 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
-    </g>
-    <g id="Groupe_63" data-name="Groupe 63" transform="translate(160 640)">
-      <g id="Groupe_62" data-name="Groupe 62" clip-path="url(#clip-path-2)">
-        <g id="Groupe_61" data-name="Groupe 61" transform="translate(-73.587 -73.054)">
-          <line id="Ligne_134" data-name="Ligne 134" x2="161.363" y2="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_135" data-name="Ligne 135" x2="161.363" y2="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_136" data-name="Ligne 136" x2="161.363" y2="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_137" data-name="Ligne 137" x2="161.363" y2="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_138" data-name="Ligne 138" x2="161.363" y2="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_139" data-name="Ligne 139" x2="161.363" y2="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_140" data-name="Ligne 140" x2="161.363" y2="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_141" data-name="Ligne 141" x2="161.363" y2="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_142" data-name="Ligne 142" x2="161.363" y2="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_143" data-name="Ligne 143" x2="161.363" y2="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_144" data-name="Ligne 144" x2="161.363" y2="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_145" data-name="Ligne 145" x2="161.363" y2="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_146" data-name="Ligne 146" x2="161.363" y2="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Groupe_63" data-name="Groupe 63" transform="translate(160 640)">
+        <g id="Groupe_62" data-name="Groupe 62" clip-path="url(#clip-path-2)">
+          <g id="Groupe_61" data-name="Groupe 61" transform="translate(-73.587 -73.054)">
+            <line id="Ligne_134" data-name="Ligne 134" x2="161.363" y2="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_135" data-name="Ligne 135" x2="161.363" y2="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_136" data-name="Ligne 136" x2="161.363" y2="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_137" data-name="Ligne 137" x2="161.363" y2="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_138" data-name="Ligne 138" x2="161.363" y2="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_139" data-name="Ligne 139" x2="161.363" y2="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_140" data-name="Ligne 140" x2="161.363" y2="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_141" data-name="Ligne 141" x2="161.363" y2="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_142" data-name="Ligne 142" x2="161.363" y2="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_143" data-name="Ligne 143" x2="161.363" y2="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_144" data-name="Ligne 144" x2="161.363" y2="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_145" data-name="Ligne 145" x2="161.363" y2="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_146" data-name="Ligne 146" x2="161.363" y2="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
-    </g>
-    <g id="Groupe_66" data-name="Groupe 66" transform="translate(640.001 160)">
-      <g id="Groupe_65" data-name="Groupe 65" clip-path="url(#clip-path-3)">
-        <g id="Groupe_64" data-name="Groupe 64" transform="translate(-72.52 -73.054)">
-          <line id="Ligne_147" data-name="Ligne 147" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_148" data-name="Ligne 148" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_149" data-name="Ligne 149" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_150" data-name="Ligne 150" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_151" data-name="Ligne 151" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_152" data-name="Ligne 152" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_153" data-name="Ligne 153" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_154" data-name="Ligne 154" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_155" data-name="Ligne 155" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_156" data-name="Ligne 156" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_157" data-name="Ligne 157" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_158" data-name="Ligne 158" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_159" data-name="Ligne 159" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Groupe_66" data-name="Groupe 66" transform="translate(640.001 160)">
+        <g id="Groupe_65" data-name="Groupe 65" clip-path="url(#clip-path-3)">
+          <g id="Groupe_64" data-name="Groupe 64" transform="translate(-72.52 -73.054)">
+            <line id="Ligne_147" data-name="Ligne 147" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_148" data-name="Ligne 148" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_149" data-name="Ligne 149" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_150" data-name="Ligne 150" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_151" data-name="Ligne 151" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_152" data-name="Ligne 152" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_153" data-name="Ligne 153" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_154" data-name="Ligne 154" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_155" data-name="Ligne 155" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_156" data-name="Ligne 156" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_157" data-name="Ligne 157" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_158" data-name="Ligne 158" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_159" data-name="Ligne 159" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
-    </g>
-    <g id="Groupe_69" data-name="Groupe 69" transform="translate(1280 320)">
-      <g id="Groupe_68" data-name="Groupe 68" clip-path="url(#clip-path-4)">
-        <g id="Groupe_67" data-name="Groupe 67" transform="translate(-72.52 -73.053)">
-          <line id="Ligne_160" data-name="Ligne 160" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_161" data-name="Ligne 161" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_162" data-name="Ligne 162" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_163" data-name="Ligne 163" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_164" data-name="Ligne 164" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_165" data-name="Ligne 165" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_166" data-name="Ligne 166" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_167" data-name="Ligne 167" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_168" data-name="Ligne 168" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_169" data-name="Ligne 169" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_170" data-name="Ligne 170" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_171" data-name="Ligne 171" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_172" data-name="Ligne 172" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Groupe_72" data-name="Groupe 72" transform="translate(1600 160)">
+        <g id="Groupe_71" data-name="Groupe 71" clip-path="url(#clip-path-4)">
+          <g id="Groupe_70" data-name="Groupe 70" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_173" data-name="Ligne 173" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_174" data-name="Ligne 174" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_175" data-name="Ligne 175" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_176" data-name="Ligne 176" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_177" data-name="Ligne 177" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_178" data-name="Ligne 178" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_179" data-name="Ligne 179" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_180" data-name="Ligne 180" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_181" data-name="Ligne 181" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_182" data-name="Ligne 182" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_183" data-name="Ligne 183" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_184" data-name="Ligne 184" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_185" data-name="Ligne 185" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
-    </g>
-    <g id="Groupe_72" data-name="Groupe 72" transform="translate(1600 160)">
-      <g id="Groupe_71" data-name="Groupe 71" clip-path="url(#clip-path-4)">
-        <g id="Groupe_70" data-name="Groupe 70" transform="translate(-72.52 -73.053)">
-          <line id="Ligne_173" data-name="Ligne 173" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_174" data-name="Ligne 174" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_175" data-name="Ligne 175" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_176" data-name="Ligne 176" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_177" data-name="Ligne 177" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_178" data-name="Ligne 178" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_179" data-name="Ligne 179" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_180" data-name="Ligne 180" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_181" data-name="Ligne 181" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_182" data-name="Ligne 182" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_183" data-name="Ligne 183" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_184" data-name="Ligne 184" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_185" data-name="Ligne 185" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Groupe_75" data-name="Groupe 75" transform="translate(960 1119.999)">
+        <g id="Groupe_74" data-name="Groupe 74" clip-path="url(#clip-path-5)">
+          <g id="Groupe_73" data-name="Groupe 73" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_186" data-name="Ligne 186" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_187" data-name="Ligne 187" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_188" data-name="Ligne 188" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_189" data-name="Ligne 189" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_190" data-name="Ligne 190" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_191" data-name="Ligne 191" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_192" data-name="Ligne 192" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_193" data-name="Ligne 193" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_194" data-name="Ligne 194" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_195" data-name="Ligne 195" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_196" data-name="Ligne 196" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_197" data-name="Ligne 197" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_198" data-name="Ligne 198" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
-    </g>
-    <g id="Groupe_75" data-name="Groupe 75" transform="translate(960 1119.999)">
-      <g id="Groupe_74" data-name="Groupe 74" clip-path="url(#clip-path-6)">
-        <g id="Groupe_73" data-name="Groupe 73" transform="translate(-72.52 -73.053)">
-          <line id="Ligne_186" data-name="Ligne 186" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_187" data-name="Ligne 187" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_188" data-name="Ligne 188" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_189" data-name="Ligne 189" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_190" data-name="Ligne 190" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_191" data-name="Ligne 191" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_192" data-name="Ligne 192" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_193" data-name="Ligne 193" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_194" data-name="Ligne 194" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_195" data-name="Ligne 195" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_196" data-name="Ligne 196" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_197" data-name="Ligne 197" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_198" data-name="Ligne 198" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Groupe_78" data-name="Groupe 78" transform="translate(1599.999 640)">
+        <g id="Groupe_77" data-name="Groupe 77" clip-path="url(#clip-path-6)">
+          <g id="Groupe_76" data-name="Groupe 76" transform="translate(-72.52 -73.054)">
+            <line id="Ligne_199" data-name="Ligne 199" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_200" data-name="Ligne 200" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_201" data-name="Ligne 201" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_202" data-name="Ligne 202" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_203" data-name="Ligne 203" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_204" data-name="Ligne 204" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_205" data-name="Ligne 205" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_206" data-name="Ligne 206" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_207" data-name="Ligne 207" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_208" data-name="Ligne 208" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_209" data-name="Ligne 209" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_210" data-name="Ligne 210" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_211" data-name="Ligne 211" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
-    </g>
-    <g id="Groupe_78" data-name="Groupe 78" transform="translate(1599.999 640)">
-      <g id="Groupe_77" data-name="Groupe 77" clip-path="url(#clip-path-7)">
-        <g id="Groupe_76" data-name="Groupe 76" transform="translate(-72.52 -73.054)">
-          <line id="Ligne_199" data-name="Ligne 199" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_200" data-name="Ligne 200" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_201" data-name="Ligne 201" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_202" data-name="Ligne 202" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_203" data-name="Ligne 203" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_204" data-name="Ligne 204" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_205" data-name="Ligne 205" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_206" data-name="Ligne 206" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_207" data-name="Ligne 207" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_208" data-name="Ligne 208" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_209" data-name="Ligne 209" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_210" data-name="Ligne 210" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_211" data-name="Ligne 211" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Groupe_81" data-name="Groupe 81" transform="translate(640 959.999)">
+        <g id="Groupe_80" data-name="Groupe 80" clip-path="url(#clip-path-4)">
+          <g id="Groupe_79" data-name="Groupe 79" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_212" data-name="Ligne 212" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_213" data-name="Ligne 213" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_214" data-name="Ligne 214" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_215" data-name="Ligne 215" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_216" data-name="Ligne 216" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_217" data-name="Ligne 217" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_218" data-name="Ligne 218" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_219" data-name="Ligne 219" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_220" data-name="Ligne 220" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_221" data-name="Ligne 221" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_222" data-name="Ligne 222" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_223" data-name="Ligne 223" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_224" data-name="Ligne 224" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
+      <rect id="Rectangle_127" data-name="Rectangle 127" width="160" height="160" transform="translate(160 1280) rotate(180)" fill="#f2f2f2"/>
+      <rect id="Rectangle_136" data-name="Rectangle 136" width="160" height="160" transform="translate(1600 480) rotate(-90)" fill="#f2f2f2"/>
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="160" height="160" transform="translate(320 1120) rotate(-90)" fill="#fb5c2d"/>
+      <rect id="Rectangle_141" data-name="Rectangle 141" width="160" height="160" transform="translate(160 320) rotate(-90)" fill="#fb5c2d"/>
+      <rect id="Rectangle_145" data-name="Rectangle 145" width="160" height="160" transform="translate(1440 800) rotate(-90)" fill="#fb5c2d"/>
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="160" height="160" transform="translate(640 1280) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_148" data-name="Rectangle 148" width="160" height="160" transform="translate(1280 1280) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_150" data-name="Rectangle 150" width="160" height="160" transform="translate(1440 1120) rotate(-90)" fill="#fb5c2d"/>
+      <rect id="Rectangle_151" data-name="Rectangle 151" width="160" height="160" transform="translate(1600 1280) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_155" data-name="Rectangle 155" width="160" height="160" transform="translate(0 320)" fill="#f2f2f2"/>
+      <path id="Tracé_198" data-name="Tracé 198" d="M800,300v0Z" transform="translate(480 180)" fill="#f2f2f2"/>
+      <path id="Tracé_200" data-name="Tracé 200" d="M500,700H660V860Z" transform="translate(300 420)" fill="#949ba6"/>
+      <path id="Tracé_202" data-name="Tracé 202" d="M1260,660h0V500L1100,660h0V820h160Z" transform="translate(660 300)" fill="#fff"/>
+      <rect id="Rectangle_156" data-name="Rectangle 156" width="160" height="160" transform="translate(0 800)" fill="#fb5c2d"/>
+      <path id="Tracé_205" data-name="Tracé 205" d="M420,500a160,160,0,1,1-320,0Z" transform="translate(60 300)" fill="#fff"/>
+      <path id="Tracé_206" data-name="Tracé 206" d="M1320,0a160,160,0,0,1-160,160A160,160,0,0,1,1000,0Z" transform="translate(600 0)" fill="#fb5c2d"/>
+      <path id="Tracé_208" data-name="Tracé 208" d="M760,320A160,160,0,0,1,760,0Z" transform="translate(360 0)" fill="#fb5c2d"/>
+      <path id="Tracé_211" data-name="Tracé 211" d="M920,500a160,160,0,1,1-320,0Z" transform="translate(360 300)" fill="#fff" opacity="0"/>
+      <path id="Tracé_214" data-name="Tracé 214" d="M260,700V860H100Z" transform="translate(60 420)" fill="#656a73"/>
+      <rect id="Rectangle_157" data-name="Rectangle 157" width="160" height="160" transform="translate(480 1280) rotate(-90)" fill="#f2f2f2"/>
+      <path id="Tracé_219" data-name="Tracé 219" d="M1060,260H900V100Z" transform="translate(540 60)" fill="#fb5c2d"/>
+      <path id="Tracé_220" data-name="Tracé 220" d="M360,200A160,160,0,0,0,200,360H360Z" transform="translate(120.001 120)" fill="#fb5c2d"/>
+      <path id="Tracé_224" data-name="Tracé 224" d="M800,160A160,160,0,0,0,960,0H800Z" transform="translate(480 0)" fill="#fff"/>
+      <path id="Tracé_228" data-name="Tracé 228" d="M900,860a160,160,0,0,0,160-160H900Z" transform="translate(540 420)" fill="#949ba6"/>
+      <path id="Tracé_230" data-name="Tracé 230" d="M1100,700a160,160,0,0,0,160,160V700Z" transform="translate(660 420)" fill="#d2d4d9"/>
+      <path id="Tracé_231" data-name="Tracé 231" d="M460,0A160,160,0,0,0,300,160H460Z" transform="translate(180 0)" fill="#fb5c2d"/>
     </g>
-    <g id="Groupe_81" data-name="Groupe 81" transform="translate(640 959.999)">
-      <g id="Groupe_80" data-name="Groupe 80" clip-path="url(#clip-path-4)">
-        <g id="Groupe_79" data-name="Groupe 79" transform="translate(-72.52 -73.053)">
-          <line id="Ligne_212" data-name="Ligne 212" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_213" data-name="Ligne 213" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_214" data-name="Ligne 214" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_215" data-name="Ligne 215" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_216" data-name="Ligne 216" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_217" data-name="Ligne 217" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_218" data-name="Ligne 218" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_219" data-name="Ligne 219" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_220" data-name="Ligne 220" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_221" data-name="Ligne 221" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_222" data-name="Ligne 222" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_223" data-name="Ligne 223" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
-          <line id="Ligne_224" data-name="Ligne 224" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="pattern-2" data-name="pattern" opacity="0.044">
+      <g id="Groupe_60-2" data-name="Groupe 60" transform="translate(320 1119.999)">
+        <g id="Groupe_59-2" data-name="Groupe 59" clip-path="url(#clip-path)">
+          <g id="Groupe_58-2" data-name="Groupe 58" transform="translate(-73.054 -73.587)">
+            <line id="Ligne_121-2" data-name="Ligne 121" x1="161.363" y2="161.363" transform="translate(12.062 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_122-2" data-name="Ligne 122" x1="161.363" y2="161.363" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_123-2" data-name="Ligne 123" x1="161.363" y2="161.363" transform="translate(24.124 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_124-2" data-name="Ligne 124" x1="161.363" y2="161.363" transform="translate(36.186 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_125-2" data-name="Ligne 125" x1="161.363" y2="161.363" transform="translate(48.248 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_126-2" data-name="Ligne 126" x1="161.363" y2="161.363" transform="translate(60.31 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_127-2" data-name="Ligne 127" x1="161.363" y2="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_128-2" data-name="Ligne 128" x1="161.363" y2="161.363" transform="translate(84.434 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_129-2" data-name="Ligne 129" x1="161.363" y2="161.363" transform="translate(96.496 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_130-2" data-name="Ligne 130" x1="161.363" y2="161.363" transform="translate(108.558 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_131-2" data-name="Ligne 131" x1="161.363" y2="161.363" transform="translate(120.62 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_132-2" data-name="Ligne 132" x1="161.363" y2="161.363" transform="translate(132.682 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_133-2" data-name="Ligne 133" x1="161.363" y2="161.363" transform="translate(144.744 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
         </g>
       </g>
+      <g id="Groupe_63-2" data-name="Groupe 63" transform="translate(160 640)">
+        <g id="Groupe_62-2" data-name="Groupe 62" clip-path="url(#clip-path-2)">
+          <g id="Groupe_61-2" data-name="Groupe 61" transform="translate(-73.587 -73.054)">
+            <line id="Ligne_134-2" data-name="Ligne 134" x2="161.363" y2="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_135-2" data-name="Ligne 135" x2="161.363" y2="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_136-2" data-name="Ligne 136" x2="161.363" y2="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_137-2" data-name="Ligne 137" x2="161.363" y2="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_138-2" data-name="Ligne 138" x2="161.363" y2="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_139-2" data-name="Ligne 139" x2="161.363" y2="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_140-2" data-name="Ligne 140" x2="161.363" y2="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_141-2" data-name="Ligne 141" x2="161.363" y2="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_142-2" data-name="Ligne 142" x2="161.363" y2="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_143-2" data-name="Ligne 143" x2="161.363" y2="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_144-2" data-name="Ligne 144" x2="161.363" y2="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_145-2" data-name="Ligne 145" x2="161.363" y2="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_146-2" data-name="Ligne 146" x2="161.363" y2="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_66-2" data-name="Groupe 66" transform="translate(640.001 160)">
+        <g id="Groupe_65-2" data-name="Groupe 65" clip-path="url(#clip-path-10)">
+          <g id="Groupe_64-2" data-name="Groupe 64" transform="translate(-72.52 -73.054)">
+            <line id="Ligne_147-2" data-name="Ligne 147" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_148-2" data-name="Ligne 148" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_149-2" data-name="Ligne 149" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_150-2" data-name="Ligne 150" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_151-2" data-name="Ligne 151" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_152-2" data-name="Ligne 152" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_153-2" data-name="Ligne 153" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_154-2" data-name="Ligne 154" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_155-2" data-name="Ligne 155" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_156-2" data-name="Ligne 156" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_157-2" data-name="Ligne 157" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_158-2" data-name="Ligne 158" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_159-2" data-name="Ligne 159" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_69" data-name="Groupe 69" transform="translate(1280 320)">
+        <g id="Groupe_68" data-name="Groupe 68" clip-path="url(#clip-path-4)">
+          <g id="Groupe_67" data-name="Groupe 67" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_160" data-name="Ligne 160" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_161" data-name="Ligne 161" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_162" data-name="Ligne 162" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_163" data-name="Ligne 163" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_164" data-name="Ligne 164" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_165" data-name="Ligne 165" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_166" data-name="Ligne 166" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_167" data-name="Ligne 167" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_168" data-name="Ligne 168" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_169" data-name="Ligne 169" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_170" data-name="Ligne 170" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_171" data-name="Ligne 171" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_172" data-name="Ligne 172" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_72-2" data-name="Groupe 72" transform="translate(1600 160)">
+        <g id="Groupe_71-2" data-name="Groupe 71" clip-path="url(#clip-path-4)">
+          <g id="Groupe_70-2" data-name="Groupe 70" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_173-2" data-name="Ligne 173" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_174-2" data-name="Ligne 174" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_175-2" data-name="Ligne 175" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_176-2" data-name="Ligne 176" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_177-2" data-name="Ligne 177" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_178-2" data-name="Ligne 178" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_179-2" data-name="Ligne 179" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_180-2" data-name="Ligne 180" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_181-2" data-name="Ligne 181" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_182-2" data-name="Ligne 182" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_183-2" data-name="Ligne 183" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_184-2" data-name="Ligne 184" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_185-2" data-name="Ligne 185" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_75-2" data-name="Groupe 75" transform="translate(960 1119.999)">
+        <g id="Groupe_74-2" data-name="Groupe 74" clip-path="url(#clip-path-5)">
+          <g id="Groupe_73-2" data-name="Groupe 73" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_186-2" data-name="Ligne 186" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_187-2" data-name="Ligne 187" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_188-2" data-name="Ligne 188" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_189-2" data-name="Ligne 189" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_190-2" data-name="Ligne 190" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_191-2" data-name="Ligne 191" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_192-2" data-name="Ligne 192" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_193-2" data-name="Ligne 193" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_194-2" data-name="Ligne 194" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_195-2" data-name="Ligne 195" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_196-2" data-name="Ligne 196" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_197-2" data-name="Ligne 197" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_198-2" data-name="Ligne 198" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_78-2" data-name="Groupe 78" transform="translate(1599.999 640)">
+        <g id="Groupe_77-2" data-name="Groupe 77" clip-path="url(#clip-path-6)">
+          <g id="Groupe_76-2" data-name="Groupe 76" transform="translate(-72.52 -73.054)">
+            <line id="Ligne_199-2" data-name="Ligne 199" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_200-2" data-name="Ligne 200" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_201-2" data-name="Ligne 201" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_202-2" data-name="Ligne 202" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_203-2" data-name="Ligne 203" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_204-2" data-name="Ligne 204" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_205-2" data-name="Ligne 205" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_206-2" data-name="Ligne 206" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_207-2" data-name="Ligne 207" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_208-2" data-name="Ligne 208" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_209-2" data-name="Ligne 209" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_210-2" data-name="Ligne 210" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_211-2" data-name="Ligne 211" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_81-2" data-name="Groupe 81" transform="translate(640 959.999)">
+        <g id="Groupe_80-2" data-name="Groupe 80" clip-path="url(#clip-path-4)">
+          <g id="Groupe_79-2" data-name="Groupe 79" transform="translate(-72.52 -73.053)">
+            <line id="Ligne_212-2" data-name="Ligne 212" x1="161.363" y1="161.363" transform="translate(132.682 12.062)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_213-2" data-name="Ligne 213" x1="161.363" y1="161.363" transform="translate(144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_214-2" data-name="Ligne 214" x1="161.363" y1="161.363" transform="translate(120.62 24.124)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_215-2" data-name="Ligne 215" x1="161.363" y1="161.363" transform="translate(108.558 36.186)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_216-2" data-name="Ligne 216" x1="161.363" y1="161.363" transform="translate(96.496 48.248)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_217-2" data-name="Ligne 217" x1="161.363" y1="161.363" transform="translate(84.434 60.31)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_218-2" data-name="Ligne 218" x1="161.363" y1="161.363" transform="translate(72.372 72.372)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_219-2" data-name="Ligne 219" x1="161.363" y1="161.363" transform="translate(60.31 84.434)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_220-2" data-name="Ligne 220" x1="161.363" y1="161.363" transform="translate(48.248 96.496)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_221-2" data-name="Ligne 221" x1="161.363" y1="161.363" transform="translate(36.186 108.558)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_222-2" data-name="Ligne 222" x1="161.363" y1="161.363" transform="translate(24.124 120.62)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_223-2" data-name="Ligne 223" x1="161.363" y1="161.363" transform="translate(12.062 132.682)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Ligne_224-2" data-name="Ligne 224" x1="161.363" y1="161.363" transform="translate(0 144.744)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_127-2" data-name="Rectangle 127" width="160" height="160" transform="translate(160 1280) rotate(180)" fill="#f2f2f2"/>
+      <rect id="Rectangle_128" data-name="Rectangle 128" width="160" height="160" transform="translate(480 640) rotate(180)" fill="#f2f2f2"/>
+      <rect id="Rectangle_129" data-name="Rectangle 129" width="160" height="160" transform="translate(800 640) rotate(180)" fill="#d2d4d9"/>
+      <rect id="Rectangle_130" data-name="Rectangle 130" width="160" height="160" transform="translate(800 480) rotate(180)" fill="#f2f2f2"/>
+      <rect id="Rectangle_131" data-name="Rectangle 131" width="160" height="160" transform="translate(1120 640)" fill="#656a73"/>
+      <rect id="Rectangle_132" data-name="Rectangle 132" width="160" height="160" transform="translate(1280 800)" fill="#d2d4d9"/>
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="160" height="160" transform="translate(1120 640) rotate(180)" fill="#d2d4d9"/>
+      <rect id="Rectangle_134" data-name="Rectangle 134" width="160" height="160" transform="translate(1280 480) rotate(180)" fill="#949ba6"/>
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="160" height="160" transform="translate(1440 640) rotate(-90)" fill="#656a73"/>
+      <rect id="Rectangle_136-2" data-name="Rectangle 136" width="160" height="160" transform="translate(1600 480) rotate(-90)" fill="#f2f2f2"/>
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="160" height="160" transform="translate(1760 320) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_138" data-name="Rectangle 138" width="160" height="160" transform="translate(640 800) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_139" data-name="Rectangle 139" width="160" height="160" transform="translate(480 960) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_140-2" data-name="Rectangle 140" width="160" height="160" transform="translate(320 1120) rotate(-90)" fill="#f2f2f2"/>
+      <rect id="Rectangle_141-2" data-name="Rectangle 141" width="160" height="160" transform="translate(160 320) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_142" data-name="Rectangle 142" width="160" height="160" transform="translate(800 320) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_143" data-name="Rectangle 143" width="160" height="160" transform="translate(1440 160) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_144" data-name="Rectangle 144" width="160" height="160" transform="translate(1280 320) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_145-2" data-name="Rectangle 145" width="160" height="160" transform="translate(1440 800) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_146" data-name="Rectangle 146" width="160" height="160" transform="translate(960 1120) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_147-2" data-name="Rectangle 147" width="160" height="160" transform="translate(640 1280) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_148-2" data-name="Rectangle 148" width="160" height="160" transform="translate(1280 1280) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_149" data-name="Rectangle 149" width="160" height="160" transform="translate(320 160) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_150-2" data-name="Rectangle 150" width="160" height="160" transform="translate(1440 1120) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_151-2" data-name="Rectangle 151" width="160" height="160" transform="translate(1600 1280) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_152" data-name="Rectangle 152" width="160" height="160" transform="translate(640 160) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_153" data-name="Rectangle 153" width="160" height="160" transform="translate(480 320) rotate(-90)" fill="#d2d4d9"/>
+      <rect id="Rectangle_154" data-name="Rectangle 154" width="160" height="160" transform="translate(1120 160) rotate(-90)" fill="#949ba6"/>
+      <rect id="Rectangle_155-2" data-name="Rectangle 155" width="160" height="160" transform="translate(0 320)" fill="#f2f2f2"/>
+      <path id="Tracé_197" data-name="Tracé 197" d="M260,200V360H100Z" transform="translate(60 120)" fill="#949ba6"/>
+      <path id="Tracé_198-2" data-name="Tracé 198" d="M960,460V300H800V620Z" transform="translate(480 180)" fill="#f2f2f2"/>
+      <path id="Tracé_199" data-name="Tracé 199" d="M600,400H760V560Z" transform="translate(360 240)" fill="#d2d4d9"/>
+      <path id="Tracé_200-2" data-name="Tracé 200" d="M500,700H660V860Z" transform="translate(300 420)" fill="#949ba6"/>
+      <path id="Tracé_201" data-name="Tracé 201" d="M100,0H260V160Z" transform="translate(60.001 0)" fill="#656a73"/>
+      <path id="Tracé_202-2" data-name="Tracé 202" d="M1260,660h0V500L1100,660h0V820h160Z" transform="translate(660 300)" fill="#949ba6"/>
+      <path id="Tracé_203" data-name="Tracé 203" d="M500,160V0H660Z" transform="translate(300.001 0)" fill="#656a73"/>
+      <rect id="Rectangle_156-2" data-name="Rectangle 156" width="160" height="160" transform="translate(0 800)" fill="#656a73"/>
+      <path id="Tracé_204" data-name="Tracé 204" d="M200,560H360A160,160,0,0,0,520,400H360A160,160,0,0,0,200,560Z" transform="translate(120 240)" fill="#d2d4d9"/>
+      <path id="Tracé_205-2" data-name="Tracé 205" d="M420,500a160,160,0,1,1-320,0Z" transform="translate(60 300)" fill="#f2f2f2"/>
+      <path id="Tracé_206-2" data-name="Tracé 206" d="M1320,0a160,160,0,0,1-160,160A160,160,0,0,1,1000,0Z" transform="translate(600 0)" fill="#949ba6"/>
+      <path id="Tracé_207" data-name="Tracé 207" d="M1220,500a160,160,0,1,1-320,0Z" transform="translate(540 300)" fill="#656a73"/>
+      <path id="Tracé_208-2" data-name="Tracé 208" d="M760,320A160,160,0,0,1,760,0Z" transform="translate(360 0)" fill="#d2d4d9"/>
+      <path id="Tracé_209" data-name="Tracé 209" d="M700,600a160,160,0,1,1,0,320Z" transform="translate(420 360)" fill="#949ba6"/>
+      <path id="Tracé_210" data-name="Tracé 210" d="M0,760a160,160,0,0,1,320,0Z" transform="translate(0 360)" fill="#d2d4d9"/>
+      <path id="Tracé_211-2" data-name="Tracé 211" d="M920,500a160,160,0,1,1-320,0Z" transform="translate(360 300)" fill="#d2d4d9"/>
+      <path id="Tracé_212" data-name="Tracé 212" d="M660,820a160,160,0,1,1,0-320Z" transform="translate(300 300)" fill="#949ba6"/>
+      <path id="Tracé_213" data-name="Tracé 213" d="M160,320A160,160,0,0,1,160,0Z" transform="translate(0.001 0)" fill="#949ba6"/>
+      <path id="Tracé_214-2" data-name="Tracé 214" d="M260,700V860H100Z" transform="translate(60 420)" fill="#656a73"/>
+      <path id="Tracé_215" data-name="Tracé 215" d="M160,300H0V460H160L320,300Z" transform="translate(0 180)" fill="#d2d4d9"/>
+      <rect id="Rectangle_157-2" data-name="Rectangle 157" width="160" height="160" transform="translate(480 1280) rotate(-90)" fill="#f2f2f2"/>
+      <path id="Tracé_216" data-name="Tracé 216" d="M460,760H300V600Z" transform="translate(180 360)" fill="#d2d4d9"/>
+      <path id="Tracé_217" data-name="Tracé 217" d="M700,460V300H860Z" transform="translate(420 180)" fill="#949ba6"/>
+      <path id="Tracé_218" data-name="Tracé 218" d="M1160,460H1000V300Z" transform="translate(600 179.999)" fill="#d2d4d9"/>
+      <path id="Tracé_219-2" data-name="Tracé 219" d="M1060,260H900V100Z" transform="translate(540 60)" fill="#949ba6"/>
+      <path id="Tracé_220-2" data-name="Tracé 220" d="M360,200A160,160,0,0,0,200,360H360Z" transform="translate(120.001 120)" fill="#d2d4d9"/>
+      <path id="Tracé_221" data-name="Tracé 221" d="M500,360A160,160,0,0,0,660,520V360A160,160,0,0,0,820,200H660A160,160,0,0,0,500,360Z" transform="translate(300 120)" fill="#f2f2f2"/>
+      <path id="Tracé_222" data-name="Tracé 222" d="M500,400A160,160,0,0,0,660,560V400Z" transform="translate(300 240)" fill="#949ba6"/>
+      <path id="Tracé_223" data-name="Tracé 223" d="M400,660A160,160,0,0,0,560,500H400Z" transform="translate(240 300)" fill="#949ba6"/>
+      <path id="Tracé_224-2" data-name="Tracé 224" d="M800,160A160,160,0,0,0,960,0H800Z" transform="translate(480 0)" fill="#d2d4d9"/>
+      <path id="Tracé_225" data-name="Tracé 225" d="M900,200a160,160,0,0,0,160,160V200Z" transform="translate(540 120)" fill="#f2f2f2"/>
+      <path id="Tracé_226" data-name="Tracé 226" d="M460,460A160,160,0,0,0,300,300V460Z" transform="translate(180 180)" fill="#949ba6"/>
+      <path id="Tracé_227" data-name="Tracé 227" d="M800,600A160,160,0,0,0,960,760V600Z" transform="translate(480 360)" fill="#f2f2f2"/>
+      <path id="Tracé_228-2" data-name="Tracé 228" d="M900,860a160,160,0,0,0,160-160H900Z" transform="translate(540 420)" fill="#949ba6"/>
+      <path id="Tracé_229" data-name="Tracé 229" d="M1160,760a160,160,0,0,0-160-160V760Z" transform="translate(600 360)" fill="#949ba6"/>
+      <path id="Tracé_230-2" data-name="Tracé 230" d="M1100,700a160,160,0,0,0,160,160V700Z" transform="translate(660 420)" fill="#d2d4d9"/>
+      <path id="Tracé_231-2" data-name="Tracé 231" d="M460,0A160,160,0,0,0,300,160H460Z" transform="translate(180 0)" fill="#d2d4d9"/>
+      <path id="Tracé_232" data-name="Tracé 232" d="M200,100A160,160,0,0,0,360,260V100Z" transform="translate(120.001 60)" fill="#949ba6"/>
+      <path id="Tracé_233" data-name="Tracé 233" d="M1260,460V300H1100V460a160,160,0,0,0,160,160Z" transform="translate(660 180)" fill="#656a73"/>
+      <path id="Tracé_212-2" data-name="Tracé 212" d="M660,820a160,160,0,1,1,0-320Z" transform="translate(300 300)" fill="#d2d4d9"/>
     </g>
-    <rect id="Rectangle_127" data-name="Rectangle 127" width="160" height="160" transform="translate(160 1280) rotate(180)" fill="#f2f2f2"/>
-    <rect id="Rectangle_128" data-name="Rectangle 128" width="160" height="160" transform="translate(480 640) rotate(180)" fill="#f2f2f2"/>
-    <rect id="Rectangle_129" data-name="Rectangle 129" width="160" height="160" transform="translate(800 640) rotate(180)" fill="#d2d4d9"/>
-    <rect id="Rectangle_130" data-name="Rectangle 130" width="160" height="160" transform="translate(800 480) rotate(180)" fill="#f2f2f2"/>
-    <rect id="Rectangle_131" data-name="Rectangle 131" width="160" height="160" transform="translate(1120 640)" fill="#656a73"/>
-    <rect id="Rectangle_132" data-name="Rectangle 132" width="160" height="160" transform="translate(1280 800)" fill="#d2d4d9"/>
-    <rect id="Rectangle_133" data-name="Rectangle 133" width="160" height="160" transform="translate(1120 640) rotate(180)" fill="#d2d4d9"/>
-    <rect id="Rectangle_134" data-name="Rectangle 134" width="160" height="160" transform="translate(1280 480) rotate(180)" fill="#949ba6"/>
-    <rect id="Rectangle_135" data-name="Rectangle 135" width="160" height="160" transform="translate(1440 640) rotate(-90)" fill="#656a73"/>
-    <rect id="Rectangle_136" data-name="Rectangle 136" width="160" height="160" transform="translate(1600 480) rotate(-90)" fill="#f2f2f2"/>
-    <rect id="Rectangle_137" data-name="Rectangle 137" width="160" height="160" transform="translate(1760 320) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_138" data-name="Rectangle 138" width="160" height="160" transform="translate(640 800) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_139" data-name="Rectangle 139" width="160" height="160" transform="translate(480 960) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_140" data-name="Rectangle 140" width="160" height="160" transform="translate(320 1120) rotate(-90)" fill="#f2f2f2"/>
-    <rect id="Rectangle_141" data-name="Rectangle 141" width="160" height="160" transform="translate(160 320) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_142" data-name="Rectangle 142" width="160" height="160" transform="translate(800 320) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_143" data-name="Rectangle 143" width="160" height="160" transform="translate(1440 160) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_144" data-name="Rectangle 144" width="160" height="160" transform="translate(1280 320) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_145" data-name="Rectangle 145" width="160" height="160" transform="translate(1440 800) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_146" data-name="Rectangle 146" width="160" height="160" transform="translate(960 1120) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_147" data-name="Rectangle 147" width="160" height="160" transform="translate(640 1280) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_148" data-name="Rectangle 148" width="160" height="160" transform="translate(1280 1280) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_149" data-name="Rectangle 149" width="160" height="160" transform="translate(320 160) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_150" data-name="Rectangle 150" width="160" height="160" transform="translate(1440 1120) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_151" data-name="Rectangle 151" width="160" height="160" transform="translate(1600 1280) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_152" data-name="Rectangle 152" width="160" height="160" transform="translate(640 160) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_153" data-name="Rectangle 153" width="160" height="160" transform="translate(480 320) rotate(-90)" fill="#d2d4d9"/>
-    <rect id="Rectangle_154" data-name="Rectangle 154" width="160" height="160" transform="translate(1120 160) rotate(-90)" fill="#949ba6"/>
-    <rect id="Rectangle_155" data-name="Rectangle 155" width="160" height="160" transform="translate(0 320)" fill="#f2f2f2"/>
-    <path id="Tracé_197" data-name="Tracé 197" d="M260,200V360H100Z" transform="translate(60 120)" fill="#949ba6"/>
-    <path id="Tracé_198" data-name="Tracé 198" d="M960,460V300H800V620Z" transform="translate(480 180)" fill="#f2f2f2"/>
-    <path id="Tracé_199" data-name="Tracé 199" d="M600,400H760V560Z" transform="translate(360 240)" fill="#d2d4d9"/>
-    <path id="Tracé_200" data-name="Tracé 200" d="M500,700H660V860Z" transform="translate(300 420)" fill="#949ba6"/>
-    <path id="Tracé_201" data-name="Tracé 201" d="M100,0H260V160Z" transform="translate(60.001 0)" fill="#656a73"/>
-    <path id="Tracé_202" data-name="Tracé 202" d="M1260,660h0V500L1100,660h0V820h160Z" transform="translate(660 300)" fill="#949ba6"/>
-    <path id="Tracé_203" data-name="Tracé 203" d="M500,160V0H660Z" transform="translate(300.001 0)" fill="#656a73"/>
-    <rect id="Rectangle_156" data-name="Rectangle 156" width="160" height="160" transform="translate(0 800)" fill="#656a73"/>
-    <path id="Tracé_204" data-name="Tracé 204" d="M200,560H360A160,160,0,0,0,520,400H360A160,160,0,0,0,200,560Z" transform="translate(120 240)" fill="#d2d4d9"/>
-    <path id="Tracé_205" data-name="Tracé 205" d="M420,500a160,160,0,1,1-320,0Z" transform="translate(60 300)" fill="#f2f2f2"/>
-    <path id="Tracé_206" data-name="Tracé 206" d="M1320,0a160,160,0,0,1-160,160A160,160,0,0,1,1000,0Z" transform="translate(600 0)" fill="#949ba6"/>
-    <path id="Tracé_207" data-name="Tracé 207" d="M1220,500a160,160,0,1,1-320,0Z" transform="translate(540 300)" fill="#656a73"/>
-    <path id="Tracé_208" data-name="Tracé 208" d="M760,320A160,160,0,0,1,760,0Z" transform="translate(360 0)" fill="#d2d4d9"/>
-    <path id="Tracé_209" data-name="Tracé 209" d="M700,600a160,160,0,1,1,0,320Z" transform="translate(420 360)" fill="#949ba6"/>
-    <path id="Tracé_210" data-name="Tracé 210" d="M0,760a160,160,0,0,1,320,0Z" transform="translate(0 360)" fill="#d2d4d9"/>
-    <path id="Tracé_211" data-name="Tracé 211" d="M920,500a160,160,0,1,1-320,0Z" transform="translate(360 300)" fill="#d2d4d9"/>
-    <path id="Tracé_212" data-name="Tracé 212" d="M660,820a160,160,0,1,1,0-320Z" transform="translate(300 300)" fill="#949ba6"/>
-    <path id="Tracé_213" data-name="Tracé 213" d="M160,320A160,160,0,0,1,160,0Z" transform="translate(0.001 0)" fill="#949ba6"/>
-    <path id="Tracé_214" data-name="Tracé 214" d="M260,700V860H100Z" transform="translate(60 420)" fill="#656a73"/>
-    <path id="Tracé_215" data-name="Tracé 215" d="M160,300H0V460H160L320,300Z" transform="translate(0 180)" fill="#d2d4d9"/>
-    <rect id="Rectangle_157" data-name="Rectangle 157" width="160" height="160" transform="translate(480 1280) rotate(-90)" fill="#f2f2f2"/>
-    <path id="Tracé_216" data-name="Tracé 216" d="M460,760H300V600Z" transform="translate(180 360)" fill="#d2d4d9"/>
-    <path id="Tracé_217" data-name="Tracé 217" d="M700,460V300H860Z" transform="translate(420 180)" fill="#949ba6"/>
-    <path id="Tracé_218" data-name="Tracé 218" d="M1160,460H1000V300Z" transform="translate(600 179.999)" fill="#d2d4d9"/>
-    <path id="Tracé_219" data-name="Tracé 219" d="M1060,260H900V100Z" transform="translate(540 60)" fill="#949ba6"/>
-    <path id="Tracé_220" data-name="Tracé 220" d="M360,200A160,160,0,0,0,200,360H360Z" transform="translate(120.001 120)" fill="#d2d4d9"/>
-    <path id="Tracé_221" data-name="Tracé 221" d="M500,360A160,160,0,0,0,660,520V360A160,160,0,0,0,820,200H660A160,160,0,0,0,500,360Z" transform="translate(300 120)" fill="#f2f2f2"/>
-    <path id="Tracé_222" data-name="Tracé 222" d="M500,400A160,160,0,0,0,660,560V400Z" transform="translate(300 240)" fill="#949ba6"/>
-    <path id="Tracé_223" data-name="Tracé 223" d="M400,660A160,160,0,0,0,560,500H400Z" transform="translate(240 300)" fill="#949ba6"/>
-    <path id="Tracé_224" data-name="Tracé 224" d="M800,160A160,160,0,0,0,960,0H800Z" transform="translate(480 0)" fill="#d2d4d9"/>
-    <path id="Tracé_225" data-name="Tracé 225" d="M900,200a160,160,0,0,0,160,160V200Z" transform="translate(540 120)" fill="#f2f2f2"/>
-    <path id="Tracé_226" data-name="Tracé 226" d="M460,460A160,160,0,0,0,300,300V460Z" transform="translate(180 180)" fill="#949ba6"/>
-    <path id="Tracé_227" data-name="Tracé 227" d="M800,600A160,160,0,0,0,960,760V600Z" transform="translate(480 360)" fill="#f2f2f2"/>
-    <path id="Tracé_228" data-name="Tracé 228" d="M900,860a160,160,0,0,0,160-160H900Z" transform="translate(540 420)" fill="#949ba6"/>
-    <path id="Tracé_229" data-name="Tracé 229" d="M1160,760a160,160,0,0,0-160-160V760Z" transform="translate(600 360)" fill="#949ba6"/>
-    <path id="Tracé_230" data-name="Tracé 230" d="M1100,700a160,160,0,0,0,160,160V700Z" transform="translate(660 420)" fill="#d2d4d9"/>
-    <path id="Tracé_231" data-name="Tracé 231" d="M460,0A160,160,0,0,0,300,160H460Z" transform="translate(180 0)" fill="#d2d4d9"/>
-    <path id="Tracé_232" data-name="Tracé 232" d="M200,100A160,160,0,0,0,360,260V100Z" transform="translate(120.001 60)" fill="#949ba6"/>
-    <path id="Tracé_233" data-name="Tracé 233" d="M1260,460V300H1100V460a160,160,0,0,0,160,160Z" transform="translate(660 180)" fill="#656a73"/>
-    <path id="Tracé_212-2" data-name="Tracé 212" d="M660,820a160,160,0,1,1,0-320Z" transform="translate(300 300)" fill="#d2d4d9"/>
   </g>
 </svg>

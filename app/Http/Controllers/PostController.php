@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\Product;
 use App\Http\Controllers\Session;
+use Illuminate\Support\Facades\Log;
 
 class PostController extends Controller {
 
@@ -63,8 +64,8 @@ class PostController extends Controller {
 
     public function publication($id) {
 
-        $produits = DB::table('products') -> where('id',$id) -> first();
-        // $produits = Product::find($id);
+        // $produits = DB::table('products') -> where('id',$id) -> first();
+        $produits = Product::find($id);
         return view('product.publication')->with('produit', $produits);
     }
     public function modifier($id){
@@ -94,4 +95,5 @@ class PostController extends Controller {
         return redirect('/consulter-annonce')->with('status', "L'annonce " .$produit->product_name. " a été supprimé avec succès.");
     }
 
+    
 }

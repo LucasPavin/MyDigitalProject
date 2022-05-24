@@ -14,7 +14,7 @@
     <div class="container-pas-connecte">
         <div class="container-carre">
             <h4>Bonjour !</h4>
-            <p>Connectez-vous ou créez un compte pour déposer votre annonce</p>
+            <p>Veuillez vous connecter avant de pouvoir accéder à cette page.</p>
             <a href="{{URL::to('/login')}}"><button class="btn btn_bleu">Se connecter</button></a>
         </div>
     </div>   
@@ -38,7 +38,7 @@
     @endif
     <div class="container-deposer-annonce">
 
-        {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal'])!!}
+        {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/from-data"])!!}
         {{csrf_field()}}
         <div class="form-group">
             {{Form::text('product_name', '', ['placeholder'=>'Titre de l\'annonce', 'class'=>'form-control'])}}
@@ -50,8 +50,8 @@
             {{Form::select('localisation',array('Bretagne' => 'Bretagne', 'Corse' => 'Corse'), '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
-            {{Form::file('images')}}
-        </div>
+            {{Form::file('images', ["multiple"=>"''", "name"=>"photos"])}}
+        </div> 
         <div class="form-group">
             {{Form::textarea('product_description', '', ['placeholder'=>'Description', 'class'=>'form-control'])}}
         </div>

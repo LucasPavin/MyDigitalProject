@@ -12,7 +12,7 @@
 <div class="container-consulter-annonce">
     
     <div class="container-recherche">
-        <form action="{{ route("product.recherche") }}">
+        <form action="{{ route("product.recherche") }}" class="barre-recherche">
             <input type="text" name="q" placeholder="Rechercher une annonce.." class="g-navSearch" id="searchReplay" />
             <button type="submit" class="teddjdjdj"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>

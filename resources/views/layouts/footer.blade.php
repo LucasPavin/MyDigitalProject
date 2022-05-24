@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="menu-listes-items"> 
+            {{-- <div class="menu-listes-items"> 
                 <h5>Des questions ?</h5>
                 <div class="menu-list">
                     <ul>
@@ -24,7 +24,7 @@
                         <li><a href="#">About</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
             <div class="menu-listes-items">
                 <h5>Nos réseaux</h5>
                 <div class="menu-list">
@@ -39,9 +39,9 @@
                 <h5>Aides</h5>
                 <div class="menu-list">  
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                        <li><a href="#">Mentions Légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
                     </ul>
                 </div>
             </div>

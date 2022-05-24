@@ -5,9 +5,11 @@
     
 @endsection
 
-@include('layouts.navbar-noir')
+{{-- @include('layouts.navbar-noir') --}}
 
 @section('contenu')
+
+    <a href="{{URL::to('/')}}"><button><i class="fa-solid fa-turn-down-left"></i>Retour</button></a>
     <div class="container-connexion">
 
         <button name="logo">
