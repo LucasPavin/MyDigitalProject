@@ -19,12 +19,47 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', [PostController::class, 'home']);
-// Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
+Route::resource('/annonce', ProductController::class);
 Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/nos-tarifs', [PostController::class, 'nostarifs']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
 
+// Annonce
+Route::get('/filtrer', 'App\Http\Controllers\ProductController@filtrer')->name('product.filtrer');
+Route::get('/recherche', 'App\Http\Controllers\ProductController@recherche')->name('product.recherche');
+
+//LOGIN
+Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');
+
+// Chat
+Route::resource('/chat', 'App\Http\Controllers\ChatController');
+Route::post('/chat', [ChatController::class, 'store']);
+
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TEST
+
+
+// Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
 
 // Route::get('/publication/{id}', [PostController::class, 'publication']);
 // Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
@@ -36,31 +71,8 @@ Route::get('/contact', [PostController::class, 'contacter']);
 // //Supprimer une annonce
 // Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
 
-Route::resource('/annonce', ProductController::class);
-Route::get('/filtrer', 'App\Http\Controllers\ProductController@filtrer')->name('product.filtrer');
-Route::get('/recherche', 'App\Http\Controllers\ProductController@recherche')->name('product.recherche');
-//LOGIN
 
-Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');
-
-Route::get('/connexion', [LoginController::class, 'connexion']);
-Route::post('/connexion','LoginController@traitement');
-
-
-// Route::get('/inscription', [LoginController::class, 'inscription']);
-Route::get('/paiement', [LoginController::class, 'paiement']);
-
-// Chat
-Route::resource('/chat', 'App\Http\Controllers\ChatController');
-Route::post('/chat', [ChatController::class, 'store']);
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
-require __DIR__.'/auth.php';

@@ -27,17 +27,19 @@
     .annonce{
         padding-top: 30px;
         padding: 50px 100px;
-        display: flex;
+        display: grid;
+        align-self: center;
+        align-content: center;
+        grid-template-columns: repeat(2, 1fr);
         flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        .fa-quote-left{
-            color: $couleur_secondaire;
-            font-size: 50px;
-        }
+        grid-gap: 2rem;
         .pl-list{
-            width: 45%;padding-right: 100px;
+            display: block;
+            width: 45%;
+            .fa-quote-left{
+                color: $couleur_secondaire;
+                font-size: 50px;
+            }
         }
     }
 

@@ -44,7 +44,7 @@
             {{Form::text('product_name', '', ['placeholder'=>'Titre de l\'annonce', 'class'=>'form-control'])}}
         </div> 
         <div class="form-group">
-            {{Form::select('categorie', array('foot' => 'Foot', 'course_a_pied' => 'Course à pied'), '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
+            {{Form::select('categorie', array('Football' => 'Football', "Basketball"=> 'Basketball', 'Course à pied' => 'Course à pied'), '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
             {{Form::select('localisation',array(

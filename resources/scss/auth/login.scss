@@ -3,130 +3,152 @@
 @import '../components/mixins';
 
 .container-connexion {
-    background-image: url(./../../../public/pattern/pattern.svg);
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(236, 235, 235);
-    .connexion-img{
-        height: 45px;
-        margin-bottom: 20px;
-        width: auto;
-    }
-    .container-connexion-creeCompte{
-        font-size: 26px;
-        margin-top: 45px;
-        .connexion-span {
-            background-color: white;
-            border-radius: 10px 0px 0px 0px;
-            padding: 15px 24px;
-        }
-        .creerCompte-span{
-            background-color: $couleur-principale;
-            color: white;
-            border-radius: 0px 10px 0px 0px;
-            padding: 15px 24px;
-        }
-        .creerCompte-span:hover{
-            background-color: #FB5C2D;
-            color: white;
-        }
-    }
-    .container-connexion-form{
-        background-color: white;;
-        border-radius: 0 0 5px 5px;
-        margin-top: 10px;
-        padding: 40px 51px;
-    
-        .container-connexion-email {
-            margin-top: 40px;
-            font-weight: 700;
-
-            .connexion-email-input{
-                height: 30px;
-                width: 300px;
-                border-radius: 5px;
-                background-color: rgb(236, 235, 235);
+    background-image: url(./../../../public/pattern/pattern.svg);
+    .bouton-retour-connexion {
+        button {
+            font-weight: 600;
+            color: $couleur-principale;
+            padding-left: 30px;
+            margin-top: 30px;
+            i {
+                padding-right: 5px;
             }
         }
-        .container-connexion-mdp{
-            margin-top: 25px;
-            font-weight: 700;
-
-            .connexion-mdp-input{
-                height: 30px;
-                width: 300px;
-                border-radius: 5px;
-                background-color: rgb(236, 235, 235);
-            }
-        }
-        .container-connexion-rappeler{
-            margin-top: 20px;
-        }
-        .connexion-button-seco{
-            margin-top: 20px;
-            border-radius: 5px;
-            font-size: 20px;
-            font-weight: 400;
-            background-color: $couleur-principale;
-            color: white;
-            height: 35px;
-            width: 300px;
-        }
-        .connexion-button-seco:hover{
-            background-color: $couleur-secondaire;
-            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        }
-        .connexion-mdp-oublie{
-            margin-top: 12px;
-            font-size: 12px;
-            color: $couleur-principale;
-        }
-        .connexion-mdp-oublie > a::after{
-            display: block;
-            content: "";
-            width: 0;
-            height: 2px;
-            background-color: $couleur-principale;
-            transition: width .4s;
-        }
-        .connexion-mdp-oublie:hover > a::after{
-            width: 30%;
-        }
-        .connexion-mdp-oublie a:hover{
-            color: $couleur-principale;
-        }
+        
     }
-}
-
-
-@media screen and (max-width:410px) and (min-width:336px){
-
-    .container-connexion {
+    .container-connexion-logo {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .connexion-img{
+            height: 45px;
+            margin-bottom: 20px;
+            width: auto;
+        }
         .container-connexion-creeCompte{
-            font-size: 23px !important;
-            .connexion-span{
-                padding: 15px 15px;
+            margin-top: 25px;
+            .connexion-span {
+                font-size: 26px;
+                background-color: white;
+                border-radius: 10px 0px 0px 0px;
+                padding: 15px 24px;
             }
             .creerCompte-span{
-                padding: 15px 15px;
+                font-size: 26px;
+                background-color: $couleur-principale;
+                color: white;
+                border-radius: 0px 10px 0px 0px;
+                padding: 15px 24px;
             }
             .creerCompte-span:hover{
-                background-color: $couleur-secondaire;
+                background-color: #FB5C2D;
                 color: white;
             }
         }
         .container-connexion-form{
-            padding: 40px 16px;
+            background-color: white;;
+            border-radius: 0 0 5px 5px;
+            margin-top: 10px;
+            padding: 40px 51px;
+        
+            .container-connexion-email {
+                margin-top: 40px;
+                font-weight: 700;
+
+                .connexion-email-input{
+                    height: 30px;
+                    width: 300px;
+                    border-radius: 5px;
+                    background-color: rgb(236, 235, 235);
+                }
+            }
+            .container-connexion-mdp{
+                margin-top: 25px;
+                font-weight: 700;
+
+                .connexion-mdp-input{
+                    height: 30px;
+                    width: 300px;
+                    border-radius: 5px;
+                    background-color: rgb(236, 235, 235);
+                }
+            }
+            .container-connexion-rappeler{
+                margin-top: 20px;
+            }
+            .connexion-button-seco{
+                margin-top: 20px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: 400;
+                background-color: $couleur-principale;
+                color: white;
+                height: 35px;
+                width: 300px;
+            }
+            .connexion-button-seco:hover{
+                background-color: $couleur-secondaire;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+            .connexion-mdp-oublie{
+                margin-top: 12px;
+                font-size: 12px;
+                color: $couleur-principale;
+            }
+            .connexion-mdp-oublie > a::after{
+                display: block;
+                content: "";
+                width: 0;
+                height: 2px;
+                background-color: $couleur-principale;
+                transition: width .4s;
+            }
+            .connexion-mdp-oublie:hover > a::after{
+                width: 30%;
+            }
+            .connexion-mdp-oublie a:hover{
+                color: $couleur-principale;
+            }
         }
     }
 }
 
-@media screen and (max-width:335px){
-
+@media screen and (max-width:520px) and (min-width:420px){
     .container-connexion {
+        .container-connexion-form-button {
+            .container-connexion-creeCompte{
+                .connexion-span{
+                    font-size: 23px !important;
+                    padding: 15px 15px;
+                }
+                .creerCompte-span{
+                    font-size: 23px !important;
+                    padding: 15px 15px;
+                }
+                .creerCompte-span:hover{
+                    background-color: $couleur-secondaire;
+                    color: white;
+                }
+            }
+            .container-connexion-form{
+                padding: 40px 0px;
+                display: block;
+                text-align: center;
+                
+                .connexion-button-seco{
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:409px){
+
+    .container-connexion-form-button {
         .connexion-img{
             height: 35px;
             width: auto;
