@@ -1,0 +1,40 @@
+.container-consulter-annonce {
+  padding-top: 40px;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-consulter-annonce .container-recherche {
+  display: flex;
+  justify-content: center;
+}
+.container-consulter-annonce .container-recherche .barre-recherche {
+  background-color: #F6F6F6;
+  border-radius: 10px;
+}
+.container-consulter-annonce .container-recherche .barre-recherche .g-navSearch {
+  width: 650px;
+  background-color: #F6F6F6;
+  padding: 10px 15px;
+}
+.container-consulter-annonce .container-recherche .barre-recherche .fa-magnifying-glass {
+  color: #174AFC;
+  background-color: #B6B9C3;
+  border-radius: 10px;
+  padding: 14px 25px;
+}
+.container-consulter-annonce .annonce {
+  padding-top: 30px;
+  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.container-consulter-annonce .annonce .fa-quote-left {
+  color: #FB5C2D;
+  font-size: 50px;
+}
+.container-consulter-annonce .annonce .pl-list {
+  width: 45%;
+  padding-right: 100px;
+}

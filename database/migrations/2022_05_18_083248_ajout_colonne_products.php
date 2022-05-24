@@ -16,7 +16,7 @@ class AjoutColonneProducts extends Migration
         Schema::table('products', function (Blueprint $table) {
             $table->string('categorie')->after('product_name');
             $table->string('localisation')->after('categorie');
-            $table->binary('images')->after('localisation');
+            $table->string('images')->after('localisation');
             $table->text('marquesVisees')->after('description');
         });
     }

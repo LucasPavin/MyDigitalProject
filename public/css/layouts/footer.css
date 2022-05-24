@@ -34,6 +34,20 @@
   color: #174AFC;
 }
 
+.btn_noir {
+  background-color: black;
+  border: 1px solid black;
+  color: #FFFFFF;
+}
+
+.btn_noir:hover,
+.btn_noir:active,
+.btn_noir:focus {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
 .container {
   width: 100% !important;
   max-width: 100% !important;

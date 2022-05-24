@@ -22,6 +22,8 @@
     color: $couleur-secondaire;
 }
 
+//Bouton Bleu
+
 .btn_bleu{
     background-color: $couleur-principale;
     border: 1px solid $couleur-principale;
@@ -35,6 +37,25 @@
     border: 1px solid $couleur-principale;
     color: $couleur-principale;
 }
+
+
+// Bouton noir
+
+.btn_noir{
+    background-color: black;
+    border: 1px solid black;
+    color: $blanc;
+}
+
+.btn_noir:hover,
+.btn_noir:active,
+.btn_noir:focus{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
 
 .container{
     width: 100%!important;

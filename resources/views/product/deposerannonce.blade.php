@@ -14,7 +14,7 @@
     <div class="container-pas-connecte">
         <div class="container-carre">
             <h4>Bonjour !</h4>
-            <p>Connectez-vous ou créez un compte pour déposer votre annonce</p>
+            <p>Veuillez vous connecter avant de pouvoir accéder à cette page.</p>
             <a href="{{URL::to('/login')}}"><button class="btn btn_bleu">Se connecter</button></a>
         </div>
     </div>   
@@ -38,7 +38,7 @@
     @endif
     <div class="container-deposer-annonce">
 
-        {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal'])!!}
+        {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/form-data"])!!}
         {{csrf_field()}}
         <div class="form-group">
             {{Form::text('product_name', '', ['placeholder'=>'Titre de l\'annonce', 'class'=>'form-control'])}}
@@ -47,11 +47,29 @@
             {{Form::select('categorie', array('foot' => 'Foot', 'course_a_pied' => 'Course à pied'), '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
-            {{Form::select('localisation',array('Bretagne' => 'Bretagne', 'Corse' => 'Corse'), '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
+            {{Form::select('localisation',array(
+                'Auvergne-Rhône-Alpes' => 'Auvergne-Rhône-Alpes',
+                'Bourgogne-Franche-Comté' => 'Bourgogne-Franche-Comté', 
+                'Bretagne' => 'Bretagne',
+                'Centre-Val de Loire'=> 'Centre-Val de Loire', 
+                'Corse' => 'Corse',
+                'Grand Est' => 'Grand Est',
+                'Hauts-de-France' => 'Hauts-de-France',
+                'Île-de-France' => 'Île-de-France',
+                'Normandie' => 'Normandie',
+                'Nouvelle-Aquitaine' => 'Nouvelle-Aquitaine',
+                'Occitanie'=> 'Occitanie',
+                'Pays de la Loire' => 'Pays de la Loire',
+                'Provence-Alpes-Côte d\'Azur' => 'Provence-Alpes-Côte d\'Azur'),
+                
+                '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
         </div>
+        {{-- <div class="form-group">
+            <input type="file" class="block my-2" id="avatar" name="avatar">
+        </div> --}}
         <div class="form-group">
-            {{Form::file('images')}}
-        </div>
+            {{Form::file('images', ["multiple"=>"''", "name"=>"photos"])}}
+        </div> 
         <div class="form-group">
             {{Form::textarea('product_description', '', ['placeholder'=>'Description', 'class'=>'form-control'])}}
         </div>

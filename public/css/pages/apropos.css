@@ -23,10 +23,12 @@ p {
   display: flex;
 }
 .a-propos .container_equipe:nth-of-type(odd) {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   background-color: #174AFC;
   color: #FFFFFF;
 }
 .a-propos .container_equipe:nth-of-type(even) {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   color: #174AFC;
   flex-direction: row-reverse;
 }
@@ -47,6 +49,9 @@ p {
 }
 .a-propos .container_equipe .text {
   margin: auto;
+}
+.a-propos .container_logo {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
 }
 .a-propos .container_logo .logo_ki img {
   margin: auto;

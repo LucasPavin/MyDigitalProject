@@ -16,6 +16,7 @@
     "/css/components/titres.css": "/css/components/titres.css",
     "/css/components/variables.css": "/css/components/variables.css",
     "/css/error/404.css": "/css/error/404.css",
+    "/css/pages/consulter-annonce.css": "/css/pages/consulter-annonce.css",
     "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css",
     "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css"
 }

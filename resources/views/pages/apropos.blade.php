@@ -13,8 +13,8 @@
 <div class="a-propos">
     <div class="container container_equipe">
         <div class="text">
-            <h2 class="nom">Manon Rima</h2>
-            <h3 class="fonction">Développeuse web</h3>
+            <h2 class="nom">MelvinHamon</h2>
+            <h3 class="fonction">Web Designer</h3>
             <div class="description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam numquam assumenda? Ipsa sint omnis quibusdam? Aspernatur reiciendis, harum assumenda quos earum nihil, ullam consectetur perferendis quod quia cupiditate qui!</p>
             </div>

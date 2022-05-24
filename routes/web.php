@@ -19,14 +19,14 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', [PostController::class, 'home']);
-Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
+// Route::get('/consulter-annonce', [PostController::class, 'consulterannonce']);
 Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/nos-tarifs', [PostController::class, 'nostarifs']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
 
 
-Route::get('/publication/{id}', [PostController::class, 'publication']);
+// Route::get('/publication/{id}', [PostController::class, 'publication']);
 // Route::post('/sauverproduit', [PostController::class, 'sauverproduit']);
 
 
@@ -36,7 +36,8 @@ Route::get('/publication/{id}', [PostController::class, 'publication']);
 // //Supprimer une annonce
 // Route::get('/supprimer/{id}', [PostController::class, 'supprimer']);
 
-Route::resource('/annonce', 'App\Http\Controllers\ProductController');
+Route::resource('/annonce', ProductController::class);
+Route::get('/filtrer', 'App\Http\Controllers\ProductController@filtrer')->name('product.filtrer');
 Route::get('/recherche', 'App\Http\Controllers\ProductController@recherche')->name('product.recherche');
 //LOGIN
 
