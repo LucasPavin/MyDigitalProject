@@ -1324,6 +1324,55 @@ footer {
     display: none;
   }
 }
+.container-dashboard {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-dashboard .texte-bienvenu-dashboard {
+  padding-top: 60px;
+}
+.container-dashboard .texte-bienvenu-dashboard h2 {
+  color: #FB5C2D;
+  text-align: center;
+}
+.container-dashboard .texte-bienvenu-dashboard p {
+  font-size: 16px;
+  color: #174AFC;
+  text-align: center;
+}
+.container-dashboard .publication-deposer-user {
+  padding: 80px 0;
+  max-width: 1300px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  grid-gap: 20px;
+}
+.container-dashboard .publication-deposer-user .publication {
+  width: 300px;
+  height: 250px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.4);
+}
+.container-dashboard .publication-deposer-user .publication img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px;
+}
+
+@media screen and (max-width: 774px) and (min-width: 470px) {
+  .container-dashboard .texte-bienvenu-dashboard h2 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 469px) {
+  .container-dashboard .texte-bienvenu-dashboard h2 {
+    font-size: 3rem;
+  }
+}
 .container-error-404 {
   background-image: url(/images/pattern404.svg?aed0be67617381edad9d969cc7d5067c);
   background-color: #174AFC;
@@ -1506,8 +1555,25 @@ p {
   margin-right: 50px;
 }
 .container .zone-white-container-home-2 {
-  height: 150vh;
+  height: 250vh;
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container .zone-white-container-home-2 .container-confiance {
+  padding-top: 300px;
+  text-align: center;
+}
+.container .zone-white-container-home-2 .container-confiance h2 {
+  font-weight: 400;
+  font-size: 60px;
+}
+.container .zone-white-container-home-2 .container-confiance .liste-confiance {
+  width: 1300px;
+  height: 200px;
+  background-color: #FB5C2D;
+}
+.container .zone-white-container-home-2 .container-confiance .liste-confiance .photo-Puma {
+  width: 200px;
+  height: 150px;
 }
 .container .zone-bleu-container-home-2 {
   height: 50vh;
@@ -1918,35 +1984,65 @@ p {
   width: 700px;
   background-color: #F6F6F6;
 }
-
-.button-submit-annonce {
+.container-deposer-annonce .button-submit-annonce {
   text-align: center;
 }
-.button-submit-annonce .btn-primary {
+.container-deposer-annonce .button-submit-annonce .btn-primary {
   font-weight: 600;
   color: white;
   cursor: pointer;
   background-color: #174AFC;
-  padding: 15px 500px;
+  padding: 15px 325px;
 }
-.button-submit-annonce .btn-primary:hover {
+.container-deposer-annonce .button-submit-annonce .btn-primary:hover {
   background-color: #FB5C2D;
 }
-
-.button-besoin-aide-annonce {
-  text-align: center;
-}
-.button-besoin-aide-annonce .besoin-d-aide-annonce {
+.container-deposer-annonce .button-submit-annonce .besoin-d-aide-annonce {
   font-weight: 600;
   color: white;
   cursor: pointer;
   background-color: #FB5C2D;
-  padding: 15px 475px;
+  padding: 15px 300px;
 }
-.button-besoin-aide-annonce .besoin-d-aide-annonce:hover {
+.container-deposer-annonce .button-submit-annonce .besoin-d-aide-annonce:hover {
+  background-color: #174AFC;
+}
+.container-deposer-annonce .button-besoin-aide-annonce {
+  text-align: center;
+}
+.container-deposer-annonce .button-besoin-aide-annonce .besoin-d-aide-annonce {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #FB5C2D;
+  padding: 15px 300px;
+}
+.container-deposer-annonce .button-besoin-aide-annonce .besoin-d-aide-annonce:hover {
   background-color: #174AFC;
 }
 
+@media screen and (max-width: 759px) and (min-width: 520px) {
+  .container-deposer-annonce .form-group .form-control {
+    width: 500px;
+  }
+  .container-deposer-annonce .button-submit-annonce .btn-primary {
+    padding: 15px 210px;
+  }
+  .container-deposer-annonce .button-submit-annonce .besoin-d-aide-annonce {
+    padding: 15px 185px;
+  }
+}
+@media screen and (max-width: 519px) {
+  .container-deposer-annonce .form-group .form-control {
+    width: 300px;
+  }
+  .container-deposer-annonce .button-submit-annonce .btn-primary {
+    padding: 15px 110px;
+  }
+  .container-deposer-annonce .button-submit-annonce .besoin-d-aide-annonce {
+    padding: 15px 85px;
+  }
+}
 .container-consulter-annonce {
   padding-top: 40px;
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);

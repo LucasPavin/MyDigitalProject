@@ -12,8 +12,10 @@
 @import 'layouts/navbar-noir';
 @import 'layouts/footer';
 
-//Page 404
+// Dashboard
+@import 'dashboard/dashboard';
 
+//Page 404
 @import 'error/404';
 
 // Pages

@@ -114,7 +114,7 @@
             .chercher-une-annonce{
                 position:relative; 
                 display: inline-block; 
-                float:right;
+                float: right;
                 margin-top: 50px;
                 margin-right: 50px;
             }
@@ -124,8 +124,25 @@
     // Deuxieme partie blanche
 
     .zone-white-container-home-2 {
-        height: 150vh;
+        height: 250vh;
         background-image: url(./../../../public/pattern/pattern.svg);
+        .container-confiance{
+            padding-top: 300px;
+            text-align: center;
+            h2{
+                font-weight: 400;
+                font-size: 60px;
+            }
+            .liste-confiance{
+                width: 1300px;
+                height: 200px;
+                background-color: $couleur_secondaire;
+                .photo-Puma{
+                    width: 200px;
+                    height: 150px;
+                }
+            }
+        }
     }
 
     //deuxième et dernière partie blanche 

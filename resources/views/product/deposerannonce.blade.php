@@ -64,14 +64,11 @@
                 
                 '' ,['placeholder'=>'Localisation', 'class'=>'form-control'])}}
         </div>
-        {{-- <div class="form-group">
-            <input type="file" class="block my-2" id="avatar" name="avatar">
-        </div> --}}
         <div class="form-group">
             {{Form::file('images', ["multiple"=>"''", "name"=>"photos"])}}
         </div> 
         <div class="form-group">
-            {{Form::textarea('product_description', '', ['placeholder'=>'Description', 'class'=>'form-control'])}}
+            {{Form::textarea('product_description', '', ['placeholder'=>'Description', 'class'=>'form-control', 'minlength'=>'255'])}}
         </div>
         <div class="form-group">
             {{Form::text('marquesVisees', '', ['placeholder'=>'Marques visées', 'class'=>'form-control'])}}
@@ -82,8 +79,7 @@
         <div class="button-submit-annonce">  
             {{Form::submit('AJOUTER', ['class'=>'btn btn-primary'])}} 
             {!!Form::close()!!}
-        </div>
-        <div class="button-besoin-aide-annonce">
+            <br>
             <button class="btn besoin-d-aide-annonce"><a href="#">BESOIN D'AIDE ?</a></button>
         </div>
 
