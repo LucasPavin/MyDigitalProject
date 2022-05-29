@@ -24,6 +24,7 @@ Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/nos-tarifs', [PostController::class, 'nostarifs']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/contact', [PostController::class, 'contacter']);
+Route::get('/favoris', [PostController::class, 'favoris']);
 
 // Annonce
 Route::get('/filtrer', 'App\Http\Controllers\ProductController@filtrer')->name('product.filtrer');

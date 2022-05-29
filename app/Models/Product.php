@@ -14,4 +14,13 @@ class Product extends Model
     public function user(){
         return $this->belongsTo(User::class, 'user_id');
     }
+
+    public function likes(){
+        return $this->belongsToMany(User::class);
+    }
+    public function isLike() {
+        if(auth()->check()){
+            return auth()->user()->likes->contains('id', $this->id);
+        }
+    }
 }

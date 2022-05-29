@@ -46,16 +46,8 @@
         <div class="annonce">
         @foreach ($produits as $produit)
             
-                <div class="pl-list">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <h4>{{$produit->description}}</h4>
-                    <a href="/annonce/{{$produit->id}}" class="" ><img src="{{$produit->images}}" alt=""></a>
-                    <div class="container-details-publication">
-                        <p class="localisation">{{ $produit->localisation}}</p>
-                        <p class="categorie">{{ $produit->categorie}}</p>
-                        <div class="date-creation">{{$produit->created_at->format('d/m/y')}}</div>
-                    </div>
-                </div>
+        <livewire:product :produit="$produit"/>
+                
             
         @endforeach
         </div>
