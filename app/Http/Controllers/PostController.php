@@ -11,16 +11,17 @@ class PostController extends Controller {
     public function deposerannonce () {
         return view('product.deposerannonce');
     }
-
     public function nostarifs(){
         return view('pages.nosTarifs');
     }
-
     public function apropos () {
         return view('pages.apropos');
     }
     public function contacter () {
         return view('pages.contact');
+    }
+    public function favoris() {
+        return view('pages.favoris');
     }
  
 }

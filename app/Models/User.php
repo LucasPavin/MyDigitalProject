@@ -18,6 +18,10 @@ class User extends Authenticatable
         return $this->hasMany(Product::class);
     }
 
+    public function likes(){
+        return $this->belongsToMany(Product::class);
+    }
+
     /**
      * The attributes that are mass assignable.
      *
