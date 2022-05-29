@@ -21,21 +21,75 @@
   border-radius: 10px;
   padding: 14px 25px;
 }
+.container-consulter-annonce .container-recherche input:focus {
+  outline: none;
+}
+.container-consulter-annonce .container-flitre-recherche {
+  background-color: #F6F6F6;
+  margin: 30px auto;
+  width: 50%;
+  border-radius: 10px;
+}
+.container-consulter-annonce .container-flitre-recherche .form-control {
+  border-radius: 5px;
+  width: 135px;
+  background-color: #F6F6F6;
+}
+.container-consulter-annonce .container-flitre-recherche .form-control:focus {
+  outline: none;
+}
 .container-consulter-annonce .annonce {
-  padding-top: 30px;
-  padding: 50px 100px;
+  padding-top: 80px;
+  margin: 30px auto;
+  max-width: 1300px;
+  width: 80%;
+  height: auto;
   display: grid;
-  align-self: center;
-  align-content: center;
-  grid-template-columns: repeat(2, 1fr);
-  flex-wrap: wrap;
-  grid-gap: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 600px);
+  grid-gap: 100px;
 }
 .container-consulter-annonce .annonce .pl-list {
-  display: block;
-  width: 45%;
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
 }
 .container-consulter-annonce .annonce .pl-list .fa-quote-left {
   color: #FB5C2D;
   font-size: 50px;
+}
+.container-consulter-annonce .annonce .pl-list .container-details-publication {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.container-consulter-annonce .annonce .pl-list .container-details-publication p {
+  margin: 0;
+  flex-wrap: nowrap;
+  font-size: 10px;
+}
+.container-consulter-annonce .annonce .pl-list .container-details-publication .localisation {
+  padding: 5px 60px;
+  align-items: center;
+  margin: 0;
+  color: white;
+  background-color: #174AFC;
+  border-radius: 0 0 20px 20px;
+}
+.container-consulter-annonce .annonce .pl-list .container-details-publication .categorie {
+  padding: 5px 60px;
+  align-items: center;
+  margin: 0;
+  color: white;
+  background-color: #174AFC;
+  border-radius: 0 0 20px 20px;
+}
+.container-consulter-annonce .annonce .pl-list .container-details-publication .date-creation {
+  color: white;
+  padding: 5px 60px;
+  height: 45px;
+  background-color: #174AFC;
+  border-radius: 0 0 30px 30px;
 }
