@@ -30,7 +30,7 @@
             }
         }
         .zone-video{
-            padding-top: 200px;
+            padding-top: 150px;
             display: flex;
             justify-content: center;
             .video-d-entree{
@@ -46,15 +46,46 @@
 
     .zone-white-container-home-1 {
         background-image: url(./../../../public/pattern/pattern.svg);
-        height: 120vh;
+        height: 110vh;
         h2{
-            padding-top: 500px;
+            padding-top: 550px;
             color: $couleur_principale;
             font-size: 60px;
             font-weight: 200;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .container-les-etapes-a-suivre {
+            padding-top: 60px;
+            width: 65%;
+            display: grid;
+            text-align: center;
+            margin: 30px auto;
+            grid-template-columns: repeat(7, 1fr);
+            .etapes {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                .fa-solid{
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 100px;
+                    background-color: $couleur_principale;
+                }
+                h4{
+                    margin: 0;
+                    color: $couleur_principale;
+                    font-weight: 600;
+                }
+                p {
+                    margin-top: 5px;
+                    color: $couleur_principale;
+                    font-size: 12px;
+                }
+            }
         }
     }
     .zone-orange-bleu-container-home{

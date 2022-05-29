@@ -8,6 +8,7 @@
     "/css/app.css": "/css/app.css",
     "/css/auth/login.css": "/css/auth/login.css",
     "/css/auth/register.css": "/css/auth/register.css",
+    "/css/dashboard/dashboard.css": "/css/dashboard/dashboard.css",
     "/css/layouts/footer.css": "/css/layouts/footer.css",
     "/css/layouts/navbar.css": "/css/layouts/navbar.css",
     "/css/layouts/navbar-noir.css": "/css/layouts/navbar-noir.css",

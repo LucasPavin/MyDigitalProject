@@ -21,14 +21,23 @@
                 <div class="publication">
                     <a href="/annonce/{{$product->id}}">
                         <img src="{{ $product->images}}" alt="">
-                        <h3 style="text-align: center">{{$product->product_name}}</h3>
+                        <h3>{{$product->product_name}}</h3>
                     </a>
+                    <div class="btn-modif-supp">
+                        <a href="/annonce/{{$product->id}}/edit" class="btn btn_bleu">Modifier</a>
+                        {!!Form::open(['action' => ['App\Http\Controllers\ProductController@destroy', $product->id], 'class' => 'pull-right'])!!}
+                            {{Form::hidden('_method', 'DELETE')}}
+                            {{Form::submit('Supprimer', ['class' => 'btn btn_rouge' ])}}
+                        {!!Form::close()!!}
+                    </div>
                 </div>
                 
 
              @empty
 
-                <h3>Vous n'avez pas encore déposer d'annonce.</h3>
+                <div class="avertissement">
+                    <h3>Vous n'avez pas encore déposer d'annonce.</h3>
+                </div>
 
             @endforelse
         </div>

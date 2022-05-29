@@ -22,6 +22,38 @@
                         </div> 
                         <div class="zone-white-container-home-1">
                                 <h2>Les étapes pour se faire&nbsp;<span style="font-weight:700">sponsoriser</span></h2>
+                                <div class="container-les-etapes-a-suivre">
+                                        <div class="etapes">
+                                                <i class="fa-solid fa-1"></i>
+                                                <h4>Un projet ?</h4>
+                                                <p>A la recherche d'un sponsors pour financer votre projet.<br>Sponski est là pour vous !</p>
+
+                                        </div>
+                                        <div class="fleche1">
+                                              ->  
+                                        </div>
+                                        <div class="etapes">
+                                                <i class="fa-solid fa-2"></i>
+                                                <h4>Déposer</h4>
+                                                <p>A la recherche d'un sponsors pour financer votre projet.<br>Sponski est là pour vous !</p>
+                                        </div>
+                                        <div class="fleche2">
+                                              ->  
+                                        </div>
+                                        <div class="etapes">
+                                                <i class="fa-solid fa-3"></i>
+                                                <h4>Mise en relation</h4>
+                                                <p>A la recherche d'un sponsors pour financer votre projet.<br>Sponski est là pour vous !</p>
+                                        </div>
+                                        <div class="fleche3">
+                                              ->  
+                                        </div>
+                                        <div class="etapes">
+                                                <i class="fa-solid fa-4"></i>
+                                                <h4>Financement</h4>
+                                                <p>A la recherche d'un sponsors pour financer votre projet.<br>Sponski est là pour vous !</p>
+                                        </div>
+                                </div>
                         </div> 
                         <div class="zone-orange-bleu-container-home">
                                 <div class="zone-orange-home">
@@ -51,12 +83,12 @@
                         </div>
 
                         <div class="zone-white-container-home-2">
-                                <div class="container-confiance">
+                                {{-- <div class="container-confiance">
                                         <h2>Ils nous ont fait confiance</h2>
                                         <div class="liste-confiance">
                                                 <img src="/images/Puma-logo.png" class="photo-Puma">
                                         </div>
-                                </div> 
+                                </div>  --}}
                         </div> 
 
                         <div class="zone-bleu-container-home-2">

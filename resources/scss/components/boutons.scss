@@ -8,6 +8,7 @@
     transition: .4s;
 }
 
+// Bouton orange
 .btn_orange{
     background-color: $couleur-secondaire;
     border: 1px solid $couleur-secondaire;
@@ -38,6 +39,20 @@
     color: $couleur-principale;
 }
 
+// Bouton rouge
+.btn_rouge{
+    background-color: red;
+    border: 1px solid red;
+    color: $blanc;
+}
+
+.btn_rouge:hover,
+.btn_rouge:active,
+.btn_rouge:focus{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+}
 
 // Bouton noir
 

@@ -33,35 +33,36 @@
             <select name="prix" id="prix" class="form-control" data-dependent="state">
                 <option value="">Prix</option>
             </select>
+            {{ Form::submit('Filtrer', ['class' => 'btn btn_noir'])}}
            
         </div> 
-        {{ Form::submit('Rechercher', ['class' => 'btn btn_noir', 'style' => 'text-align:right;'])}}  
+       
 
-        @if(Session::has('status'))
+        {{-- @if(Session::has('status'))
             <div class="alert alert-succes">
                 {{Session::get('status')}}
             </div>    
-        @endif
+        @endif --}}
         <div class="annonce">
         @foreach ($produits as $produit)
             
                 <div class="pl-list">
                     <i class="fa-solid fa-quote-left"></i>
-                    <h4>{{$produit->product_name}}</h4>
+                    <h4>{{$produit->description}}</h4>
                     <a href="/annonce/{{$produit->id}}" class="" ><img src="{{$produit->images}}" alt=""></a>
-                    <div class="container-details-publication" style="display: flex; justify-content:space-between">
-                        <p style="background-color: bleu;">{{ $produit->localisation}}</p>
-                        <p>{{ $produit->categorie}}</p>
-                        <div class="mb-1 text-muted">{{$produit->created_at->format('d/m/y')}}</div>
+                    <div class="container-details-publication">
+                        <p class="localisation">{{ $produit->localisation}}</p>
+                        <p class="categorie">{{ $produit->categorie}}</p>
+                        <div class="date-creation">{{$produit->created_at->format('d/m/y')}}</div>
                     </div>
                 </div>
             
         @endforeach
-    </div>
-            <div class="container-links">
-                {{ $produits->links()}}
-            </div>
+        </div>
+                <div class="container-links">
+                    {{ $produits->links()}}
+                </div>
 
-    </div>
+        </div>
     
 @endsection

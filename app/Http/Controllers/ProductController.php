@@ -18,7 +18,7 @@ class ProductController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth')->except(['show']);
+        // $this->middleware('auth')->except(['show']);
     }
 
 
@@ -53,7 +53,7 @@ class ProductController extends Controller
                                    'localisation' => 'required',
                                    'marquesVisees' => 'required',
                                    'product_prix' => 'required',
-                                   'product_description' => 'required',
+                                   'product_description' => ['required', 'min:255'],
                                   ]);
 
         // $filename = time().'.'.$request->photos->extension();

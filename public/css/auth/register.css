@@ -34,6 +34,20 @@
   color: #174AFC;
 }
 
+.btn_rouge {
+  background-color: red;
+  border: 1px solid red;
+  color: #FFFFFF;
+}
+
+.btn_rouge:hover,
+.btn_rouge:active,
+.btn_rouge:focus {
+  background-color: transparent;
+  border: 1px solid red;
+  color: red;
+}
+
 .btn_noir {
   background-color: black;
   border: 1px solid black;
