@@ -1,0 +1,111 @@
+@import '../components/variables';
+@import '../components/mixins';
+
+.container-annonce-sauvegardees{
+    padding-top: 40px;
+    background-image: url(./../../../public/pattern/pattern.svg);
+    .titre-annonce-sauvegardees{
+        text-align: center;
+        font-size: 50px;
+    }
+    .p-annonce-sauvergardees {
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+    .annonce-favoris{
+        padding-top: 20px;
+        margin: 30px auto;
+        max-width: 1300px;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .pl-list{
+            background-color: #F6F6F6;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1.5fr 2fr;
+            margin-top: 40px;
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+            .partie-photo {
+                .photo-consulter-annonce{
+                    border-radius: 10px 0 0 10px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 400px;
+                    max-width: 100%;
+                }
+            }
+            .partie-description {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                margin: 30px 0 0 30px;
+                h4 {
+                    color: $couleur-principale;
+                    font-weight: 600;
+                }
+                .fa-quote-left{
+                    padding-top: 20px;
+                    color: $couleur_secondaire;
+                    font-size: 30px;
+                }
+                p {
+                    margin: 0;
+                }
+                .description-text {
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+                .description-annonce {
+                    font-size: 16px;
+                    padding: 3px 0 10px 0;
+                }
+                .class-budget {
+                    font-size: 14px;
+                    font-weight: 700;
+                    display: flex;
+                    justify-content: center;
+                }
+                .class-somme-budget {
+                    text-align: center;
+                    font-size: 42px;
+                }
+                .details-annonce {
+                    padding-top: 20px;
+                    display: grid;
+                    justify-content: space-around;
+                    grid-template-columns: repeat(3, 1fr);
+                    .details-creation {
+                        display: flex;
+                        justify-content: center;
+                        .fa-solid {
+                            color: $couleur-principale;
+                            padding-right: 10px;
+                        }
+                        .date-creation{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .container-bleu {
+                    position:absolute; 
+                    bottom:0;
+                    .info-savoir-plus-like {
+                        display: grid;
+                        justify-content: center;
+                        grid-template-columns: 3fr 1fr;
+                        .bouton {
+                            width: 400px;
+                            background-color: $couleur-principale;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+}

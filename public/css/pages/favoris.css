@@ -1,0 +1,105 @@
+.container-annonce-sauvegardees {
+  padding-top: 40px;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-annonce-sauvegardees .titre-annonce-sauvegardees {
+  text-align: center;
+  font-size: 50px;
+}
+.container-annonce-sauvegardees .p-annonce-sauvergardees {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+}
+.container-annonce-sauvegardees .annonce-favoris {
+  padding-top: 20px;
+  margin: 30px auto;
+  max-width: 1300px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list {
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin-top: 40px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.6);
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-photo .photo-consulter-annonce {
+  border-radius: 10px 0 0 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  max-width: 100%;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 30px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description h4 {
+  color: #174AFC;
+  font-weight: 600;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .fa-quote-left {
+  padding-top: 20px;
+  color: #FB5C2D;
+  font-size: 30px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description p {
+  margin: 0;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .description-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .description-annonce {
+  font-size: 16px;
+  padding: 3px 0 10px 0;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .class-budget {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .class-somme-budget {
+  text-align: center;
+  font-size: 42px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce {
+  padding-top: 20px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce .details-creation {
+  display: flex;
+  justify-content: center;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce .details-creation .fa-solid {
+  color: #174AFC;
+  padding-right: 10px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce .details-creation .date-creation {
+  font-size: 12px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu {
+  position: absolute;
+  bottom: 0;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 3fr 1fr;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton {
+  width: 400px;
+  background-color: #174AFC;
+}

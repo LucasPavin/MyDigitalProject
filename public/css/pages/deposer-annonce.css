@@ -33,9 +33,22 @@
 
 .container-deposer-annonce {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  padding-top: 100px;
   display: block;
   text-align: center;
+}
+.container-deposer-annonce .text-image-deposer {
+  background-image: url(/images/deposerAnnonce.png?866d63770496c61ea6ad56338a443fb7);
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-deposer-annonce .text-image-deposer .text-deposer {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin: 0;
 }
 .container-deposer-annonce .form-group {
   padding-bottom: 30px;

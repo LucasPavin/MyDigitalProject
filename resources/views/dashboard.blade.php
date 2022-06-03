@@ -10,11 +10,20 @@
 
 @section('contenu')
 
-
+   
     <div class="container-dashboard">
         <div class="texte-bienvenu-dashboard">
             <h2>Bonjour {{ Auth::user()->firstname}}</h2>
         </div>
+
+        <div class="annonce-delete-alerte">
+            @if(Session::has('status'))
+                <div class="alert alert-delete">
+                    {{Session::get('status')}}
+                </div>    
+            @endif
+        </div>
+
         <div class="publication-deposer-user">
             @forelse (auth()->user()->products as $product)
 

@@ -37,7 +37,6 @@ Route::get('/register', [RegisteredUserController::class, 'create'])->name('regi
 Route::resource('/chat', 'App\Http\Controllers\ChatController');
 Route::post('/chat', [ChatController::class, 'store']);
 
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

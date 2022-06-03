@@ -1395,6 +1395,23 @@ footer {
   color: #174AFC;
   text-align: center;
 }
+.container-dashboard .annonce-delete-alerte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.container-dashboard .annonce-delete-alerte .alert-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding: 20px;
+  background-color: #FB5C2D;
+  color: white;
+  width: 600px;
+  border-radius: 10px;
+}
 .container-dashboard .publication-deposer-user {
   padding: 80px 0;
   max-width: 1300px;
@@ -1477,6 +1494,13 @@ footer {
 }
 .container-error-404 h2 {
   font-size: 100px;
+}
+
+.container-flash {
+  border: 2px solid red;
+  color: black;
+  background-color: #ff5050;
+  font-weight: 700;
 }
 
 h2 {
@@ -2110,9 +2134,22 @@ p {
 
 .container-deposer-annonce {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  padding-top: 100px;
   display: block;
   text-align: center;
+}
+.container-deposer-annonce .text-image-deposer {
+  background-image: url(/images/deposerAnnonce.png?866d63770496c61ea6ad56338a443fb7);
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-deposer-annonce .text-image-deposer .text-deposer {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin: 0;
 }
 .container-deposer-annonce .form-group {
   padding-bottom: 30px;
@@ -2183,99 +2220,381 @@ p {
   }
 }
 .container-consulter-annonce {
-  padding-top: 40px;
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
 }
-.container-consulter-annonce .container-recherche {
+.container-consulter-annonce .text-image-annonce {
+  background-image: url(/images/groupe.png?6bb98f45aa9989c32dc7e304c4298fe4);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-consulter-annonce .text-image-annonce .text-annonce {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+.container-consulter-annonce .container-noir-filter {
+  padding: 50px;
+  background-color: #12141D;
+}
+.container-consulter-annonce .container-noir-filter .container-recherche {
   display: flex;
   justify-content: center;
 }
-.container-consulter-annonce .container-recherche .barre-recherche {
+.container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche {
   background-color: #F6F6F6;
   border-radius: 10px;
 }
-.container-consulter-annonce .container-recherche .barre-recherche .g-navSearch {
+.container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .g-navSearch {
   width: 650px;
   background-color: #F6F6F6;
   padding: 10px 15px;
 }
-.container-consulter-annonce .container-recherche .barre-recherche .fa-magnifying-glass {
+.container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .fa-magnifying-glass {
   color: #174AFC;
   background-color: #B6B9C3;
   border-radius: 10px;
   padding: 14px 25px;
 }
-.container-consulter-annonce .container-recherche input:focus {
+.container-consulter-annonce .container-noir-filter .container-recherche input:focus {
   outline: none;
 }
-.container-consulter-annonce .container-flitre-recherche {
+.container-consulter-annonce .container-noir-filter .container-flitre-recherche {
   background-color: #F6F6F6;
   margin: 30px auto;
   width: 50%;
   border-radius: 10px;
 }
-.container-consulter-annonce .container-flitre-recherche .form-control {
+.container-consulter-annonce .container-noir-filter .container-flitre-recherche .form-control {
   border-radius: 5px;
   width: 135px;
   background-color: #F6F6F6;
 }
-.container-consulter-annonce .container-flitre-recherche .form-control:focus {
+.container-consulter-annonce .container-noir-filter .container-flitre-recherche .form-control:focus {
   outline: none;
 }
+.container-consulter-annonce .annonce-success-alerte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.container-consulter-annonce .annonce-success-alerte .alert-succes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding: 20px;
+  background-color: #174AFC;
+  color: white;
+  width: 600px;
+  border-radius: 10px;
+}
 .container-consulter-annonce .annonce {
-  padding-top: 80px;
+  padding-top: 40px;
   margin: 30px auto;
   max-width: 1300px;
   width: 80%;
   height: auto;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 600px);
-  grid-gap: 100px;
 }
 .container-consulter-annonce .annonce .pl-list {
-  width: 600px;
-  height: auto;
+  background-color: #F6F6F6;
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin-top: 40px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.6);
 }
-.container-consulter-annonce .annonce .pl-list .fa-quote-left {
+.container-consulter-annonce .annonce .pl-list .partie-photo .photo-consulter-annonce {
+  border-radius: 10px 0 0 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  max-width: 100%;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 30px;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description h4 {
+  color: #174AFC;
+  font-weight: 600;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .fa-quote-left {
+  padding-top: 20px;
   color: #FB5C2D;
+  font-size: 30px;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description p {
+  margin: 0;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-annonce {
+  font-size: 16px;
+  padding: 3px 0 10px 0;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .class-budget {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .class-somme-budget {
+  text-align: center;
+  font-size: 42px;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .details-annonce {
+  padding-top: 20px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation {
+  display: flex;
+  justify-content: center;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation .fa-solid {
+  color: #174AFC;
+  padding-right: 10px;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation .date-creation {
+  font-size: 12px;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-bleu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 4fr 0.5fr;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton {
+  width: 100%;
+  background-color: #174AFC;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .savoir-plus {
+  padding: 10;
+  color: white;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton:hover {
+  padding: 10;
+  color: white;
+  background-color: #12141D;
+}
+.container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .container-addLike {
+  background-color: #FB5C2D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 0;
+}
+
+.container-annonce-sauvegardees {
+  padding-top: 40px;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-annonce-sauvegardees .titre-annonce-sauvegardees {
+  text-align: center;
   font-size: 50px;
 }
-.container-consulter-annonce .annonce .pl-list .container-details-publication {
+.container-annonce-sauvegardees .p-annonce-sauvergardees {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+}
+.container-annonce-sauvegardees .annonce-favoris {
+  padding-top: 20px;
+  margin: 30px auto;
+  max-width: 1300px;
+  width: 80%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;
+  flex-direction: column;
+  justify-content: center;
 }
-.container-consulter-annonce .annonce .pl-list .container-details-publication p {
+.container-annonce-sauvegardees .annonce-favoris .pl-list {
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin-top: 40px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.6);
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-photo .photo-consulter-annonce {
+  border-radius: 10px 0 0 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  max-width: 100%;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 30px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description h4 {
+  color: #174AFC;
+  font-weight: 600;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .fa-quote-left {
+  padding-top: 20px;
+  color: #FB5C2D;
+  font-size: 30px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description p {
   margin: 0;
-  flex-wrap: nowrap;
-  font-size: 10px;
 }
-.container-consulter-annonce .annonce .pl-list .container-details-publication .localisation {
-  padding: 5px 60px;
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .description-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .description-annonce {
+  font-size: 16px;
+  padding: 3px 0 10px 0;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .class-budget {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .class-somme-budget {
+  text-align: center;
+  font-size: 42px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce {
+  padding-top: 20px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce .details-creation {
+  display: flex;
+  justify-content: center;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce .details-creation .fa-solid {
+  color: #174AFC;
+  padding-right: 10px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .details-annonce .details-creation .date-creation {
+  font-size: 12px;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu {
+  position: absolute;
+  bottom: 0;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 3fr 1fr;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton {
+  width: 400px;
+  background-color: #174AFC;
+}
+
+h2 {
+  font-size: 5.3125rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+.container-annonce {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-annonce .container-annonce-images {
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 0;
-  color: white;
-  background-color: #174AFC;
-  border-radius: 0 0 20px 20px;
+  width: 100%;
+  height: auto;
 }
-.container-consulter-annonce .annonce .pl-list .container-details-publication .categorie {
-  padding: 5px 60px;
+.container-annonce .annonce-description {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.container-annonce .annonce-description .bouton-retour-connexion button {
+  font-weight: 600;
+  color: #174AFC;
+  margin-bottom: 30px;
+}
+.container-annonce .annonce-description .bouton-retour-connexion button i {
+  padding-right: 5px;
+}
+.container-annonce .annonce-description h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+.container-annonce .annonce-description .class-budget {
+  display: flex;
+  justify-content: center;
+}
+.container-annonce .annonce-description .class-somme-budget {
+  text-align: center;
+  font-size: 42px;
+}
+.container-annonce .annonce-description .details-annonce {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-annonce .annonce-description .details-annonce .details-creation {
+  display: flex;
+  justify-content: center;
+}
+.container-annonce .annonce-description .details-annonce .details-creation .fa-solid {
+  color: #174AFC;
+  padding-right: 10px;
+}
+.container-annonce .annonce-description .details-annonce .details-creation .date-creation {
+  font-size: 16px;
+}
+.container-annonce .annonce-description .partie-button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container-annonce .annonce-description .partie-button .btn_bleu {
+  margin-right: 10px;
+}
+.container-annonce .annonce-description .partie-button .btn_orange {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 0;
-  color: white;
-  background-color: #174AFC;
-  border-radius: 0 0 20px 20px;
-}
-.container-consulter-annonce .annonce .pl-list .container-details-publication .date-creation {
-  color: white;
-  padding: 5px 60px;
-  height: 45px;
-  background-color: #174AFC;
-  border-radius: 0 0 30px 30px;
+  flex-direction: row;
+  margin-left: 10px;
 }
 
 .btn {

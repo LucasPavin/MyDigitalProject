@@ -4,6 +4,9 @@
 .container-dashboard {
     background-image: url(./../../../public/pattern/pattern.svg);
 
+
+    
+
     .texte-bienvenu-dashboard{
         padding-top: 60px;
         h2 {
@@ -16,6 +19,23 @@
             text-align: center;
         }
     }
+    .annonce-delete-alerte {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        .alert-delete {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+            padding: 20px;
+            background-color: $couleur-secondaire;
+            color: white;
+            width: 600px;
+            border-radius: 10px;
+        }
+    }                                       
     .publication-deposer-user {
         padding: 80px 0;
         max-width: 1300px;

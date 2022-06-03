@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
 class PostController extends Controller {
-
     public function home () {
         return view('pages.home');
     }
@@ -23,5 +21,4 @@ class PostController extends Controller {
     public function favoris() {
         return view('pages.favoris');
     }
- 
 }

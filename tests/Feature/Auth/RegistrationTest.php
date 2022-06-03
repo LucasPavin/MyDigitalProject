@@ -4,6 +4,7 @@ namespace Tests\Feature\Auth;
 
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Hash;
 use Tests\TestCase;
 
 class RegistrationTest extends TestCase
@@ -20,10 +21,14 @@ class RegistrationTest extends TestCase
     public function test_new_users_can_register()
     {
         $response = $this->post('/register', [
-            'name' => 'Test User',
+            'firstname' => 'Lucas',
+            'name' => 'Pavin',
             'email' => 'test@example.com',
-            'password' => 'password',
+            'password' =>'password',
             'password_confirmation' => 'password',
+            'dateOfBirth' => '14/08/2001',
+            'status' => 'professionnel',
+            'chooseStatus' => 'sponsorisez',
         ]);
 
         $this->assertAuthenticated();

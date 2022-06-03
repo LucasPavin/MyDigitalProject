@@ -13,6 +13,23 @@
   color: #174AFC;
   text-align: center;
 }
+.container-dashboard .annonce-delete-alerte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.container-dashboard .annonce-delete-alerte .alert-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding: 20px;
+  background-color: #FB5C2D;
+  color: white;
+  width: 600px;
+  border-radius: 10px;
+}
 .container-dashboard .publication-deposer-user {
   padding: 80px 0;
   max-width: 1300px;
