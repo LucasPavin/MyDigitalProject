@@ -18,8 +18,10 @@
 //Page 404
 @import 'error/404';
 
-// Pages
+// Livewire
+@import 'livewire/flash';
 
+// Pages
 @import 'pages/chat';
 @import 'pages/apropos';
 @import 'pages/accueil';
@@ -27,6 +29,8 @@
 @import 'pages/contact';
 @import 'pages/deposer-annonce';
 @import 'pages/consulter-annonce';
+@import 'pages/favoris';
+@import 'pages/annonce';
 
 // Auth 
 @import 'auth/login.scss';

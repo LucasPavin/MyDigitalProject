@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class ProductController extends Controller
 {
@@ -24,7 +25,7 @@ class ProductController extends Controller
 
     public function index()
     {
-        $produits = Product::orderBy('product_name', 'desc')->paginate(15);
+        $produits = Product::orderBy('product_name', 'asc')->paginate(6);
 
         return view('product.consulterannonce')->with('produits',$produits);
 
@@ -56,13 +57,7 @@ class ProductController extends Controller
                                    'product_description' => ['required', 'min:255'],
                                   ]);
 
-        // $filename = time().'.'.$request->photos->extension();
 
-        // $request->file('photos')->storeAs(
-        //     'photos',
-        //     $filename,
-        //     'public',
-        // );
         $fichierUpload = Storage::disk('public')->put('photos', $request->photos);
         $url = Storage::url($fichierUpload);
 
@@ -80,7 +75,7 @@ class ProductController extends Controller
 
         $produits->save();
 
-        return redirect('/annonce')->with('status', "L annonce " .$produits->product_name. " a été inséré avec succès ");
+        return redirect('/annonce')->with('status', "L'annonce " .$produits->product_name. " a été inséré avec succès ");
     }
 
     /**
@@ -144,7 +139,7 @@ class ProductController extends Controller
     {
         $produit = Product::find($id);
         $produit->delete();
-        return redirect('/annonce')->with('status', "L'annonce " .$produit->product_name. " a été supprimé avec succès.");
+        return redirect('/dashboard')->with('status', "L'annonce " .$produit->product_name. " a été supprimé avec succès.");
     }
 
     public function recherche(){
@@ -152,7 +147,7 @@ class ProductController extends Controller
         $produits = Product::where('product_name','like',"%$q%")
                     ->orWhere('description','like', "%$q%")
                     ->orWhere('localisation','like', "%$q%")
-                    ->paginate(15);
+                    ->paginate(6);
         
         return view('product.recherche')->with('produits', $produits);
     }

@@ -1,0 +1,88 @@
+h2 {
+  font-size: 5.3125rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+.container-annonce {
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-annonce .container-annonce-images {
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.container-annonce .annonce-description {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.container-annonce .annonce-description .bouton-retour-connexion button {
+  font-weight: 600;
+  color: #174AFC;
+  margin-bottom: 30px;
+}
+.container-annonce .annonce-description .bouton-retour-connexion button i {
+  padding-right: 5px;
+}
+.container-annonce .annonce-description h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+.container-annonce .annonce-description .class-budget {
+  display: flex;
+  justify-content: center;
+}
+.container-annonce .annonce-description .class-somme-budget {
+  text-align: center;
+  font-size: 42px;
+}
+.container-annonce .annonce-description .details-annonce {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-annonce .annonce-description .details-annonce .details-creation {
+  display: flex;
+  justify-content: center;
+}
+.container-annonce .annonce-description .details-annonce .details-creation .fa-solid {
+  color: #174AFC;
+  padding-right: 10px;
+}
+.container-annonce .annonce-description .details-annonce .details-creation .date-creation {
+  font-size: 16px;
+}
+.container-annonce .annonce-description .partie-button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container-annonce .annonce-description .partie-button .btn_bleu {
+  margin-right: 10px;
+}
+.container-annonce .annonce-description .partie-button .btn_orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 10px;
+}

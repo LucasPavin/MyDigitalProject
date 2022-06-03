@@ -38,9 +38,22 @@
 
 .container-deposer-annonce{
     background-image: url(./../../../public/pattern/pattern.svg);
-    padding-top: 100px;
     display: block;
     text-align: center;
+    .text-image-deposer {
+        background-image: url(../../../public/images/deposerAnnonce.png);
+        height: 200px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .text-deposer {
+            font-weight: 700;
+            font-size: 40px;
+            color: white;
+            margin: 0;
+        }
+    }
     .form-group{
         padding-bottom: 30px;
         .form-control{

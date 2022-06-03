@@ -1,0 +1,81 @@
+@import '../components/variables';
+@import '../components/titres';
+@import '../components/mixins';
+
+
+.container-annonce{
+    background-image: url(./../../../public/pattern/pattern.svg);
+    .container-annonce-images {
+        border-radius: 10px 0 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .annonce-description {
+    
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 30px auto;
+
+            .bouton-retour-connexion {
+                button {
+                    font-weight: 600;
+                    color: $couleur-principale;
+                    margin-bottom: 30px;
+                    i {
+                        padding-right: 5px;
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: 800;
+                margin: 10px 0 0 0;
+            }
+            .class-budget {
+                display: flex;
+                justify-content: center;
+            }
+            .class-somme-budget {
+                text-align: center;
+                font-size: 42px;
+            }
+            .details-annonce {
+                padding-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                
+                .details-creation {
+                    display: flex;
+                    justify-content: center;
+                    .fa-solid {
+                        color: $couleur-principale;
+                        padding-right: 10px;
+                    }
+                    .date-creation{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .partie-button {
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+                .btn_bleu {
+                    margin-right: 10px;
+                }
+                .btn_orange {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    margin-left: 10px;
+                }
+            }
+        }
+    
+}

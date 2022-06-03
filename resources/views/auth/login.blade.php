@@ -41,9 +41,7 @@
                                     type="password"
                                     id="password"
                                     name="password"
-                                    required autocomplete="current-password">
-                                    
-                                    </input>
+                                    required autocomplete="current-password"/>
                     
                 </div>
     

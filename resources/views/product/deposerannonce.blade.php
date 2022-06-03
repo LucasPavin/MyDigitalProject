@@ -37,6 +37,10 @@
         </div>    
     @endif
     <div class="container-deposer-annonce">
+        
+        <div class="text-image-deposer">
+            <p class="text-deposer">Déposer une annonce</p>
+        </div>
 
         {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/form-data"])!!}
         {{csrf_field()}}
