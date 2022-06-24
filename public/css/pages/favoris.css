@@ -55,11 +55,11 @@
 .container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description p {
   margin: 0;
 }
-.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .description-text {
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-product-description .description-text {
   font-size: 14px;
   font-weight: 700;
 }
-.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .description-annonce {
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-product-description .description-annonce {
   font-size: 16px;
   padding: 3px 0 10px 0;
 }
@@ -93,13 +93,30 @@
 .container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
 .container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like {
   display: grid;
   justify-content: center;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 0.5fr;
 }
 .container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton {
-  width: 400px;
+  width: 100%;
   background-color: #174AFC;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like .savoir-plus {
+  padding: 10;
+  color: white;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton:hover {
+  padding: 10;
+  color: white;
+  background-color: #12141D;
+}
+.container-annonce-sauvegardees .annonce-favoris .pl-list .partie-description .container-bleu .info-savoir-plus-like .container-addLike {
+  background-color: #FB5C2D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 0;
 }

@@ -14,13 +14,11 @@
         height: auto;
     }
     .annonce-description {
-    
             width: 70%;
             display: flex;
             justify-content: center;
             flex-direction: column;
             margin: 30px auto;
-
             .bouton-retour-connexion {
                 button {
                     font-weight: 600;
@@ -76,6 +74,5 @@
                     margin-left: 10px;
                 }
             }
-        }
-    
+        }  
 }

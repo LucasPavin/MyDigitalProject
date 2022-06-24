@@ -30,7 +30,6 @@ class RegistrationTest extends TestCase
             'status' => 'professionnel',
             'chooseStatus' => 'sponsorisez',
         ]);
-
         $this->assertAuthenticated();
         $response->assertRedirect(RouteServiceProvider::HOME);
     }

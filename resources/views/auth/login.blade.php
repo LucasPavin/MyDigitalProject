@@ -25,14 +25,12 @@
     
             <form method="POST" action="{{ route('login') }}" class="container-connexion-form">
                 @csrf
-    
                 <!-- Email Address -->
                 <div class="container-connexion-email">
                     <x-label for="email" :value="__('E-mail')" />
                     <br/>
                     <input id="email" class="connexion-email-input" type="email" name="email" :value="old('email')" required autofocus />
                 </div>
-    
                 <!-- Password -->
                 <div class="container-connexion-mdp">
                     <x-label for="password" :value="__('Mot de passe')" />
@@ -42,9 +40,7 @@
                                     id="password"
                                     name="password"
                                     required autocomplete="current-password"/>
-                    
                 </div>
-    
                 <!-- Remember Me -->
                 <div class="container-connexion-rappeler">
                     <label for="remember_me" class="inline-flex items-center">

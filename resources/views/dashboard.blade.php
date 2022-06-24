@@ -12,6 +12,10 @@
 
    
     <div class="container-dashboard">
+
+        <div class="deco">
+            <button><a href="{{'/logout'}}">se deco</a></button>
+        </div>
         <div class="texte-bienvenu-dashboard">
             <h2>Bonjour {{ Auth::user()->firstname}}</h2>
         </div>

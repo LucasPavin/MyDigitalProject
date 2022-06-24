@@ -27,6 +27,7 @@
   border-radius: 10px;
 }
 .container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .g-navSearch {
+  border-radius: 10px;
   width: 650px;
   background-color: #F6F6F6;
   padding: 10px 15px;
@@ -179,4 +180,171 @@
   justify-content: center;
   align-items: center;
   border-radius: 0 0 10px 0;
+}
+
+@media screen and (min-width: 880px) and (max-width: 1330px) {
+  .container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .g-navSearch {
+    width: 550px;
+  }
+  .container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .fa-magnifying-glass {
+    padding: 14px 25px;
+  }
+  .container-consulter-annonce .container-noir-filter .container-flitre-recherche {
+    width: 70%;
+  }
+  .container-consulter-annonce .container-noir-filter .container-flitre-recherche .form-control {
+    width: 115px;
+  }
+  .container-consulter-annonce .annonce {
+    width: 90%;
+  }
+  .container-consulter-annonce .annonce .pl-list {
+    grid-template-columns: 1.2fr 2fr;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-photo .photo-consulter-annonce {
+    height: 350px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description h4 {
+    color: #174AFC;
+    font-weight: 600;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .fa-quote-left {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-text {
+    font-size: 12px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-annonce {
+    font-size: 14px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .class-budget {
+    font-size: 12px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .class-somme-budget {
+    font-size: 36px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce {
+    padding-top: 15px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation .fa-solid {
+    color: #174AFC;
+    padding-right: 5px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation .date-creation {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 879px) {
+  .container-consulter-annonce .text-image-annonce {
+    height: 150px;
+    background-position: center;
+  }
+  .container-consulter-annonce .text-image-annonce .text-annonce {
+    font-size: 30px;
+  }
+  .container-consulter-annonce .container-noir-filter {
+    padding: 30px;
+  }
+  .container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .g-navSearch {
+    width: 250px;
+  }
+  .container-consulter-annonce .container-noir-filter .container-flitre-recherche {
+    width: 95%;
+  }
+  .container-consulter-annonce .container-noir-filter .container-flitre-recherche .form-control {
+    font-size: 10px;
+    width: 85px;
+  }
+  .container-consulter-annonce .container-noir-filter .container-flitre-recherche .btn {
+    padding: 7px 15px;
+  }
+  .container-consulter-annonce .annonce-success-alerte .alert-succes {
+    font-size: 14px;
+    width: 400px;
+  }
+  .container-consulter-annonce .annonce {
+    width: 90%;
+  }
+  .container-consulter-annonce .annonce .pl-list {
+    display: block;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-photo .photo-consulter-annonce {
+    border-radius: 10px;
+    height: 250px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description {
+    border-radius: 10px;
+    margin: 0px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description h4 {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .fa-quote-left {
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-text {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-annonce {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .class-budget {
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .class-somme-budget {
+    text-align: center;
+    font-size: 22px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce {
+    padding-top: 20px;
+    display: grid;
+    margin-bottom: 60px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation {
+    display: flex;
+    justify-content: center;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation .fa-solid {
+    color: #174AFC;
+    font-size: 12px;
+    padding-right: 3px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .details-annonce .details-creation .date-creation {
+    font-size: 8px;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 4fr 0.5fr;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton {
+    border-radius: 0 0 0 10px;
+    width: 100%;
+    background-color: #174AFC;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .savoir-plus {
+    padding: 10;
+    color: white;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .bouton:hover {
+    padding: 10;
+    color: white;
+    background-color: #12141D;
+  }
+  .container-consulter-annonce .annonce .pl-list .partie-description .container-bleu .info-savoir-plus-like .container-addLike {
+    background-color: #FB5C2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 0;
+  }
 }

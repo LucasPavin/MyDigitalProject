@@ -15,7 +15,6 @@ class Flash extends Component
 
         $this->message = $message;
         $this->type = $type;
-
         $this->dispatchBrowserEvent('flash-message');
     }
     public function render()

@@ -5,6 +5,7 @@
     "/css/pages/contact.css": "/css/pages/contact.css",
     "/css/pages/apropos.css": "/css/pages/apropos.css",
     "/css/pages/accueil.css": "/css/pages/accueil.css",
+    "/css/app.css": "/css/app.css",
     "/css/auth/login.css": "/css/auth/login.css",
     "/css/auth/register.css": "/css/auth/register.css",
     "/css/dashboard/dashboard.css": "/css/dashboard/dashboard.css",
@@ -18,9 +19,9 @@
     "/css/components/variables.css": "/css/components/variables.css",
     "/css/error/404.css": "/css/error/404.css",
     "/css/pages/favoris.css": "/css/pages/favoris.css",
+    "/css/pages/modifier-annonce.css": "/css/pages/modifier-annonce.css",
     "/css/pages/annonce.css": "/css/pages/annonce.css",
     "/css/pages/consulter-annonce.css": "/css/pages/consulter-annonce.css",
-    "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css",
-    "/css/app.css": "/css/app.css",
-    "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css"
+    "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css",
+    "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css"
 }

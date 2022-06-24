@@ -56,13 +56,15 @@
                 p {
                     margin: 0;
                 }
-                .description-text {
-                    font-size: 14px;
-                    font-weight: 700;
-                }
-                .description-annonce {
-                    font-size: 16px;
-                    padding: 3px 0 10px 0;
+                .container-product-description {
+                    .description-text {
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    .description-annonce {
+                        font-size: 16px;
+                        padding: 3px 0 10px 0;
+                    }
                 }
                 .class-budget {
                     font-size: 14px;
@@ -94,18 +96,34 @@
                 .container-bleu {
                     position:absolute; 
                     bottom:0;
+                    width: 100%;
                     .info-savoir-plus-like {
                         display: grid;
                         justify-content: center;
-                        grid-template-columns: 3fr 1fr;
+                        grid-template-columns: 4fr 0.5fr;
                         .bouton {
-                            width: 400px;
+                            width: 100%;
                             background-color: $couleur-principale;
+                        }
+                        .savoir-plus {
+                            padding: 10 ;
+                            color: white;
+                        }
+                        .bouton:hover {
+                            padding: 10 ;
+                            color: white;
+                            background-color: #12141D ;
+                        }
+                        .container-addLike {
+                            background-color: $couleur_secondaire;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 0 0 10px 0;
                         }
                     }
                 }
             }
-    
         }
     }
 }

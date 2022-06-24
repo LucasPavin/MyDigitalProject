@@ -13,10 +13,7 @@ class Product extends Component
         if(auth()->check()){
             request()->user()->likes()->toggle($this->produit->id);
         } 
-        else {
-                $this->emit('flash','Merci de vous connecter pour ajouter une annonce à vos favoris !', 'error');
-            }
-        }
+    }
     
     public function render()
     {
