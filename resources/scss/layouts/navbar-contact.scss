@@ -1,0 +1,40 @@
+@import '../components/variables';
+@import '../components/boutons';
+@import '../components/mixins';
+
+.navbar-noir.navbar-bandeau{
+    .navbar-image.img-bandeau{
+        height: 100vh;
+        background-color: $couleur-principale;
+        border-radius: 0px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .navbar-image.img-bandeau::before{
+        content: "";
+        position: absolute;
+        background-image: url(./../../../public/pattern/pattern.svg);
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        z-index: 1;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px){
+    .navbar-noir.navbar-bandeau{
+        .navbar-image.img-bandeau{
+            height: auto;
+            // background-color: transparent;
+        }
+    
+        // .navbar-image.img-bandeau::before{
+        //     display: none;
+        // }
+    
+    }    
+}

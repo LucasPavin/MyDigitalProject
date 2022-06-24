@@ -1,11 +1,29 @@
+.container-bandeau {
+  width: 80%;
+  margin-left: 20%;
+}
+
 .container-page-contact {
   background-color: white;
-  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+  margin-bottom: 50px;
+}
+.container-page-contact input, .container-page-contact textarea {
+  padding: 13px 10px 15px 25px;
+}
+.container-page-contact input::-moz-placeholder, .container-page-contact textarea::-moz-placeholder {
+  font-size: 21px;
+}
+.container-page-contact input:-ms-input-placeholder, .container-page-contact textarea:-ms-input-placeholder {
+  font-size: 21px;
+}
+.container-page-contact input::placeholder, .container-page-contact textarea::placeholder {
+  font-size: 21px;
 }
 
 .container-page-contact .c-nom-adresse-mail {
@@ -27,7 +45,6 @@
 .c-nom-contact {
   background-color: #ECECEC;
   margin: 35px 0px 20px 0px;
-  height: 30px;
   width: 700px;
   border-radius: 10px;
 }
@@ -35,7 +52,6 @@
 .c-email-contact {
   background-color: #ECECEC;
   margin-bottom: 20px;
-  height: 30px;
   width: 700px;
   border-radius: 10px;
 }
@@ -43,7 +59,6 @@
 .c-num-contact {
   background-color: #ECECEC;
   margin-bottom: 20px;
-  height: 30px;
   width: 700px;
   border-radius: 10px;
 }
@@ -72,6 +87,20 @@
   background-color: #FB5C2D;
 }
 
+@media only screen and (max-width: 1299px) {
+  .container-page-contact input, .container-page-contact textarea {
+    padding: 7px 10px 8px 20px;
+  }
+  .container-page-contact input::-moz-placeholder, .container-page-contact textarea::-moz-placeholder {
+    font-size: 16px;
+  }
+  .container-page-contact input:-ms-input-placeholder, .container-page-contact textarea:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .container-page-contact input::placeholder, .container-page-contact textarea::placeholder {
+    font-size: 16px;
+  }
+}
 @media only screen and (min-width: 900px) and (max-width: 1299px) {
   .container .c-nom-adresse-mail {
     font-size: 30px;
@@ -102,9 +131,9 @@
   }
 }
 @media screen and (max-width: 899px) {
-  .container-page-contact {
-    height: 90vh;
+  .container-page-contact, .container-bandeau {
     width: 100%;
+    margin-left: 0;
   }
 
   .c-nom-adresse-mail {
@@ -120,7 +149,7 @@
   }
 
   .c-email-contact {
-    width: 300px;
+    width: 450px;
   }
 
   .c-num-contact {
@@ -133,5 +162,13 @@
 
   .c-button-contact {
     width: 450px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container-page-contact input, .container-page-contact textarea {
+    width: 100%;
+  }
+  .container-page-contact .section_contact {
+    width: 90%;
   }
 }
