@@ -18,13 +18,18 @@ use App\Http\Controllers\ProductController;
 |
 */
 
+Route::get('/paiement', [PostController::class, 'paiement'])->name('paiement');
+
 Route::get('/', [PostController::class, 'home']);
 Route::resource('/annonce', ProductController::class);
 Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/nos-tarifs', [PostController::class, 'nostarifs']);
 Route::get('/a-propos', [PostController::class,'apropos']);
-Route::get('/contact', [PostController::class, 'contacter']);
 Route::get('/favoris', [PostController::class, 'favoris']);
+
+// contact
+Route::get('/contact', 'App\Http\Controllers\MailContactController@show');
+Route::post('/contact', 'App\Http\Controllers\MailContactController@send')->name('mail.send');
 
 // Annonce
 Route::get('/filtrer', 'App\Http\Controllers\ProductController@filtrer')->name('product.filtrer');

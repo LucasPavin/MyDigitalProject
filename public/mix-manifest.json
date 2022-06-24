@@ -5,12 +5,14 @@
     "/css/pages/contact.css": "/css/pages/contact.css",
     "/css/pages/apropos.css": "/css/pages/apropos.css",
     "/css/pages/accueil.css": "/css/pages/accueil.css",
+    "/css/app.css": "/css/app.css",
     "/css/auth/login.css": "/css/auth/login.css",
     "/css/auth/register.css": "/css/auth/register.css",
     "/css/dashboard/dashboard.css": "/css/dashboard/dashboard.css",
     "/css/livewire/flash.css": "/css/livewire/flash.css",
     "/css/layouts/footer.css": "/css/layouts/footer.css",
     "/css/layouts/navbar.css": "/css/layouts/navbar.css",
+    "/css/layouts/navbar-contact.css": "/css/layouts/navbar-contact.css",
     "/css/layouts/navbar-noir.css": "/css/layouts/navbar-noir.css",
     "/css/components/mixins.css": "/css/components/mixins.css",
     "/css/components/boutons.css": "/css/components/boutons.css",
@@ -20,7 +22,7 @@
     "/css/pages/favoris.css": "/css/pages/favoris.css",
     "/css/pages/annonce.css": "/css/pages/annonce.css",
     "/css/pages/consulter-annonce.css": "/css/pages/consulter-annonce.css",
-    "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css",
-    "/css/app.css": "/css/app.css",
-    "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css"
+    "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css",
+    "/css/pages/tarifs-paiement.css": "/css/pages/tarifs-paiement.css",
+    "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css"
 }

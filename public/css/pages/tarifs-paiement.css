@@ -1,0 +1,181 @@
+h2 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 13px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.btn_orange {
+  background-color: #FB5C2D;
+  border: 1px solid #FB5C2D;
+  color: #FFFFFF;
+}
+
+.btn_orange:hover,
+.btn_orange:active,
+.btn_orange:focus {
+  background-color: transparent;
+  border: 1px solid #FB5C2D;
+  color: #FB5C2D;
+}
+
+.btn_bleu {
+  background-color: #174AFC;
+  border: 1px solid #174AFC;
+  color: #FFFFFF;
+}
+
+.btn_bleu:hover,
+.btn_bleu:active,
+.btn_bleu:focus {
+  background-color: transparent;
+  border: 1px solid #174AFC;
+  color: #174AFC;
+}
+
+.btn_rouge {
+  background-color: red;
+  border: 1px solid red;
+  color: #FFFFFF;
+}
+
+.btn_rouge:hover,
+.btn_rouge:active,
+.btn_rouge:focus {
+  background-color: transparent;
+  border: 1px solid red;
+  color: red;
+}
+
+.btn_noir {
+  background-color: black;
+  border: 1px solid black;
+  color: #FFFFFF;
+}
+
+.btn_noir:hover,
+.btn_noir:active,
+.btn_noir:focus {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container-general-tarifs-paiement {
+  background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+}
+.container-general-tarifs-paiement .titre-de-la-page-tarifs-paiement {
+  padding-top: 50px;
+  color: #12141D;
+  font-size: 70px;
+  font-weight: 700;
+}
+.container-general-tarifs-paiement .sous-titre-tarifs-paiement {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  line-height: inherit;
+  text-decoration: underline;
+}
+.container-general-tarifs-paiement .container-offres {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.container-general-tarifs-paiement .container-offres .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  color: #12141D;
+  box-shadow: 0 3px 70px rgba(0, 0, 0, 0.16);
+  padding: 0 30px 20px 30px;
+  min-height: 480px;
+}
+.container-general-tarifs-paiement .container-offres .card h3 {
+  font-size: 54px;
+  color: #000000;
+  font-weight: 700;
+}
+.container-general-tarifs-paiement .container-offres .card form > input {
+  width: 100%;
+  position: relative;
+  padding-left: 40px;
+}
+.container-general-tarifs-paiement .container-offres .card form > input:before {
+  content: "";
+  position: absolute;
+  background-image: url(/images/credit-card-Filled.svg?3806c52b37c53ecefc0adac08de103fa);
+  left: 0;
+}
+.container-general-tarifs-paiement .container-offres .card form input {
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.container-general-tarifs-paiement .container-offres .card form div {
+  display: flex;
+  justify-content: space-between;
+}
+.container-general-tarifs-paiement .container-offres .card form div input {
+  width: 49%;
+}
+.container-general-tarifs-paiement .container-offres .card .paiement-autre {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+}
+.container-general-tarifs-paiement .container-offres .card .paiement-autre:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  background-color: #707070;
+}
+.container-general-tarifs-paiement .container-offres .card .container-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.container-general-tarifs-paiement .container-offres .card .container-btn .btn {
+  border-radius: 10px;
+  width: 32%;
+}
+.container-general-tarifs-paiement .container-offres .card .container-btn .btn:nth-child(1) {
+  background-color: #000000;
+}
+.container-general-tarifs-paiement .container-offres .card .container-btn .btn:nth-child(2) {
+  background-color: #91DCF8;
+}
+.container-general-tarifs-paiement .container-offres .card .container-btn .btn:nth-child(3) {
+  background-color: #F7931A;
+}
+.container-general-tarifs-paiement .container-offres .card .container-btn .btn img {
+  margin: auto;
+}
