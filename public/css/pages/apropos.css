@@ -16,8 +16,25 @@ p {
   font-weight: 400;
 }
 
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
+}
+
 .a-propos .container {
-  padding: 70px 130px;
+  padding: 100px 130px;
 }
 .a-propos .container_equipe {
   display: flex;
