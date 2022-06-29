@@ -2,13 +2,24 @@
 @import '../components/boutons';
 @import '../components/mixins';
 
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
 .navbar-noir.navbar-bandeau{
     .navbar-image.img-bandeau{
-        height: 100vh;
+        height: 870px!important;
         background-color: $couleur-principale;
         border-radius: 0px;
         position: relative;
         overflow: hidden;
+        animation: 2s slideInFromTop;
     }
 
     .navbar-image.img-bandeau::before{
@@ -25,10 +36,11 @@
 }
 
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 899px){
     .navbar-noir.navbar-bandeau{
         .navbar-image.img-bandeau{
-            height: auto;
+            height: auto!important;
+            animation: none;
             // background-color: transparent;
         }
     

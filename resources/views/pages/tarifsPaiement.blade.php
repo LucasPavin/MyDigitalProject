@@ -11,8 +11,8 @@ Sponski - Paiement
 @section('contenu')
 
 <div class="container-general-tarifs-paiement">
-    <h1 class="titre-de-la-page-tarifs-paiement" style="text-align: center">Paiement</h1>
-    <p class="sous-titre-taris-paiement"><a href="{{URL::to('/nos-tarifs')}}">Changer l'offre</a></p>
+    <h1 class="titre-de-la-page-tarifs-paiement">Paiement</h1>
+    <p class="sous-titre-tarifs-paiement"><a href="{{URL::to('/nos-tarifs')}}">Changer l'offre</a></p>
     <div class="container-offres">
         
         <div class="card">
@@ -32,6 +32,7 @@ Sponski - Paiement
                 <div class="btn"><a href=#><img src="./../../../images/icones/paypal.svg"></a></div>
                 <div class="btn"><a href=#><img src="./../../../images/icones/bitcoin.svg"></a></div> 
             </div>
+            <div class="btn-bleu btn"><a href=#>Confirmer</a></div>
         </div>
         
     </div>

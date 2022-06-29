@@ -442,6 +442,23 @@ p {
   font-weight: 400;
 }
 
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
+}
+
 .btn {
   padding: 13px 30px;
   margin: 20px 0;
@@ -1294,12 +1311,31 @@ nav .navbar_page li {
   max-width: 100% !important;
 }
 
+@-webkit-keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .navbar-noir.navbar-bandeau .navbar-image.img-bandeau {
-  height: 100vh;
+  height: 870px !important;
   background-color: #174AFC;
   border-radius: 0px;
   position: relative;
   overflow: hidden;
+  -webkit-animation: 2s slideInFromTop;
+          animation: 2s slideInFromTop;
 }
 .navbar-noir.navbar-bandeau .navbar-image.img-bandeau::before {
   content: "";
@@ -1311,9 +1347,11 @@ nav .navbar_page li {
   z-index: 1;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 899px) {
   .navbar-noir.navbar-bandeau .navbar-image.img-bandeau {
-    height: auto;
+    height: auto !important;
+    -webkit-animation: none;
+            animation: none;
   }
 }
 .btn {
@@ -1389,6 +1427,8 @@ footer {
   background-color: #12141d;
   color: white;
   width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .f-content {
@@ -1612,8 +1652,25 @@ p {
   font-weight: 400;
 }
 
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
+}
+
 .a-propos .container {
-  padding: 70px 130px;
+  padding: 100px 130px;
 }
 .a-propos .container_equipe {
   display: flex;
@@ -1855,6 +1912,23 @@ p {
   margin: 20px 0;
   font-size: 1.375rem;
   font-weight: 400;
+}
+
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
 }
 
 .btn {
@@ -2154,6 +2228,23 @@ p {
   font-weight: 400;
 }
 
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
+}
+
 .btn {
   padding: 13px 30px;
   margin: 20px 0;
@@ -2225,14 +2316,20 @@ p {
 
 .container-general-tarifs-paiement {
   background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container-general-tarifs-paiement .titre-de-la-page-tarifs-paiement {
   padding-top: 50px;
   color: #12141D;
   font-size: 70px;
   font-weight: 700;
+  width: 460px;
 }
 .container-general-tarifs-paiement .sous-titre-tarifs-paiement {
+  text-align: left !important;
+  width: 460px;
   font-size: 25px;
   font-weight: 400;
   text-align: center;
@@ -2317,6 +2414,18 @@ p {
 .container-general-tarifs-paiement .container-offres .card .container-btn .btn img {
   margin: auto;
 }
+.container-general-tarifs-paiement .container-offres .card .btn-bleu {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  background-color: #174AFC;
+  height: 50px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
 
 .container-bandeau {
   width: 80%;
@@ -2364,14 +2473,13 @@ p {
 
 .c-nom-contact {
   background-color: #ECECEC;
-  margin: 35px 0px 20px 0px;
+  margin: 35px 0px 0px 0px;
   width: 700px;
   border-radius: 10px;
 }
 
 .c-email-contact {
   background-color: #ECECEC;
-  margin-bottom: 20px;
   width: 700px;
   border-radius: 10px;
 }
@@ -2917,6 +3025,23 @@ p {
   margin: 20px 0;
   font-size: 1.375rem;
   font-weight: 400;
+}
+
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
 }
 
 .container-annonce {
