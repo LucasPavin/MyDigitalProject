@@ -1,0 +1,119 @@
+@import '../components/variables';
+@import '../components/titres';
+@import '../components/boutons';
+@import '../components/mixins';
+
+.container-general-tarifs-paiement{
+    background-image: url(./../../../public/pattern/pattern.svg);
+    .titre-de-la-page-tarifs-paiement{
+        padding-top: 50px;
+        color: $couleur-txt-noir;
+        font-size: 70px;
+        font-weight: 700;
+    }
+    
+    .sous-titre-tarifs-paiement{
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        line-height: inherit;
+        text-decoration: underline;
+    }
+    
+    .container-offres {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 200px;
+
+        
+        .card{
+            display: flex;
+            flex-direction: column;
+            background-color: $blanc;
+            border-radius: 10px;
+            color: $couleur-txt-noir;
+            box-shadow: 0 3px 70px rgba(0, 0, 0, 16%);
+            padding: 0 30px 20px 30px;
+            min-height: 480px;
+            
+            h3{
+                font-size: 54px;
+                color: $noir;
+                font-weight: 700;
+            }
+
+            
+            form{
+                > input{
+                    width: 100%;
+                    position: relative;
+                    padding-left: 40px;
+                }
+
+                > input:before{
+                    content: "";
+                    position: absolute;
+                    background-image:  url(./../../../public/images/icones/credit-card-Filled.svg);
+                    left: 0;
+                }
+                input{
+                    background-color: $gris-clair;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-bottom: 25px;
+                }
+
+               div{
+                   display: flex;
+                   justify-content: space-between;
+
+                   input{
+                    width: 49%;
+                   }
+               } 
+            } 
+
+            .paiement-autre{
+                position: relative;
+                font-size: 17px;
+                font-weight: 300;
+            }
+
+            .paiement-autre:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 80%;
+                height: 1px;
+                background-color: $gris;  
+            }
+
+            .container-btn{
+                display: flex;
+                justify-content: space-between;
+
+                .btn{
+                    border-radius: 10px;
+                    width: 32%;
+
+                    &:nth-child(1){
+                        background-color: $noir;
+                    }
+                    &:nth-child(2){
+                        background-color: #91DCF8;
+                    }
+                    &:nth-child(3){
+                        background-color: #F7931A;
+                    }
+
+                    img{
+                        margin: auto;
+                    }
+                }
+
+            }
+
+        }
+    }
+}

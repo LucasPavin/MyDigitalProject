@@ -12,6 +12,7 @@
     "/css/livewire/flash.css": "/css/livewire/flash.css",
     "/css/layouts/footer.css": "/css/layouts/footer.css",
     "/css/layouts/navbar.css": "/css/layouts/navbar.css",
+    "/css/layouts/navbar-contact.css": "/css/layouts/navbar-contact.css",
     "/css/layouts/navbar-noir.css": "/css/layouts/navbar-noir.css",
     "/css/components/mixins.css": "/css/components/mixins.css",
     "/css/components/boutons.css": "/css/components/boutons.css",
@@ -23,5 +24,9 @@
     "/css/pages/annonce.css": "/css/pages/annonce.css",
     "/css/pages/consulter-annonce.css": "/css/pages/consulter-annonce.css",
     "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css",
+<<<<<<< HEAD
+=======
+    "/css/pages/tarifs-paiement.css": "/css/pages/tarifs-paiement.css",
+>>>>>>> 7c5939571c88b8159c2b4e86f32b220644e159dd
     "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css"
 }

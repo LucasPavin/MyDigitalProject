@@ -21,6 +21,7 @@
 @import 'components/mixins';
 @import 'layouts/navbar';
 @import 'layouts/navbar-noir';
+@import 'layouts/navbar-contact';
 @import 'layouts/footer';
 
 // Dashboard
@@ -32,7 +33,21 @@
 // Livewire
 @import 'livewire/flash';
 
+<<<<<<< HEAD
 
+=======
+// Pages
+@import 'pages/chat';
+@import 'pages/apropos';
+@import 'pages/accueil';
+@import 'pages/nos-tarifs';
+@import 'pages/tarifs-paiement';
+@import 'pages/contact';
+@import 'pages/deposer-annonce';
+@import 'pages/consulter-annonce';
+@import 'pages/favoris';
+@import 'pages/annonce';
+>>>>>>> 7c5939571c88b8159c2b4e86f32b220644e159dd
 
 // Auth 
 @import 'auth/login.scss';

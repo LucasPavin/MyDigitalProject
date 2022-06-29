@@ -11,13 +11,18 @@ class PostController extends Controller {
     }
     public function nostarifs(){
         return view('pages.nosTarifs');
+    }    
+    public function paiement(){
+    
+        $amount = $_GET['amount'];
+        return view('pages.tarifsPaiement', compact('amount'));
     }
     public function apropos () {
         return view('pages.apropos');
     }
-    public function contacter () {
-        return view('pages.contact');
-    }
+    // public function contacter () {
+    //     return view('pages.contact');
+    // }
     public function favoris() {
         return view('pages.favoris');
     }
