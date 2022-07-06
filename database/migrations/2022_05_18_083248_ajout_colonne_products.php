@@ -20,12 +20,6 @@ class AjoutColonneProducts extends Migration
             $table->text('marquesVisees')->after('description');
         });
     }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::table('products', function (Blueprint $table) {
@@ -36,3 +30,10 @@ class AjoutColonneProducts extends Migration
         });
     }
 }
+
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */

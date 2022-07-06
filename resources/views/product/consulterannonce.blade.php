@@ -16,8 +16,8 @@
         <div class="container-noir-filter">
             <div class="container-recherche">
                 <form action="{{ route("product.recherche") }}" class="barre-recherche">
-                    <input type="text" name="q" placeholder="Rechercher une annonce.." class="g-navSearch" id="searchReplay" />
-                    <button type="submit" class="teddjdjdj"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" name="recherche" placeholder="Rechercher une annonce.." class="g-navSearch" id="searchReplay" />
+                    <button type="submit" class="button_recherhe"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
     

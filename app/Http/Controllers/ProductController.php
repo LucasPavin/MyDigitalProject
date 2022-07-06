@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 
 class ProductController extends Controller
 {
@@ -26,9 +25,7 @@ class ProductController extends Controller
     public function index()
     {
         $produits = Product::orderBy('product_name', 'asc')->paginate(6);
-
         return view('product.consulterannonce')->with('produits',$produits);
-
     }
 
     /**
@@ -57,13 +54,10 @@ class ProductController extends Controller
                                    'product_description' => ['required', 'min:255'],
                                   ]);
 
-
         $fichierUpload = Storage::disk('public')->put('photos', $request->photos);
         $url = Storage::url($fichierUpload);
 
-
         $produits = new Product();
-
         $produits->product_name = $request->input('product_name');
         $produits->categorie = $request->input('categorie');
         $produits->localisation = $request->input('localisation');
@@ -72,9 +66,7 @@ class ProductController extends Controller
         $produits->product_prix = $request->input('product_prix');
         $produits->description = $request->input('product_description');
         $produits->user_id = Auth::id();
-
         $produits->save();
-
         return redirect('/annonce')->with('status', "L'annonce " .$produits->product_name. " a été inséré avec succès ");
     }
 
@@ -87,11 +79,10 @@ class ProductController extends Controller
     public function show($id)
     {
         $produit = Product::find($id);
-
         return view('product.publication')->with('produit', $produit);
-        // $produits = Product::find($id);
-        // return view('product.publication')->with('produit', $produits);
     }
+            // $produits = Product::find($id);
+        // return view('product.publication')->with('produit', $produits);
 
     /**
      * Show the form for editing the specified resource.
@@ -116,10 +107,13 @@ class ProductController extends Controller
     {
         $produit = Product::find($id);
 
+        $fichierUpload = Storage::disk('public')->put('photos', $request->photos);
+        $url = Storage::url($fichierUpload);
+
         $produit->product_name = $request->input('product_name');
         $produit->categorie = $request->input('categorie');
         $produit->localisation = $request->input('localisation');
-        $produit->images = $request->input('images');
+        $produit->images = asset($url);
         $produit->marquesVisees = $request->input('marquesVisees');
         $produit->product_prix = $request->input('product_prix');
         $produit->description = $request->input('product_description');
@@ -143,15 +137,14 @@ class ProductController extends Controller
     }
 
     public function recherche(){
-        $q = request()->input('q');
-        $produits = Product::where('product_name','like',"%$q%")
-                    ->orWhere('description','like', "%$q%")
-                    ->orWhere('localisation','like', "%$q%")
+        $recherche = request()->input('recherche');
+        $produits = Product::where('product_name','like',"%$recherche%")
+                    ->orWhere('description','like', "%$recherche%")
+                    ->orWhere('localisation','like', "%$recherche%")
                     ->paginate(6);
-        
         return view('product.recherche')->with('produits', $produits);
     }
-
+ 
     public function filtrer(Request $request) {
 
         $localisations = Product::table('products')->select('localisation')->distinct()->get()->pluck('localisation');

@@ -40,7 +40,7 @@
         }
         
         //icone une fois authentifié
-        .auth-container-desktop {
+        .auth-container-desktop-blanc {
             display: flex;
             height: auto;
             justify-content: space-between;
@@ -49,6 +49,9 @@
 
             .acd-icone {
                 margin-right: 50px;
+            }
+            .acd-icone2 {
+                color: $couleur-secondaire;
             }
         }
     }

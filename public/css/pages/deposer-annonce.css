@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
 }
 .container-pas-connecte .container-carre {
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
@@ -32,12 +32,12 @@
 }
 
 .container-deposer-annonce {
-  background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   display: block;
   text-align: center;
 }
 .container-deposer-annonce .text-image-deposer {
-  background-image: url(/images/deposerAnnonce.png?866d63770496c61ea6ad56338a443fb7);
+  background-image: url(/images/deposerAnnonce.png?b86494b3cc548782ef5dde43b70be44f);
   height: 200px;
   width: auto;
   display: flex;
@@ -49,6 +49,20 @@
   font-size: 40px;
   color: white;
   margin: 0;
+}
+.container-deposer-annonce .container-texte-avant-form {
+  padding-top: 45px;
+  width: 50%;
+  margin: 30px auto;
+}
+.container-deposer-annonce .container-texte-avant-form h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.container-deposer-annonce .container-texte-avant-form p {
+  width: 60%;
+  margin: 30px auto;
+  font-size: 16px;
 }
 .container-deposer-annonce .form-group {
   padding-bottom: 30px;
@@ -72,31 +86,23 @@
 .container-deposer-annonce .button-submit-annonce .btn-primary:hover {
   background-color: #FB5C2D;
 }
-.container-deposer-annonce .button-submit-annonce .besoin-d-aide-annonce {
-  font-weight: 600;
-  color: white;
-  cursor: pointer;
-  background-color: #FB5C2D;
-  padding: 15px 300px;
-}
-.container-deposer-annonce .button-submit-annonce .besoin-d-aide-annonce:hover {
-  background-color: #174AFC;
-}
-.container-deposer-annonce .button-besoin-aide-annonce {
-  text-align: center;
-}
-.container-deposer-annonce .button-besoin-aide-annonce .besoin-d-aide-annonce {
-  font-weight: 600;
-  color: white;
-  cursor: pointer;
-  background-color: #FB5C2D;
-  padding: 15px 300px;
-}
-.container-deposer-annonce .button-besoin-aide-annonce .besoin-d-aide-annonce:hover {
-  background-color: #174AFC;
-}
 
 @media screen and (max-width: 759px) and (min-width: 520px) {
+  .container-deposer-annonce .text-image-deposer .text-deposer {
+    font-size: 34px;
+  }
+  .container-deposer-annonce .container-texte-avant-form {
+    width: 70%;
+  }
+  .container-deposer-annonce .container-texte-avant-form h4 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-deposer-annonce .container-texte-avant-form p {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 14px;
+  }
   .container-deposer-annonce .form-group .form-control {
     width: 500px;
   }
@@ -108,6 +114,26 @@
   }
 }
 @media screen and (max-width: 519px) {
+  .container-deposer-annonce .text-image-deposer {
+    background-position: center;
+  }
+  .container-deposer-annonce .text-image-deposer .text-deposer {
+    font-size: 26px;
+  }
+  .container-deposer-annonce .container-texte-avant-form {
+    padding-top: 45px;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .container-deposer-annonce .container-texte-avant-form h4 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .container-deposer-annonce .container-texte-avant-form p {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 14px;
+  }
   .container-deposer-annonce .form-group .form-control {
     width: 300px;
   }

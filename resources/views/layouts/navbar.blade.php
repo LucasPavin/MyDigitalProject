@@ -21,12 +21,10 @@
             </div>
         @endguest
         @auth 
-            <div class="auth-container-desktop">
-                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-comment"></i></a>
+            <div class="auth-container-desktop-blanc">
+                <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-comments"></i></a>
                 <a class="acd-icone" href="{{URL::to('/favoris')}}"><i class="fa-solid fa-heart"></i></a>
-                <a class="acd-icone" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-grip"></i></a>
-                <a class="acd-icone" href="{{URL::to('/logout')}}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
-                
+                <a class="acd-icone2" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-user"></i></a>
             </div>
         @endauth
         <button class="navbar-burger">
