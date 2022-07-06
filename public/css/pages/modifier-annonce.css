@@ -1,5 +1,5 @@
 .container-general-modifier-annonce {
-  height: 120vh;
+  min-height: 120vh;
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
 }
 .container-general-modifier-annonce .text-image-modifier {

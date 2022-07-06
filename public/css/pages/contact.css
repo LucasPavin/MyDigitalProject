@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
   margin-bottom: 50px;
 }
 .container-page-contact input, .container-page-contact textarea {
@@ -44,14 +44,13 @@
 
 .c-nom-contact {
   background-color: #ECECEC;
-  margin: 35px 0px 20px 0px;
+  margin: 35px 0px 0px 0px;
   width: 700px;
   border-radius: 10px;
 }
 
 .c-email-contact {
   background-color: #ECECEC;
-  margin-bottom: 20px;
   width: 700px;
   border-radius: 10px;
 }

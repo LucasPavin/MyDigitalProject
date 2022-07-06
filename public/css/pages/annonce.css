@@ -16,8 +16,25 @@ p {
   font-weight: 400;
 }
 
+html {
+  scrollbar-color: #000000 #FFFFFF;
+  scrollbar-width: thin;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background: #FFFFFF;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #174AFC;
+  border-radius: 6px;
+  border: 2px solid #FFFFFF;
+}
+
 .container-annonce {
-  background-image: url(/images/pattern.svg?cc23c66a41c03d3f2559222ce25e7499);
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
 }
 .container-annonce .container-annonce-images {
   border-radius: 10px 0 0 10px;

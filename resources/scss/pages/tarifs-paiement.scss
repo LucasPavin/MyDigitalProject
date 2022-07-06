@@ -5,14 +5,21 @@
 
 .container-general-tarifs-paiement{
     background-image: url(./../../../public/pattern/pattern.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     .titre-de-la-page-tarifs-paiement{
         padding-top: 50px;
         color: $couleur-txt-noir;
         font-size: 70px;
         font-weight: 700;
+        width: 460px;
     }
     
     .sous-titre-tarifs-paiement{
+        text-align: left!important;
+        width: 460px;
         font-size: 25px;
         font-weight: 400;
         text-align: center;
@@ -24,7 +31,7 @@
         display: flex;
         justify-content: center;
         margin-bottom: 200px;
-
+        
         
         .card{
             display: flex;
@@ -41,7 +48,7 @@
                 color: $noir;
                 font-weight: 700;
             }
-
+            
             
             form{
                 > input{
@@ -49,7 +56,7 @@
                     position: relative;
                     padding-left: 40px;
                 }
-
+                
                 > input:before{
                     content: "";
                     position: absolute;
@@ -62,23 +69,23 @@
                     padding: 10px;
                     margin-bottom: 25px;
                 }
-
-               div{
-                   display: flex;
-                   justify-content: space-between;
-
-                   input{
-                    width: 49%;
-                   }
-               } 
+                
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    input{
+                        width: 49%;
+                    }
+                } 
             } 
-
+            
             .paiement-autre{
                 position: relative;
                 font-size: 17px;
                 font-weight: 300;
             }
-
+            
             .paiement-autre:before{
                 content: "";
                 position: absolute;
@@ -88,15 +95,15 @@
                 height: 1px;
                 background-color: $gris;  
             }
-
+            
             .container-btn{
                 display: flex;
                 justify-content: space-between;
-
+                
                 .btn{
                     border-radius: 10px;
                     width: 32%;
-
+                    
                     &:nth-child(1){
                         background-color: $noir;
                     }
@@ -106,14 +113,27 @@
                     &:nth-child(3){
                         background-color: #F7931A;
                     }
-
+                    
                     img{
                         margin: auto;
                     }
                 }
-
+                
             }
-
+            
+            .btn-bleu{
+                display: block;
+                margin: auto;
+                font-weight: bold;
+                border-radius: 10px;
+                color: white;
+                background-color: #174AFC;
+                height: 50px;
+                cursor: pointer;
+                width: 100%;
+                text-align: center;
+            }
+            
         }
     }
 }

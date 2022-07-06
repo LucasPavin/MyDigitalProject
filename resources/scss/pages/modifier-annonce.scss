@@ -2,7 +2,7 @@
 @import '../components/mixins';
 
 .container-general-modifier-annonce {
-    height: 120vh;
+    min-height: 120vh;
     background-image: url(./../../../public/pattern/pattern.svg);
     .text-image-modifier {
         background-image: url(../../../public/images/deposerAnnonce.png);

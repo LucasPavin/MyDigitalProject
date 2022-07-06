@@ -24,8 +24,7 @@
             <div class="auth-container-desktop">
                 <a class="acd-icone" href="{{URL::to('#')}}"><i class="fa-solid fa-comments" style="color: blue"></i></a>
                 <a class="acd-icone" href="{{URL::to('/favoris')}}"><i class="fa-solid fa-heart" style="color: blue"></i></a>
-                <a class="acd-icone" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-user" style="color: blue"></i></a>
-                
+                <a class="acd-icone2" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-user"></i></a>
             </div>
         @endauth
         <button class="navbar-burger">
