@@ -52,6 +52,13 @@
             @endif
         </div>
 
+        <div class="trier-alerte">
+            <select name="trier" id="categorie" class="trier-par" data-dependent="state">
+                <option value="">Trier par : </option>
+            </select> 
+            <div class="btn btn_orange">Être alerté par mail &nbsp; <i class="fa-solid fa-bell"></i></div>
+        </div>
+
         <div class="annonce">
         @foreach ($produits as $produit)
             
@@ -60,7 +67,7 @@
         @endforeach
         </div>
                 <div class="container-links" style="display: flex; flex-direction: row;">
-                    {{ $produits->links()}}
+                    {{ $produits->appends(['sort' => 'votes'])->links()}}
                 </div>
 
         </div>
