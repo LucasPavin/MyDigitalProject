@@ -538,7 +538,7 @@ html {
 }
 .container .zone-white-container-home-1 {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  height: 110vh;
+  min-height: 110vh;
 }
 .container .zone-white-container-home-1 h2 {
   padding-top: 550px;
@@ -1376,6 +1376,19 @@ html {
 .container-consulter-annonce .container-noir-filter .container-flitre-recherche .form-control:focus {
   outline: none;
 }
+.container-consulter-annonce .trier-alerte {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.container-consulter-annonce .trier-alerte .trier-par {
+  padding: 0 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
 .container-consulter-annonce .annonce-success-alerte {
   display: flex;
   align-items: center;
@@ -1394,10 +1407,9 @@ html {
   border-radius: 10px;
 }
 .container-consulter-annonce .annonce {
-  padding-top: 40px;
-  margin: 30px auto;
   max-width: 1300px;
-  width: 80%;
+  width: 70%;
+  margin: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -1423,25 +1435,29 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 30px 0 0 30px;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description h4 {
+  margin: 30px 0 0 30px;
   color: #174AFC;
   font-weight: 600;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description .fa-quote-left {
+  margin-left: 30px;
   padding-top: 20px;
   color: #FB5C2D;
   font-size: 30px;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description p {
+  margin-left: 30px;
   margin: 0;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-text {
+  margin-left: 30px;
   font-size: 14px;
   font-weight: 700;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-annonce {
+  margin-left: 30px;
   font-size: 16px;
   padding: 3px 0 10px 0;
 }
@@ -1502,6 +1518,10 @@ html {
   align-items: center;
   border-radius: 0 0 10px 0;
 }
+.container-consulter-annonce .container-links {
+  display: flex;
+  flex-direction: column;
+}
 
 @media screen and (min-width: 880px) and (max-width: 1330px) {
   .container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .g-navSearch {
@@ -1517,7 +1537,7 @@ html {
     width: 115px;
   }
   .container-consulter-annonce .annonce {
-    width: 90%;
+    width: 80%;
   }
   .container-consulter-annonce .annonce .pl-list {
     grid-template-columns: 1.2fr 2fr;
@@ -3471,7 +3491,7 @@ html {
 }
 .container .zone-white-container-home-1 {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  height: 110vh;
+  min-height: 110vh;
 }
 .container .zone-white-container-home-1 h2 {
   padding-top: 550px;
@@ -4526,6 +4546,19 @@ html {
 .container-consulter-annonce .container-noir-filter .container-flitre-recherche .form-control:focus {
   outline: none;
 }
+.container-consulter-annonce .trier-alerte {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.container-consulter-annonce .trier-alerte .trier-par {
+  padding: 0 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
 .container-consulter-annonce .annonce-success-alerte {
   display: flex;
   align-items: center;
@@ -4544,10 +4577,9 @@ html {
   border-radius: 10px;
 }
 .container-consulter-annonce .annonce {
-  padding-top: 40px;
-  margin: 30px auto;
   max-width: 1300px;
-  width: 80%;
+  width: 70%;
+  margin: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -4573,25 +4605,29 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 30px 0 0 30px;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description h4 {
+  margin: 30px 0 0 30px;
   color: #174AFC;
   font-weight: 600;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description .fa-quote-left {
+  margin-left: 30px;
   padding-top: 20px;
   color: #FB5C2D;
   font-size: 30px;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description p {
+  margin-left: 30px;
   margin: 0;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-text {
+  margin-left: 30px;
   font-size: 14px;
   font-weight: 700;
 }
 .container-consulter-annonce .annonce .pl-list .partie-description .container-product-description .description-annonce {
+  margin-left: 30px;
   font-size: 16px;
   padding: 3px 0 10px 0;
 }
@@ -4652,6 +4688,10 @@ html {
   align-items: center;
   border-radius: 0 0 10px 0;
 }
+.container-consulter-annonce .container-links {
+  display: flex;
+  flex-direction: column;
+}
 
 @media screen and (min-width: 880px) and (max-width: 1330px) {
   .container-consulter-annonce .container-noir-filter .container-recherche .barre-recherche .g-navSearch {
@@ -4667,7 +4707,7 @@ html {
     width: 115px;
   }
   .container-consulter-annonce .annonce {
-    width: 90%;
+    width: 80%;
   }
   .container-consulter-annonce .annonce .pl-list {
     grid-template-columns: 1.2fr 2fr;

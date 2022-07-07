@@ -59,6 +59,19 @@
         }
 
     }
+    .trier-alerte{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        .trier-par {
+            padding: 0 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+        }
+    }
     .annonce-success-alerte {
         display: flex;
         align-items: center;
@@ -78,10 +91,9 @@
     }
 
     .annonce{
-        padding-top: 40px;
-        margin: 30px auto;
         max-width: 1300px;
-        width: 80%;
+        width: 70%;
+        margin: auto;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -107,25 +119,29 @@
                 position: relative;
                 display: flex;
                 flex-direction: column;
-                margin: 30px 0 0 30px;
                 h4 {
+                    margin: 30px 0 0 30px;
                     color: $couleur-principale;
                     font-weight: 600;
                 }
                 .fa-quote-left{
+                    margin-left: 30px;
                     padding-top: 20px;
                     color: $couleur_secondaire;
                     font-size: 30px;
                 }
                 p {
+                    margin-left: 30px;
                     margin: 0;
                 }
                 .container-product-description {
                     .description-text {
+                        margin-left: 30px;
                         font-size: 14px;
                         font-weight: 700;
                     }
                     .description-annonce {
+                        margin-left: 30px;
                         font-size: 16px;
                         padding: 3px 0 10px 0;
                     }
@@ -190,14 +206,15 @@
             }
         }
     }
+    .container-links {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen  and (min-width: 880px) and (max-width:1330px) {
     .container-consulter-annonce{
-        .text-image-annonce {
-            .text-annonce {
-            }
-        }
+        
         .container-noir-filter{
             .container-recherche {
                 .barre-recherche {
@@ -217,7 +234,7 @@
             }
         }
         .annonce{
-            width: 90%;
+            width: 80%;
             .pl-list{
                 grid-template-columns: 1.2fr 2fr;
                 .partie-photo {

@@ -54,9 +54,24 @@
         </div> 
         <div class="form-group">
             {{Form::select('categorie', array(
-                'Football' => 'Football', 
+                'Accrobranche' => 'Accrobranche', 
+                "Acrosport"=> 'Acrosport', 
+                "Aïkido"=> 'Aïkido', 
+                'Athlétisme' => 'Athlétisme',
+                'Badminton' => 'Badminton',
+                'Baseball' => 'Baseball',
                 "Basketball"=> 'Basketball', 
-                'Course à pied' => 'Course à pied'),
+                "Boxe"=> 'Boxe',
+                'Combat' => 'Combat',
+                'Cross-Fit' => 'Cross-Fit',
+                'Danse' => 'Danse',
+                'Équitation' => 'Équitation',
+                'Football' => 'Football', 
+                'Judo' => 'Judo',
+                "Lutte"=> 'Lutte',
+                "Pétanque"=> 'Pétanque',
+                "Tennis"=> 'Tennis', 
+                "Tennis de table"=> 'Tennis de table'),
                 '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
