@@ -36,7 +36,7 @@
 }
 .container .zone-white-container-home-1 {
   background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
-  height: 110vh;
+  min-height: 110vh;
 }
 .container .zone-white-container-home-1 h2 {
   padding-top: 550px;

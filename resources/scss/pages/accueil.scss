@@ -46,7 +46,7 @@
 
     .zone-white-container-home-1 {
         background-image: url(./../../../public/pattern/pattern.svg);
-        height: 110vh;
+        min-height: 110vh;
         h2{
             padding-top: 550px;
             color: $couleur_principale;
