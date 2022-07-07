@@ -16,7 +16,7 @@ Sponski - Nos Tarifs
         <div class="container-offres">
                 
                 <div class="card premier-container-gratuit">
-                        <h3 class="nom-offre">Notice</h3>
+                        <h3 class="nom-offre">Novice</h3>
                         <ul class="details-offre icon-check">
                                 <li>Création de votre profil.</li>
                                 <li>Publication sur la plateforme.</li>
@@ -29,7 +29,7 @@ Sponski - Nos Tarifs
                                         <p>Pas d'argent, pas de problème</p>
                                 </div>
                                 <div class="btn-start">
-                                        <a href="{{ route('paiement', ['amount' => 0]) }}">Commencer</a>
+                                        <a href="{{URL::to('/register')}}">Commencer</a>
                                 </div>                        
                         </div>
                 </div>

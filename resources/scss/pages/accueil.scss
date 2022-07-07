@@ -57,16 +57,16 @@
             align-items: center;
         }
         .container-les-etapes-a-suivre {
-            padding-top: 60px;
-            width: 65%;
+            padding: 60px 0;
             display: grid;
             text-align: center;
-            margin: 30px auto;
+            margin: 30px 150px;
             grid-template-columns: repeat(7, 1fr);
             .etapes {
                 display: flex;
                 text-align: center;
                 flex-direction: column;
+                align-items: center;
                 .fa-solid{
                     margin-bottom: 10px;
                     font-size: 20px;
@@ -74,6 +74,16 @@
                     padding: 5px;
                     border-radius: 100px;
                     background-color: $couleur_principale;
+                    width: 75px;
+                    height: 75px;
+                    position: relative;
+                    &:before{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    
                 }
                 h4{
                     margin: 0;
@@ -101,13 +111,13 @@
             grid-area: partieOrange;
             .vous-etes-sponsor{
                 padding-top: 30px;
-                text-align: center;
+                text-align: left;
                 font-size: 3.5rem;
                 color: white;
                 font-weight: 200;
+                margin-left: 50px;
                 span {
-                    text-decoration: underline;
-                    font-weight: 500;
+                    font-weight: 700;
                 }
             }
             p {
@@ -127,13 +137,13 @@
             grid-area: partieBleue;
             .vous-cherchez-un-sponsor{
                 padding-top: 30px;
-                text-align: center;
+                text-align: right;
                 font-size: 3.5rem;
+                margin-right: 50px;
                 color: white;
                 font-weight: 200;
                 span {
-                    text-decoration: underline;
-                    font-weight: 500;
+                    font-weight: 700;
                 }
             }
             p {
@@ -148,6 +158,7 @@
                 float: right;
                 margin-top: 50px;
                 margin-right: 50px;
+                margin-bottom: 90px;
             }
         }
     }
@@ -155,19 +166,23 @@
     // Deuxieme partie blanche
 
     .zone-white-container-home-2 {
-        height: 250vh;
         background-image: url(./../../../public/pattern/pattern.svg);
         .container-confiance{
-            padding-top: 300px;
+            padding-top: 400px;
             text-align: center;
             h2{
                 font-weight: 400;
                 font-size: 60px;
+                font-weight: 700;
             }
             .liste-confiance{
-                width: 1300px;
                 height: 200px;
                 background-color: $couleur_secondaire;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            
                 .photo-Puma{
                     width: 200px;
                     height: 150px;
@@ -179,9 +194,135 @@
     //deuxième et dernière partie blanche 
 
     .zone-bleu-container-home-2{
-        height: 50vh;
         background-color: $couleur_principale;
         background-image: url(./../../../public/pattern/pattern.svg);
+        display: flex;
+        padding: 20px 50px;
+
+        *{
+            color: $blanc;
+        }
+
+        h4{
+            font-weight: 700;
+            margin-top: 25px;
+            font-size: 22px;
+        }
+
+        > div{
+            padding: 25px;
+            position: relative;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 250px;
+                background-color: $gris-clair;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+            }
+
+            &:last-child::before{
+                display: none;
+            }
+        }
+
+    }
+
+    .liste-confiance{
+        display: flex;
+        margin: 20px 150px;
+    }
+
+    .chiffres{
+        display: flex;
+        margin: 130px 150px;
+
+        > div{
+            display: flex;
+
+            p:first-child{
+                font-size: 90px;
+                margin-right: 35px;
+                line-height: 1;
+            }
+        }
+    }
+
+    .titre{
+        img{
+            margin: auto;
+        }
+
+        h2{
+            text-align: center;
+        }
+    }
+
+    .container-card{
+        display: flex;
+        margin: 50px;
+        padding-bottom: 100px;
+        
+        .card{
+            border-radius: 10px;
+            padding: 50px 25px;
+            position: relative;
+            box-shadow: 0 3px 30px rgba(0, 0, 0, 16%);
+            margin: 0 30px;
+
+
+            h3{
+                color: $couleur-principale;
+                font-size: 25px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+                position: relative;
+                padding-bottom: 25px;
+                text-align: center;
+                margin: 20px;
+
+                &::before{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    height: 1px;
+                    width: 145px;
+                    transform: translateX(-50%);
+                    left: 50%;
+                    background-color: $gris-clair;
+                }
+            }
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 90px;
+                height: 90px;
+                background-color: $couleur-principale;
+                border-radius: 50px;
+                left: -20px;
+                bottom: -20px;
+            }
+
+            h4{
+                font-weight: 800;
+                font-size: 22px;
+                text-align: center;
+            }
+
+            h5{
+                font-weight: 300;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
     }
     
 }
@@ -216,5 +357,5 @@
 .zone-black-container {
     background-color: #12141D;
     background-image: url(./../../../public/pattern/pattern.svg);
-    height: 110vh;
+    // height: 110vh;
 }

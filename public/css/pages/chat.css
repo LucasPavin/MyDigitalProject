@@ -95,3 +95,6 @@ html {
   font-weight: 700;
   color: #174AFC;
 }
+#chat > div .items-center {
+  text-align: center;
+}
