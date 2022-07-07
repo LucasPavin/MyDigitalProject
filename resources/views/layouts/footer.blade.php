@@ -7,8 +7,7 @@
                     <ul>
                         <li><a href="/annonce">Consulter les annonces</a></li>
                         <li><a href="/deposer-annonce">Deposer une annonce</a></li>
-                        <li><a href="#">Tarif</li>
-                        <a href=""></a>
+                        <li><a href="/nos-tarifs">Tarif</a></li>
                         <li><a href="/a-propos">Qui nous sommes ?</a></li>
                         <li><a href="/contact">Contactez-nous</a></li>
                     </ul>
@@ -39,9 +38,9 @@
                 <h5>Aides</h5>
                 <div class="menu-list">  
                     <ul>
-                        <li><a href="#">Nous contacter</a></li>
-                        <li><a href="#">Mentions Légales</a></li>
-                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="/conditions-generales-vente">Conditions Générales de vente</a></li>
+                        <li><a href="/mentions-legales">Mentions Légales</a></li>
+                        <li><a href="/politique-confidentialite">Politique de confidentialité</a></li>
                     </ul>
                 </div>
             </div>

@@ -22,20 +22,6 @@
 
 @auth {{-- Début de la vérification d'auth, donc si personne de connecté on ne verra rien --}}
     
-    @if(count($errors)>0)
-        <div class="alert alert-danger">
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{{$error}}</li>
-                @endforeach
-            </ul>
-        </div>    
-    @endif
-    @if(Session::has('status'))
-        <div class="alert alert-succes">
-            {{Session::get('status')}}
-        </div>    
-    @endif
     <div class="container-deposer-annonce">
         <div class="text-image-deposer">
             <p class="text-deposer">Déposer une annonce</p>
@@ -46,6 +32,20 @@
                 sponsors puissent les consulter.</p>
             <hr>
         </div>
+        @if(count($errors)>0)
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{$error}}</li>
+                    @endforeach
+                </ul>
+            </div>    
+        @endif
+        @if(Session::has('status'))
+            <div class="alert alert-succes">
+                {{Session::get('status')}}
+            </div>    
+        @endif
 
         {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/form-data"])!!}
         {{csrf_field()}}

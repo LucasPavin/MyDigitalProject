@@ -25,5 +25,6 @@
     "/css/pages/consulter-annonce.css": "/css/pages/consulter-annonce.css",
     "/css/pages/deposer-annonce.css": "/css/pages/deposer-annonce.css",
     "/css/pages/tarifs-paiement.css": "/css/pages/tarifs-paiement.css",
-    "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css"
+    "/css/pages/nos-tarifs.css": "/css/pages/nos-tarifs.css",
+    "/css/pages/mentionlegal.css": "/css/pages/mentionlegal.css"
 }

@@ -37,8 +37,8 @@
                                                 <h4>Déposer</h4>
                                                 <p>A la recherche d'un sponsors pour financer votre projet.<br>Sponski est là pour vous !</p>
                                         </div>
-                                        <div class="fleche2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="179.355" height="24.777" viewBox="0 0 179.355 24.777"><g transform="translate(-484.496 -7627.84)"><path d="M-1106.1,7680.444c-36.873-18.735-83.329-19.491-115.808-16.827a395.2,395.2,0,0,0-44.522,6.29c-11,2.207-17.737,4.08-17.8,4.1l-.269-.963c.067-.019,6.827-1.9,17.858-4.112a396.152,396.152,0,0,1,44.635-6.308,298.013,298.013,0,0,1,58.1.522,202.373,202.373,0,0,1,29.943,5.65,149.277,149.277,0,0,1,28.32,10.758Z" transform="translate(1769 -33)" fill="#fb5c2d"/><path d="M-1125.594,7681.083l-.225-.975,19.449-4.488-4.846-19.068.969-.246,5.1,20.059-.5.115Z" transform="translate(1769 -28.465)" fill="#fb5c2d"/></g></svg>
+                                        <div class="fleche2" style="margin-top: 60px">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="179.357" height="24.409" viewBox="0 0 179.357 24.409"><g transform="translate(-870.561 -7651.643)"><path d="M-1194.574,7680.5q-13.3,0-27.436-1.159a396.152,396.152,0,0,1-44.635-6.308c-11.031-2.213-17.791-4.093-17.858-4.112l.269-.963c.067.019,6.8,1.892,17.8,4.1a395.2,395.2,0,0,0,44.522,6.29c8.219.674,17.339,1.129,26.966,1.129,28.417,0,61.3-3.963,88.842-17.957l.453.892a149.277,149.277,0,0,1-28.32,10.758,202.373,202.373,0,0,1-29.943,5.65A268.669,268.669,0,0,1-1194.574,7680.5Z" transform="translate(2155.064 -5.073)" fill="#fb5c2d"/><path d="M-1110.247,7680.35l-.968-.25,4.843-18.764-19.445-4.419.222-.976,20.449,4.647Z" transform="translate(2155.064 -4.298)" fill="#fb5c2d"/></g></svg>
                                         </div>
                                         <div class="etapes">
                                                 <i class="fa-solid fa-3"></i>
@@ -151,23 +151,23 @@
                                 <div>
                                         <img src="/images/icones/Groupe1.png" alt="">
                                         <h4>Service de qualité</h4>
-                                        <p>Les simply dummy text of the printing and 
-                                                typesetting industry. Lorem Ipsum has been
-                                                the industry’s standard dummy text ever.</p>
+                                        <p>L'ensemble de l'équipe de SPONSKI se concentrent
+                                                à vous offrir des services de qualités 
+                                                permettant de satisfaire nos clients.</p>
                                 </div>
                                 <div>
                                         <img src="/images/icones/Groupe2.png" alt="">
                                         <h4>Des entreprises partenaires</h4>
-                                        <p>Les simply dummy text of the printing and 
-                                                typesetting industry. Lorem Ipsum has been
-                                                the industry’s standard dummy text ever.</p>
+                                        <p>De nombreuses entreprises aujourd'hui nous
+                                                sont partenaires, afin pouvoir participer
+                                                à de multiples projets sportifs.</p>
                                 </div>
                                 <div>
                                         <img src="/images/icones/Groupe3.png" alt="">
                                         <h4>Sécurité</h4>
-                                        <p>Les simply dummy text of the printing and 
-                                                typesetting industry. Lorem Ipsum has been
-                                                the industry’s standard dummy text ever.</p>
+                                        <p>Le site de SPONSKI vous garantie une 
+                                               sécurité totale sur l'ensemble de vos
+                                                connexion, et de vos transactions.</p>
                                 </div>
                                 
 

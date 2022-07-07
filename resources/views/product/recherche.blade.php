@@ -54,7 +54,7 @@
             
         @endforeach
     </div>
-            <div class="container-links">
+            <div class="container-links" style='min-height:10vh;'>
                 {{ $produits->links()}}
             </div>
 
