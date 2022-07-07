@@ -50,5 +50,5 @@ Route::middleware('auth')->group(function () {
 
     Route::get('logout', [AuthenticatedSessionController::class, 'destroy'])
                 ->name('logout');
-    // Route::get('/paiement', [PostController::class, 'paiement'])->name('paiement');
+    Route::get('/paiement', [PostController::class, 'paiement'])->name('paiement');
 });
