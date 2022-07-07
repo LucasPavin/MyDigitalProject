@@ -18,7 +18,7 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/paiement', [PostController::class, 'paiement'])->name('paiement');
+// Route::get('/paiement', [PostController::class, 'paiement'])->name('paiement');
 
 Route::get('/', [PostController::class, 'home']);
 Route::resource('/annonce', ProductController::class);
