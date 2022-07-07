@@ -106,7 +106,7 @@
              @empty
 
                 <div class="avertissement">
-                    <h3>Vous n'avez pas encore déposer d'annonce.</h3>
+                    <h3>Vous n'avez pas encore déposé d'annonce.</h3>
                 </div>
 
             @endforelse

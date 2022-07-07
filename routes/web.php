@@ -26,6 +26,11 @@ Route::get('/deposer-annonce', [PostController::class, 'deposerannonce']);
 Route::get('/nos-tarifs', [PostController::class, 'nostarifs']);
 Route::get('/a-propos', [PostController::class,'apropos']);
 Route::get('/favoris', [PostController::class, 'favoris']);
+Route::get('/conditions-generales-vente', [PostController::class, 'conditionsGeneralesVente']);
+Route::get('/mentions-legales', [PostController::class, 'mentions']);
+Route::get('/politique-confidentialite', [PostController::class, 'politiqueConfidentialite']);
+
+
 
 // contact
 Route::get('/contact', 'App\Http\Controllers\MailContactController@show');

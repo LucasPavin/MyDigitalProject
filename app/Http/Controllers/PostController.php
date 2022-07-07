@@ -20,6 +20,15 @@ class PostController extends Controller {
     public function apropos () {
         return view('pages.apropos');
     }
+    public function conditionsGeneralesVente(){
+        return view('pages.conditionsVentes');
+    }
+    public function mentions(){
+        return view('pages.mentionLegal');
+    }
+    public function politiqueConfidentialite(){
+        return view('pages.politiqueConfidentialite');
+    }
     // public function contacter () {
     //     return view('pages.contact');
     // }
