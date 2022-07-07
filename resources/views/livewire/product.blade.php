@@ -8,24 +8,21 @@
             <i class="fa-solid fa-quote-left"></i>
             <div class="container-product-description">
                 <p class="description-text">Description</p>
-                <p class="description-annonce">{{Str::limit($produit->description, 220)}}</p>
+                <p class="description-annonce">{{Str::limit($produit->description, 110)}}</p>
             </div>
             <hr>
             <p class="class-budget">Budget</p>
-            <p class="class-somme-budget">{{$produit->product_prix}} €</p>
+            <p class="class-somme-budget">≈ {{$produit->product_prix}} €</p>
             <hr>
             <div class="details-annonce">
                 <div class="details-creation">
-                    <i class="fa-solid fa-calendar"></i>
-                    <div class="date-creation">{{$produit->created_at->format('d/m/y')}}</div>
+                    <div class="date-creation"><span><i class="fa-solid fa-calendar"></i></span>{{$produit->created_at->format('d/m/y')}}</div>
                 </div>
                 <div class="details-creation">
-                    <i class="fa-solid fa-tag"></i>
-                    <p class="date-creation">{{ $produit->categorie}}</p>
+                    <div class="date-creation"><span><i class="fa-solid fa-tag"></i></span>{{ $produit->categorie}}</div>
                 </div>
                 <div class="details-creation">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="date-creation">{{ $produit->localisation}}</p>
+                    <div class="date-creation"><span><i class="fa-solid fa-location-dot"></i></span>{{ $produit->localisation}}</div>
                 </div>
             </div>
             <div class="container-bleu">
@@ -41,7 +38,6 @@
                 </div>
             </div>
        </div>
-       
     </div>
     
 </div>

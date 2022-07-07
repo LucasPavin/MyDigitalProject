@@ -1,0 +1,86 @@
+.container-general-modifier-annonce {
+  min-height: 120vh;
+  background-image: url(/images/pattern.svg?8057cdee41d32b16ac017c267c4f6fc6);
+}
+.container-general-modifier-annonce .text-image-modifier {
+  background-image: url(/images/deposerAnnonce.png?b86494b3cc548782ef5dde43b70be44f);
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-general-modifier-annonce .text-image-modifier .text-modifier {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+.container-general-modifier-annonce .bouton-retour-connexion button {
+  font-weight: 600;
+  color: #174AFC;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.container-general-modifier-annonce .bouton-retour-connexion button i {
+  padding-right: 5px;
+}
+.container-general-modifier-annonce .container-modifier-annonce {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+.container-general-modifier-annonce .container-modifier-annonce .form-group {
+  padding-bottom: 30px;
+}
+.container-general-modifier-annonce .container-modifier-annonce .form-group .form-control {
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 700px;
+  background-color: #F6F6F6;
+}
+.container-general-modifier-annonce .container-modifier-annonce .button-modifier-annonce {
+  text-align: center;
+}
+.container-general-modifier-annonce .container-modifier-annonce .button-modifier-annonce .btn-modifier {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #174AFC;
+  padding: 15px 290px;
+}
+.container-general-modifier-annonce .container-modifier-annonce .button-modifier-annonce .btn-modifier:hover {
+  background-color: #FB5C2D;
+}
+
+@media screen and (max-width: 759px) and (min-width: 520px) {
+  .container-general-modifier-annonce {
+    height: 140vh;
+  }
+  .container-general-modifier-annonce .text-image-modifier .text-modifier {
+    font-size: 34px;
+  }
+  .container-general-modifier-annonce .container-modifier-annonce .form-group .form-control {
+    width: 500px;
+  }
+  .container-general-modifier-annonce .container-modifier-annonce .button-modifier-annonce .btn-modifier {
+    padding: 15px 190px;
+  }
+}
+@media screen and (max-width: 519px) {
+  .container-general-modifier-annonce {
+    height: 130vh;
+  }
+  .container-general-modifier-annonce .text-image-modifier {
+    background-position: center;
+  }
+  .container-general-modifier-annonce .text-image-modifier .text-modifier {
+    font-size: 26px;
+  }
+  .container-general-modifier-annonce .container-modifier-annonce .form-group .form-control {
+    width: 300px;
+  }
+  .container-general-modifier-annonce .container-modifier-annonce .button-modifier-annonce .btn-modifier {
+    padding: 15px 110px;
+  }
+}

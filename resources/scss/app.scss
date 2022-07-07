@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+// Pages
+@import 'pages/chat';
+@import 'pages/apropos';
+@import 'pages/accueil';
+@import 'pages/nos-tarifs';
+@import 'pages/contact';
+@import 'pages/deposer-annonce';
+@import 'pages/consulter-annonce';
+@import 'pages/modifier-annonce';
+@import 'pages/favoris';
+@import 'pages/annonce';
 
 
 @import 'components/variables';
@@ -21,6 +32,8 @@
 
 // Livewire
 @import 'livewire/flash';
+
+// <<<<<<< HEAD
 
 // Pages
 @import 'pages/chat';

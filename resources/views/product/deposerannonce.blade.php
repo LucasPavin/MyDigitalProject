@@ -37,9 +37,14 @@
         </div>    
     @endif
     <div class="container-deposer-annonce">
-        
         <div class="text-image-deposer">
             <p class="text-deposer">Déposer une annonce</p>
+        </div>
+        <div class="container-texte-avant-form">
+            <h4>Vous souhaitez trouver un sponsor qui vous correspond ?</h4>
+            <p>Remplissez toutes les données indiquées ci-dessous pour que le(s) futur(s)
+                sponsors puissent les consulter.</p>
+            <hr>
         </div>
 
         {!!Form::open(['action' => 'App\Http\Controllers\ProductController@store', 'method' => 'POST', 'class'=>'form-horizontal', 'enctype' => "multipart/form-data"])!!}
@@ -48,7 +53,26 @@
             {{Form::text('product_name', '', ['placeholder'=>'Titre de l\'annonce', 'class'=>'form-control'])}}
         </div> 
         <div class="form-group">
-            {{Form::select('categorie', array('Football' => 'Football', "Basketball"=> 'Basketball', 'Course à pied' => 'Course à pied'), '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
+            {{Form::select('categorie', array(
+                'Accrobranche' => 'Accrobranche', 
+                "Acrosport"=> 'Acrosport', 
+                "Aïkido"=> 'Aïkido', 
+                'Athlétisme' => 'Athlétisme',
+                'Badminton' => 'Badminton',
+                'Baseball' => 'Baseball',
+                "Basketball"=> 'Basketball', 
+                "Boxe"=> 'Boxe',
+                'Combat' => 'Combat',
+                'Cross-Fit' => 'Cross-Fit',
+                'Danse' => 'Danse',
+                'Équitation' => 'Équitation',
+                'Football' => 'Football', 
+                'Judo' => 'Judo',
+                "Lutte"=> 'Lutte',
+                "Pétanque"=> 'Pétanque',
+                "Tennis"=> 'Tennis', 
+                "Tennis de table"=> 'Tennis de table'),
+                '', ['placeholder'=>'Catégorie', 'class'=>'form-control'])}}
         </div>
         <div class="form-group">
             {{Form::select('localisation',array(
@@ -83,8 +107,6 @@
         <div class="button-submit-annonce">  
             {{Form::submit('AJOUTER', ['class'=>'btn btn-primary'])}} 
             {!!Form::close()!!}
-            <br>
-            <button class="btn besoin-d-aide-annonce"><a href="#">BESOIN D'AIDE ?</a></button>
         </div>
 
     </div>

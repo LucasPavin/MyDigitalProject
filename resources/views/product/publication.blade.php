@@ -20,8 +20,11 @@
             <h3>Nom de l'annonce</h3>
             <p>{{$produit->product_name}}</p>
             <hr>
-            <h3 style="font-weight: 800">Description de l'annonce</h3>
+            <h3>Description de l'annonce</h3>
             <p>{{$produit->description}}</p>
+            <hr>
+            <h3>Envie de marques comme :</h3>
+            <p>{{$produit->marquesVisees}}</p>
             <hr>
             <h3 class="class-budget">Budget</h3>
             <p class="class-somme-budget">≈ {{$produit->product_prix}} €</p>

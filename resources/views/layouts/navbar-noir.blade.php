@@ -24,9 +24,7 @@
             <div class="auth-container-desktop">
                 <a class="acd-icone" href="{{URL::to('/chat')}}"><i class="fa-solid fa-comment" style="color: blue"></i></a>
                 <a class="acd-icone" href="{{URL::to('/favoris')}}"><i class="fa-solid fa-heart" style="color: blue"></i></a>
-                <a class="acd-icone" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-grip" style="color:blue"></i></a>
-                <a class="acd-icone" href="{{URL::to('/logout')}}"><i class="fa-solid fa-arrow-right-from-bracket" style="color: blue"></i></a>
-                
+                <a class="acd-icone2" href="{{URL::to('/dashboard')}}"><i class="fa-solid fa-user"></i></a>
             </div>
         @endauth
         <button class="navbar-burger">

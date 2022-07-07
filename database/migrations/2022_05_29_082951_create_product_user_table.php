@@ -21,13 +21,14 @@ class CreateProductUserTable extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('product_user');
     }
 }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */

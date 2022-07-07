@@ -27,6 +27,7 @@ mix.js("resources/js/app.js", "public/js")
     .sass("resources/scss/pages/deposer-annonce.scss", "public/css/pages")
     .sass("resources/scss/pages/consulter-annonce.scss", "public/css/pages")
     .sass("resources/scss/pages/annonce.scss", "public/css/pages")
+    .sass("resources/scss/pages/modifier-annonce.scss", "public/css/pages")
     .sass("resources/scss/pages/favoris.scss", "public/css/pages")
     .sass("resources/scss/error/404.scss", "public/css/error")
     .options({
@@ -36,15 +37,12 @@ mix.js("resources/js/app.js", "public/js")
     .sass("resources/scss/components/titres.scss", "public/css/components")
     .sass("resources/scss/components/boutons.scss", "public/css/components")
     .sass("resources/scss/components/mixins.scss", "public/css/components")
-
     .sass("resources/scss/layouts/navbar-noir.scss", "public/css/layouts")
     .sass("resources/scss/layouts/navbar-contact.scss", "public/css/layouts")
     .sass("resources/scss/layouts/navbar.scss", "public/css/layouts")
     .sass("resources/scss/layouts/footer.scss", "public/css/layouts")
     // Livewire
-
     .sass("resources/scss/livewire/flash.scss", "public/css/livewire")
-
     // Dashboard
     .sass("resources/scss/dashboard/dashboard.scss", "public/css/dashboard")
     // Login
