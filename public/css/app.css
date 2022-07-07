@@ -1604,6 +1604,16 @@ html {
     font-size: 14px;
     width: 400px;
   }
+  .container-consulter-annonce .trier-alerte {
+    width: 90%;
+  }
+  .container-consulter-annonce .trier-alerte .trier-par {
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .container-consulter-annonce .trier-alerte .alerteMail {
+    font-size: 10px;
+  }
   .container-consulter-annonce .annonce {
     width: 90%;
   }
@@ -4773,6 +4783,16 @@ html {
   .container-consulter-annonce .annonce-success-alerte .alert-succes {
     font-size: 14px;
     width: 400px;
+  }
+  .container-consulter-annonce .trier-alerte {
+    width: 90%;
+  }
+  .container-consulter-annonce .trier-alerte .trier-par {
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .container-consulter-annonce .trier-alerte .alerteMail {
+    font-size: 10px;
   }
   .container-consulter-annonce .annonce {
     width: 90%;
