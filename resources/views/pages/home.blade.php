@@ -167,7 +167,7 @@
                                         <h4>Sécurité</h4>
                                         <p>Le site de SPONSKI vous garantie une 
                                                sécurité totale sur l'ensemble de vos
-                                                connexion, et de vos transactions.</p>
+                                                connexion, et de vos transactions bancaires.</p>
                                 </div>
                                 
 
